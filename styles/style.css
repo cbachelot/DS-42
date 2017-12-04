@@ -145,7 +145,7 @@ transition: border-color .3s ease-in-out;
 	/*background-color: #444444;
     -webkit-mask-image: url(images/icon.svg);
     mask-image: url(images/icon.svg);*/
-	background-image: url(images/add.svg);	
+	background-image: url(../images/add.svg);	
     float: right;
     width: 18px;
     height: 18px;
@@ -162,7 +162,7 @@ transition: border-color .3s ease-in-out;
 	/*background-color: white;
     -webkit-mask-image: url(images/icon.svg);
     mask-image: url(images/icon.svg);*/
-	background-image: url(images/add-white.svg);		
+	background-image: url(../images/add-white.svg);		
     float: right;
     width: 18px;
     height: 18px;
@@ -220,12 +220,12 @@ transition: text-decoration ease-in-out 0.02s;
 	/*background-color: #9E0000;
     -webkit-mask-image: url(images/pdf.svg);
     mask-image: url(images/pdf.svg);*/
-	background-image: url(images/pdf.svg);
+	background-image: url(../images/pdf.svg);
     float: left;
     width: 18px;
     height: 18px;
 	margin-right: 6px;	
-	margin-top: 7px;
+    margin-top: 7px;
 		
 }
 
@@ -250,8 +250,8 @@ transition: text-decoration ease-in-out 0.02s;
 	.ft-button-link-icon:active span.icon {
 	background-color: #9E0000;
 	transform: scale(1);	
-    -webkit-mask-image: url(images/pdf.svg);
-    mask-image: url(images/pdf.svg);
+    -webkit-mask-image: url(../images/pdf.svg);
+    mask-image: url(../images/pdf.svg);
 	
     float: left;
     width: 18px;
@@ -378,7 +378,7 @@ transition: text-decoration ease-in-out 0.02s;
 }
 	
 	.ft-button-back span.icon {
-	background-image: url(images/arrow-back.svg);
+	background-image: url(../images/arrow-back.svg);
     float: left;
     width: 12px;
     height: 12px;
@@ -392,7 +392,7 @@ transition: text-decoration ease-in-out 0.02s;
 }
 
 	.ft-button-back:hover span.icon {
-	background-image: url(images/arrow-back.svg);
+	background-image: url(../images/arrow-back.svg);
     float: left;
 	margin-top: 10px;
 	animation-name: ft-button-back;

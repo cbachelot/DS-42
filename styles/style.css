@@ -2,3 +2,419 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+
+/*Buttons*/
+.ft-button {
+    height: 36px;
+    border-radius: 2px;
+    background-color: #c4d600;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+	font-family: verdana, arial;
+    color: #191919;
+    font-size: 12px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin: 15px;
+	-webkit-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* Microsoft */
+    transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+	
+
+}
+ 	
+.ft-button:hover {
+  background: #8FA500;
+	-webkit-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* Microsoft */
+    transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+}	
+
+	.ft-button:active {
+		 background: #303030;
+		 color: #FFFFFF;
+	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Microsoft */
+    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s;
+	}
+	
+	.ft-button:focus{
+	outline: 0;
+	}
+
+	
+	
+	
+	/*SECONDARY BUTTON*/
+.ft-button-2nd {
+    height: 36px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+	border: 1px solid; 
+	border-color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
+	font-family: verdana, arial;
+    color: #008BAA;
+    font-size: 12px;
+    margin: 15px;
+	-webkit-transition: border-color .3s ease-in-out;
+    -moz-transition: border-color .3s ease-in-out;
+    -o-transition: border-color .3s ease-in-out;
+    -ms-transition: border-color .3s ease-in-out;
+    transition: border-color .3s ease-in-out;  
+    
+}	
+.ft-button-2nd:hover {
+border: 1px solid; 
+border-color: #008BAA;
+border-radius: 2px;
+padding-right: 15px;
+padding-left: 15px;
+-webkit-transition: border-color .3s ease-in-out;
+-moz-transition: border-color .3s ease-in-out;
+-o-transition: border-color .3s ease-in-out;
+-ms-transition: border-color .3s ease-in-out;
+transition: border-color .3s ease-in-out;  	
+	
+}	
+
+	.ft-button-2nd:active {
+		 background: #008BAA;
+		 color: #FFFFFF;
+		-webkit-transition: border-color .3s ease-in-out;
+    -moz-transition: border-color .3s ease-in-out;
+    -o-transition: border-color .3s ease-in-out;
+    -ms-transition: border-color .3s ease-in-out;
+    transition: border-color .3s ease-in-out;  
+			-webkit-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Microsoft */
+    transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s;
+	}	
+	
+	.ft-button-2nd:focus{
+	outline: 0;
+	}
+	
+	/*BUTTON WITH ICON*/
+	
+.ft-button-icon {
+    height: 36px;
+    border-radius: 2px;
+    background-color: #c4d600;
+	line-height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    color: #191919;
+	font-family: verdana, arial;
+    font-size: 12px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin: 15px;
+	
+	
+
+}
+ 	
+.ft-button-icon:hover {
+  background: #8FA500;
+	  -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+	-webkit-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* Microsoft */
+    transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+}	
+
+	.ft-button-icon:active {
+		 background: #303030;
+		 color: #FFFFFF;
+	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, color ease-in-out 0.01s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, color ease-in-out 0.01s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, color ease-in-out 0.01s; /* Microsoft */
+    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, color ease-in-out 0.01s;
+	}
+	
+	.ft-button-icon span.icon {
+	/*background-color: #444444;
+    -webkit-mask-image: url(images/icon.svg);
+    mask-image: url(images/icon.svg);*/
+	background-image: url(images/add.svg);	
+    float: right;
+    width: 18px;
+    height: 18px;
+	margin-left: 6px;	
+	margin-top: 8px;
+		
+}
+	
+	.ft-button-icon:focus{
+	outline: 0;
+	}
+
+	.ft-button-icon:active span.icon {
+	/*background-color: white;
+    -webkit-mask-image: url(images/icon.svg);
+    mask-image: url(images/icon.svg);*/
+	background-image: url(images/add-white.svg);		
+    float: right;
+    width: 18px;
+    height: 18px;
+	margin-left: 6px;	
+	margin-top: 8px;
+	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, background-image ease-in-out .02s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, background-image ease-in-out .02s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, background-image ease-in-out .02s; /* Microsoft */
+    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, background-image ease-in-out .02s;
+	}	
+		
+
+
+/*LINK BUTTON WITH ICON*/
+.ft-button-link-icon {
+    height: 36px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+	line-height: 33px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    color: #008BAA;
+	font-family: verdana, arial;
+    font-size: 12px;
+    margin: 15px;
+
+	
+
+}
+ 	
+.ft-button-link-icon:hover {
+text-decoration: underline;
+-webkit-transition: text-decoration ease-in-out 0.02s; /* Safari */
+-moz-transition: text-decoration ease-in-out 0.02s; /* FireFox */
+-ms-transition: text-decoration ease-in-out 0.02s; /* Microsoft */
+transition: text-decoration ease-in-out 0.02s;	
+}	
+
+	.ft-button-link-icon:active {
+	background: #FFFFFF;
+	color: #008BAA;
+	text-decoration: none;	
+	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Microsoft */
+    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s;
+	}
+	
+	.ft-button-link-icon:focus{
+	outline: 0;
+	}
+	
+	.ft-button-link-icon span.icon {
+	/*background-color: #9E0000;
+    -webkit-mask-image: url(images/pdf.svg);
+    mask-image: url(images/pdf.svg);*/
+	background-image: url(images/pdf.svg);
+    float: left;
+    width: 18px;
+    height: 18px;
+	margin-right: 6px;	
+	margin-top: 7px;
+		
+}
+
+	.ft-button-link-icon:hover span.icon {
+	/*background-color: #DA291C;*/
+	transform: scale(1.1);
+    /*-webkit-mask-image: url(images/pdf.svg);
+    mask-image: url(images/pdf.svg);*/
+    float: left;
+    width: 18px;
+    height: 18px;	
+	margin-top: 7px;
+	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease .08s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease .08s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease .08s; /* Microsoft */
+    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease .08s;
+		
+
+	}		
+	
+
+	.ft-button-link-icon:active span.icon {
+	background-color: #9E0000;
+	transform: scale(1);	
+    -webkit-mask-image: url(images/pdf.svg);
+    mask-image: url(images/pdf.svg);
+	
+    float: left;
+    width: 18px;
+    height: 18px;
+	margin-right: 6px;	
+	margin-top: 7px;
+	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease-in-out .02s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease-in-out .02s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease-in-out .02s; /* Microsoft */
+    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease-in-out .02s;
+	}		
+	
+	/*GREY BUTTON*/
+.ft-button-grey {
+    height: 36px;
+    border-radius: 2px;
+    background-color: #F4F4F4;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+	font-family: verdana, arial;
+    color: #191919;
+    font-size: 12px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    margin: 15px;
+	-webkit-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* Microsoft */
+    transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+	
+
+}
+ 	
+.ft-button-grey:hover {
+    background: #979797;
+	color: #FFFFFF;
+	-webkit-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* Microsoft */
+    transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+}	
+
+	.ft-button-grey:active {
+    background: #F4F4F4;
+	color: #191919;
+	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Microsoft */
+    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s;
+	}
+	
+	.ft-button-grey:focus{
+	outline: 0;
+	}
+
+
+/*BACK BUTTON*/
+.ft-button-back {
+    height: 36px;
+    border-radius: 2px;
+	color: #979797;
+    background-color: #FFFFFF;
+	line-height: 33px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+	font-family: verdana, arial;
+    font-size: 12px;
+    margin: 15px;
+	-webkit-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s; /* Microsoft */
+    transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s;
+	
+
+}
+ 	
+.ft-button-back:hover {
+text-decoration: underline;
+-webkit-transition: text-decoration ease-in-out 0.02s; /* Safari */
+-moz-transition: text-decoration ease-in-out 0.02s; /* FireFox */
+-ms-transition: text-decoration ease-in-out 0.02s; /* Microsoft */
+transition: text-decoration ease-in-out 0.02s;	
+}	
+
+	.ft-button-back:active {
+	background: #FFFFFF;
+	color: #191919;	
+	text-decoration: none;	
+	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Microsoft */
+    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s;
+	}
+	
+	.ft-button-back:focus{
+	outline: 0;
+	}
+	
+		@keyframes ft-button-back {
+	16.65% {
+		transform: translateX(2px);
+	}
+
+	33.3% {
+		transform: translateX(-2px);
+	}
+
+	49.95% {
+		transform: translateX(1.5px);
+	}
+
+	66.6% {
+		transform: translateX(-1.5px);
+	}
+
+	83.25% {
+		transform: translateX(1px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
+	
+	.ft-button-back span.icon {
+	background-image: url(images/arrow-back.svg);
+    float: left;
+    width: 12px;
+    height: 12px;
+	margin-right: 6px;	
+	margin-top: 10px;	
+    display: inline-block;
+	@include hideTapHighlightColor();
+	@include hardwareAccel();
+	@include improveAntiAlias();
+		
+}
+
+	.ft-button-back:hover span.icon {
+	background-image: url(images/arrow-back.svg);
+    float: left;
+	margin-top: 10px;
+	animation-name: ft-button-back;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: 1;	
+	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Microsoft */
+    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s;	
+		
+	}		
+	
+
+	.ft-button-back:active span.icon {
+    float: left;
+	margin-right: 6px;	
+	margin-top: 10px;
+	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* FireFox */
+	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Microsoft */
+    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s;
+    }
+    
+    /*END BUTTONS*/

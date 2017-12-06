@@ -387,7 +387,6 @@ transition: text-decoration ease-in-out 0.02s;
 	
 	.ft-button-back span.icon {
 	background-image: url(../images/arrow-back.svg);
-    float: left;
     width: 12px;
     height: 12px;
 	margin-right: 6px;	

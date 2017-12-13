@@ -7,6 +7,17 @@
 body {
     font-family: 'Lato', sans-serif;;
     background: #fafafa;
+    overflow: hidden;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #ffffff;
+    background: #008BAA;
+}
+
+::selection {
+    color: #ffffff; 
+    background: #008BAA;
 }
 
 p {
@@ -40,6 +51,36 @@ a, a:hover, a:focus {
     box-shadow: none;
     outline: none !important;
     border: none;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 0;
+    font-size: 24px;
+    transition: all .3s;
+    z-index: 1;
+}
+
+.navbar-btn:hover{
+    background-color: transparent;
+    transition: all .3s;
+}
+
+.navbar-btn:active{
+    background-color: transparent;
+    transition: all .3s;
+}
+
+.navbar-btn:focus{
+    background-color: transparent;
+    transition: all .3s;
+}
+
+.navbar-btn:active:focus{
+    background-color: transparent;
+    transition: all .3s;
+}
+
+.navbar-btn:focus{
+    background-color: transparent;
 }
 
 .line {
@@ -64,10 +105,11 @@ a, a:hover, a:focus {
     color: #000000;
     transition: all 0.3s;
     border-right: thin solid #eeeeee;
+    z-index: 0;
 }
 
 #sidebar.active {
-    margin-left: -250px;
+    margin-left: 0px;
 }
 
 #sidebar .sidebar-header {
@@ -89,16 +131,16 @@ a, a:hover, a:focus {
     padding: 10px;
     font-size: 1.1em;
     display: block;
+    border-bottom: solid thin transparent;
 }
 #sidebar ul li a:hover {
-    color: #2c2c2c;
-    background: #eeeeee;
+    color: #008BAA;
+    border-bottom: solid thin #008BAA;
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {
     color: #008BAA;
-    background: #ffffff;
-    
+    border-bottom: solid thin #008BAA;
 }
 
 
@@ -154,6 +196,7 @@ a.article, a.article:hover {
 
 .navbar h1{
     margin: 5px 0px 0px 0px;
+    font-weight: 200;
 }
 
 .content-title{
@@ -199,4 +242,5 @@ a.article, a.article:hover {
     #content{
         min-width: 100vw;        
     }
+    
 }

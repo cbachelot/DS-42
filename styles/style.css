@@ -393,9 +393,7 @@ transition: text-decoration ease-in-out 0.02s;
 	margin-right: 6px;	
 	margin-top: 10px;	
     display: inline-block;
-	@include hideTapHighlightColor();
-	@include hardwareAccel();
-	@include improveAntiAlias();
+
 		
 }
 

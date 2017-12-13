@@ -512,14 +512,9 @@ transition: text-decoration ease-in-out 0.02s;
     width: 12px;
     height: 12px;
 	margin-right: 6px;	
-<<<<<<< HEAD
 	margin-top: 10px;	
-    display: inline-block;
+    float: left;
 
-=======
-	margin-top: 10px;
-	float: left;
->>>>>>> 8b46400196d79282ef8d18727448ac61cc258cb7
 		
 }
 

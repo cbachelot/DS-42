@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
@@ -20,6 +20,20 @@ body{
   transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s;
 }
 
+.ft-button:hover {
+  cursor: pointer;
+}
+
+.ft-button:active {
+  -webkit-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Safari */
+  -moz-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* FireFox */
+  -ms-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Microsoft */
+  transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s;
+}
+.ft-button:focus{
+  outline: 0;
+}
+
 /*BUTTON WITH ICON*/
 .btn-icon {
   line-height: 35px;
@@ -30,7 +44,7 @@ body{
 }
 
 /*ICON*/
-.ft-icon{
+.ft-icon {
   background-image: url(../images/add.svg);
   float: right;
   width: 18px;
@@ -51,20 +65,10 @@ body{
 
 .btn-red:hover {
   background: #da291c;
-  cursor: pointer;
 }
 
 .btn-red:active {
   background: #9E0000;
-  color: #FFFFFF;
-  -webkit-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Safari */
-  -moz-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* FireFox */
-  -ms-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Microsoft */
-  transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s;
-}
-
-.btn-red:focus{
-  outline: 0;
 }
 
 /*BUTTON RED WITH ICON*/
@@ -83,20 +87,11 @@ background-image: url(../images/add-white.svg);
 
 .btn-green:hover {
   background: #8FA500;
-  cursor: pointer;
 }
 
 .btn-green:active {
   background: #303030;
   color: #FFFFFF;
-  -webkit-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Safari */
-  -moz-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* FireFox */
-  -ms-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Microsoft */
-  transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s;
-}
-
-.btn-green:focus{
-  outline: 0;
 }
 
 /*BUTTON GREEN WITH ICON*/
@@ -126,23 +121,13 @@ background-image: url(../images/add-white.svg);
 
 .btn-gray:hover {
   background: #979797;
-  cursor: pointer;
   color: #FFFFFF;
 }
 
 .btn-gray:active{
   background: #F4F4F4;
   color: #191919;
-  -webkit-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Safari */
-  -moz-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* FireFox */
-  -ms-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Microsoft */
-  transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s;
 }
-
-.btn-gray:focus{
-  outline: 0;
-}
-
 
 /*SECONDARY BUTTON*/
 .ft-button-2nd {
@@ -200,23 +185,21 @@ background-image: url(../images/add-white.svg);
 
 /*LINK BUTTON WITH ICON*/
 .ft-button-link-icon {
-    height: 36px;
-    border-radius: 2px;
-    background-color: #FFFFFF;
-	line-height: 33px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: none;
-    color: #008BAA;
-	font-family: verdana, arial;
-    font-size: 12px;
-    margin: 15px;
-	-webkit-transition: text-decoration ease-in-out 0.01s; /* Safari */
-	-moz-transition: text-decoration ease-in-out 0.01s; /* FireFox */
-	-ms-transition: text-decoration ease-in-out 0.01s; /* Microsoft */
-	transition: text-decoration ease-in-out 0.01s;
-
-
+  height: 36px;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  line-height: 33px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  color: #008BAA;
+  font-family: verdana, arial;
+  font-size: 12px;
+  margin: 15px;
+  -webkit-transition: text-decoration ease-in-out 0.01s; /* Safari */
+  -moz-transition: text-decoration ease-in-out 0.01s; /* FireFox */
+  -ms-transition: text-decoration ease-in-out 0.01s; /* Microsoft */
+  transition: text-decoration ease-in-out 0.01s;
 }
 
 .ft-button-link-icon:hover {

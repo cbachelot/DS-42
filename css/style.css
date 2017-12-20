@@ -8,6 +8,7 @@ body {
     font-family: 'Lato', sans-serif;;
     background: #fafafa;
     overflow: hidden;
+    overflow-y: scroll;
 }
 
 ::-moz-selection { /* Code for Firefox */
@@ -20,12 +21,28 @@ body {
     background: #008BAA;
 }
 
+h2{
+    color: #008BAA;
+}
+
+h3{
+    margin-top: 40px;
+}
+
+
+
 p {
     font-family: 'Lato', sans-serif;;
     font-size: 1.1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: #2c2c2c;
+}
+
+#content img{
+    min-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 a, a:hover, a:focus {
@@ -107,6 +124,10 @@ a, a:hover, a:focus {
     transition: all 0.3s;
     border-right: thin solid #eeeeee;
     z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vw;
 }
 
 #sidebar.active {
@@ -114,13 +135,13 @@ a, a:hover, a:focus {
 }
 
 #sidebar .sidebar-header {
-    padding: 12px 39px;
+    padding: 19px 29px;
     background: #ffffff;
     border-bottom: thin solid #eeeeee;
 }
 
 #sidebar ul.components {
-    padding: 20px 9px 0 30px;
+    padding: 20px 0px 0 0px;
 }
 
 #sidebar ul p {
@@ -129,7 +150,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul li a {
-    padding: 10px;
+    padding: 10px 10px 10px 40px;
     font-size: 1.1em;
     display: block;
     border-bottom: solid thin transparent;
@@ -164,7 +185,7 @@ a[aria-expanded="true"]::before {
 
 ul ul a {
     font-size: 0.9em !important;
-    padding-left: 24px !important;
+    padding-left: 54px !important;
     background: #ffffff;
 }
 
@@ -216,6 +237,45 @@ a.article, a.article:hover {
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
+    width: 100vw;
+    padding-left: 260px;
+    padding-bottom: 150px;
+}
+
+.section{
+    margin: 0px 15px 40px 15px;;
+    padding-bottom: 40px;
+    border-bottom: solid thin #cccccc;
+    width: 100%;
+}
+
+.image-cont{
+    min-width: 100%;
+    height: auto;
+}
+
+.ov-mast{
+    margin-top:60px;
+    padding-bottom: 60px;
+}
+
+.mast-bg{
+    background-color: #ffffff;
+    margin-left:-20px;
+    margin-right:-20px;
+}
+
+.align-top{
+    margin-top: 0px;
+}
+
+.resp-img{
+    width: 100%;
+}
+
+hr{
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 /* ---------------------------------------------------
@@ -251,7 +311,20 @@ a.article, a.article:hover {
     .cont-padding{
         padding: 0px;
     }
-
+    #content {
+        padding-left: 0px;
+    }
+    
+    #sidebar {
+        min-width: 250px;
+        max-width: 250px;
+        background: #ffffff;
+        color: #000000;
+        transition: all 0.3s;
+        border-right: thin solid #eeeeee;
+        z-index: 2;
+        position: inherit;
+    }
    
     
 }

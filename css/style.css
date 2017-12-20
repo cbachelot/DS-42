@@ -284,6 +284,7 @@ hr{
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
+        height: 100vh;
     }
     #sidebar.active {
         margin-left: 0;

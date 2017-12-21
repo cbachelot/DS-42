@@ -123,13 +123,11 @@ transition: background-image ease-in-out 0.01s;
 }
 
 .btn-gray:hover {
-  background: #979797;
-  color: #FFFFFF;
+  background: #e3e3e3;
 }
 
 .btn-gray:active{
   background: #F4F4F4;
-  color: #191919;
 }
 
 /*SECONDARY BUTTON*/

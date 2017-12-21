@@ -18,6 +18,7 @@ body {
   -moz-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s; /* FireFox */
   -ms-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s; /* Microsoft */
   transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s;
+  text-transform: uppercase;
 }
 
 .ft-button:hover {

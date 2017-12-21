@@ -37,10 +37,6 @@ body {
 /*BUTTON WITH ICON*/
 .btn-icon {
   line-height: 35px;
-  -webkit-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s; /* Safari */
-  -moz-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s; /* FireFox */
-  -ms-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s; /* Microsoft */
-  transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s;
 }
 
 

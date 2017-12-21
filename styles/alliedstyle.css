@@ -37,11 +37,13 @@ body {
 /*BUTTON WITH ICON*/
 .btn-icon {
   line-height: 35px;
-  -webkit-transition: color ease-in-out 0.01s; /* Safari */
-  -moz-transition: color ease-in-out 0.01s; /* FireFox */
-  -ms-transition: color ease-in-out 0.01s; /* Microsoft */
-  transition: color ease-in-out 0.01s;
+  -webkit-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s; /* Safari */
+  -moz-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s; /* FireFox */
+  -ms-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s; /* Microsoft */
+  transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s;
 }
+
+
 
 /*ICON*/
 .ft-icon {
@@ -51,11 +53,12 @@ body {
   height: 18px;
   margin-left: 6px;
   margin-top: 8px;
-  -webkit-transition: background-image ease-in-out .01s; /* Safari */
-  -moz-transition: background-image ease-in-out .01s; /* FireFox */
-  -ms-transition: background-image ease-in-out .01s; /* Microsoft */
-  transition: background-image ease-in-out .01s;
+  -webkit-transition: background-image ease-in-out .2s; /* Safari */
+  -moz-transition: background-image ease-in-out .2s; /* FireFox */
+  -ms-transition: background-image ease-in-out .2s; /* Microsoft */
+  transition: background-image ease-in-out .2as;
 }
+
 
 /*BUTTON RED*/
 .btn-red {
@@ -107,16 +110,16 @@ background-image: url(../images/add-white.svg);
 -webkit-mask-image: url(images/icon.svg);
 mask-image: url(images/icon.svg);*/
 background-image: url(../images/add-white.svg);
+-webkit-transition: background-image ease-in-out 0.01s; /* Safari */
+-moz-transition: background-image ease-in-out 0.01s; /* FireFox */
+-ms-transition: background-image ease-in-out 0.01s; /* Microsoft */
+transition: background-image ease-in-out 0.01s;
 }
 
 /*BUTTON GRAY*/
 .btn-gray {
   background-color: #F4F4F4;
   color: #191919;
-  -webkit-transition: color ease-in-out 0.01s; /* Safari */
-  -moz-transition: color ease-in-out 0.01s; /* FireFox */
-  -ms-transition: color ease-in-out 0.01s; /* Microsoft */
-  transition: color ease-in-out 0.01s;
 }
 
 .btn-gray:hover {

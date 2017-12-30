@@ -4,7 +4,7 @@ body {
 }
 
 /*PRIMARY BUTTON*/
-.ft-button {
+[class*="ft-button"] {
   height: 36px;
   border-radius: 2px;
   padding-left: 15px;
@@ -21,97 +21,94 @@ body {
   text-transform: uppercase;
 }
 
-.ft-button:hover {
+[class*="ft-button"]:hover {
   cursor: pointer;
 }
 
-.ft-button:active {
+[class*="ft-button"]:active {
   -webkit-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Safari */
   -moz-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* FireFox */
   -ms-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Microsoft */
   transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s;
 }
-.ft-button:focus{
+[class*="ft-button"]:focus{
   outline: 0;
 }
 
 /*BUTTON WITH ICON*/
-.btn-icon {
+[class*="icon"] {
   line-height: 35px;
 }
 
 
 
 /*ICON*/
-.ft-icon {
-  background-image: url(../images/add.svg);
+[class*="icon"]:after {
   float: right;
   width: 18px;
   height: 18px;
   margin-left: 6px;
-  margin-top: 8px;
-  -webkit-transition: background-image ease-in-out .2s; /* Safari */
-  -moz-transition: background-image ease-in-out .2s; /* FireFox */
-  -ms-transition: background-image ease-in-out .2s; /* Microsoft */
-  transition: background-image ease-in-out .2as;
+  margin-top: 4px;
+  -webkit-transition: content ease-in-out .2s; /* Safari */
+  -moz-transition: content ease-in-out .2s; /* FireFox */
+  -ms-transition: content ease-in-out .2s; /* Microsoft */
+  transition: content ease-in-out .2s;
 }
 
+[class*="icon-add"]:after {
+  content: url(../images/add.svg);
+}
+
+[class*="icon-add-white"]:after {
+  content: url(../images/add-white.svg);
+}
 
 /*BUTTON RED*/
-.btn-red {
+[class*="ft-button-red"] {
   background-color: #9E0000;
   color: #ffffff;
 }
 
-.btn-red:hover {
+[class*="ft-button-red"]:hover {
   background: #da291c;
 }
 
-.btn-red:active {
+[class*="ft-button-red"]:active {
   background: #9E0000;
 }
 
-/*BUTTON RED WITH ICON*/
-.btn-red span.ft-icon {
-/*background-color: white;
--webkit-mask-image: url(images/icon.svg);
-mask-image: url(images/icon.svg);*/
-background-image: url(../images/add-white.svg);
-}
-
 /*BUTTON GREEN*/
-.btn-green {
+[class*="ft-button-green"] {
   background-color: #c4d600;
   color: #191919;
 }
 
-.btn-green:hover {
+[class*="ft-button-green"]:hover {
   background: #8FA500;
 }
 
-.btn-green:active {
+[class*="ft-button-green"]:active {
   background: #303030;
   color: #FFFFFF;
 }
 
 /*BUTTON GREEN WITH ICON*/
-.btn-green span.ft-icon {
-  /*background-color: #444444;
-  -webkit-mask-image: url(images/icon.svg);
-  mask-image: url(images/icon.svg);*/
-  background-image: url(../images/add.svg);
+.ft-button-green-icon-add:active:after {
+content: url(../images/add-white.svg);
+-webkit-transition: content ease-in-out 0.01s; /* Safari */
+-moz-transition: content ease-in-out 0.01s; /* FireFox */
+-ms-transition: content ease-in-out 0.01s; /* Microsoft */
+transition: content ease-in-out 0.01s;
 }
 
-.btn-green:active span.ft-icon {
-/*background-color: white;
--webkit-mask-image: url(images/icon.svg);
-mask-image: url(images/icon.svg);*/
-background-image: url(../images/add-white.svg);
--webkit-transition: background-image ease-in-out 0.01s; /* Safari */
--moz-transition: background-image ease-in-out 0.01s; /* FireFox */
--ms-transition: background-image ease-in-out 0.01s; /* Microsoft */
-transition: background-image ease-in-out 0.01s;
+.ft-button-green-icon-add-white:active:after {
+content: url(../images/add.svg);
+-webkit-transition: content ease-in-out 0.01s; /* Safari */
+-moz-transition: content ease-in-out 0.01s; /* FireFox */
+-ms-transition: content ease-in-out 0.01s; /* Microsoft */
+transition: content ease-in-out 0.01s;
 }
+
 
 /*BUTTON GRAY*/
 .btn-gray {
@@ -129,17 +126,10 @@ transition: background-image ease-in-out 0.01s;
 
 /*SECONDARY BUTTON*/
 .ft-button-2nd {
-  height: 36px;
-  border-radius: 2px;
   background-color: #FFFFFF;
   border: 1px solid;
   border-color: #FFFFFF;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-family: verdana, arial;
   color: #008BAA;
-  font-size: 12px;
-  margin: 15px;
   -webkit-transition: border .2s ease-in-out;
   -moz-transition: border .2s ease-in-out;
   -o-transition: border .2s ease-in-out;
@@ -147,14 +137,10 @@ transition: background-image ease-in-out 0.01s;
   transition: border .2s ease-in-out;
 }
 .ft-button-2nd:hover {
-  padding: 9px 15px;
   cursor: pointer;
   color: #008BAA;
-  font-family: Verdana;
-  font-size: 12px;
   background-color: transparent;
   border: 1px solid #008baa;
-  border-radius: 2px;
   -webkit-transition: border ease-in-out 0.2s, background-color ease-in-out 0.2s, color ease-in-out 0.2s; /* Safari */
   -moz-transition: border ease-in-out 0.2s, background-color ease-in-out 0.2s, color ease-in-out 0.2s; /* FireFox */
   -ms-transition: border ease-in-out 0.2s, background-color ease-in-out 0.2s, color ease-in-out 0.2s; /* Microsoft */
@@ -163,14 +149,10 @@ transition: background-image ease-in-out 0.01s;
 }
 
 .ft-button-2nd:active {
-  padding: 9px 15px;
   cursor: pointer;
   color: #ffffff;
-  font-family: Verdana;
-  font-size: 12px;
   background-color: #008baa;
   border: 1px solid #008baa;
-  border-radius: 2px;
   -webkit-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Safari */
   -moz-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* FireFox */
   -ms-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Microsoft */

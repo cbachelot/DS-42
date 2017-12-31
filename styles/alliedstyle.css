@@ -117,7 +117,6 @@ body {
 }
 
 [class*="ft-button-ghost"]:active {
-  color: #ffffff;
   -webkit-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Safari */
   -moz-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* FireFox */
   transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s;
@@ -130,6 +129,7 @@ body {
     border-color: #9E0000;
   }
   [class*="ft-button-ghost-red"]:active {
+    color: #ffffff;
     background-color: #9E0000;
   }
 
@@ -141,6 +141,7 @@ body {
     border-color: #c4d600;
   }
   [class*="ft-button-ghost-green"]:active {
+    color: #191919;
     background-color: #c4d600;
   }
 
@@ -152,6 +153,7 @@ body {
     border-color: #008baa;
   }
   [class*="ft-button-ghost-blue"]:active {
+    color: #ffffff;
     background-color: #008baa;
   }
 

@@ -3,321 +3,225 @@ body {
   padding: 0px;
 }
 
-/*PRIMARY BUTTON*/
-.ft-button {
+/* ft-button */
+[class*="ft-button"] {
   height: 36px;
   border-radius: 2px;
   padding-left: 15px;
   padding-right: 15px;
-  border: none;
+  border: 0;
   font-family: verdana, arial;
   font-size: 12px;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   margin: 15px;
-  -webkit-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s; /* Safari */
-  -moz-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s; /* FireFox */
-  -ms-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s; /* Microsoft */
-  transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.2s;
   text-transform: uppercase;
+  -webkit-transition: background-color ease-in-out 0.2s, color ease-in-out 0.2s; /* Safari */
+  -moz-transition: background-color ease-in-out 0.2s, color ease-in-out 0.2s; /* FireFox */
+  transition: background-color ease-in-out 0.2s, color ease-in-out 0.2s;
 }
-
-.ft-button:hover {
+[class*="ft-button"]:hover {
   cursor: pointer;
 }
-
-.ft-button:active {
+[class*="ft-button"]:active {
   -webkit-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Safari */
   -moz-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* FireFox */
-  -ms-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Microsoft */
   transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s;
 }
-.ft-button:focus{
+[class*="ft-button"]:focus {
   outline: 0;
 }
 
-/*BUTTON WITH ICON*/
-.btn-icon {
+/* --- icon --- */
+[class*="-icon"] {
   line-height: 35px;
 }
-
-
-
-/*ICON*/
-.ft-icon {
-  background-image: url(../images/add.svg);
+[class*="ft-icon"] {
   float: right;
   width: 18px;
   height: 18px;
   margin-left: 6px;
   margin-top: 8px;
   -webkit-transition: background-image ease-in-out .2s; /* Safari */
-  -moz-transition: background-image ease-in-out .2s; /* FireFox */
-  -ms-transition: background-image ease-in-out .2s; /* Microsoft */
-  transition: background-image ease-in-out .2as;
+  -moz-transition: background-image  ease-in-out .2s; /* FireFox */
+  transition: background-image  ease-in-out .2s;
 }
 
 
-/*BUTTON RED*/
-.btn-red {
-  background-color: #9E0000;
-  color: #ffffff;
+/* --- ft-button-color --- */
+[class*="ft-button-color"] {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
+  /* red */
+  [class*="ft-button-color-red"] {
+    background-color: #9E0000;
+    color: #ffffff;
+  }
+  [class*="ft-button-color-red"]:hover {
+    background-color: #da291c;
+  }
+  [class*="ft-button-color-red"]:active {
+    background-color: #9E0000;
+  }
 
-.btn-red:hover {
-  background: #da291c;
-}
+  /* red with icon */
+  .ft-button-color-red-icon span.ft-icon {
+    background-image: url(../images/add-white.svg);
+  }
 
-.btn-red:active {
-  background: #9E0000;
-}
+  /* green */
+  [class*="ft-button-color-green"] {
+    background-color: #c4d600;
+    color: #191919;
+  }
+  [class*="ft-button-color-green"]:hover {
+    background-color: #8FA500;
+  }
+  [class*="ft-button-color-green"]:active {
+    background-color: #303030;
+    color: #FFFFFF;
+  }
 
-/*BUTTON RED WITH ICON*/
-.btn-red span.ft-icon {
-/*background-color: white;
--webkit-mask-image: url(images/icon.svg);
-mask-image: url(images/icon.svg);*/
-background-image: url(../images/add-white.svg);
-}
+  /* green with icon */
+  .ft-button-color-green-icon span.ft-icon {
+    background-image: url(../images/add.svg);
+  }
 
-/*BUTTON GREEN*/
-.btn-green {
-  background-color: #c4d600;
-  color: #191919;
-}
+  .ft-button-color-green-icon:active span.ft-icon {
+  background-image: url(../images/add-white.svg);
+  -webkit-transition: background-image  ease-in-out 0.01s; /* Safari */
+  -moz-transition: background-image  ease-in-out 0.01s; /* FireFox */
+  transition: background-image  ease-in-out 0.01s;
+  }
 
-.btn-green:hover {
-  background: #8FA500;
-}
+  /* gray */
+  [class*="ft-button-color-gray"] {
+    background-color: #F4F4F4;
+    color: #191919;
+  }
 
-.btn-green:active {
-  background: #303030;
-  color: #FFFFFF;
-}
+  [class*="ft-button-color-gray"]:hover {
+    background-color: #e3e3e3;
+  }
 
-/*BUTTON GREEN WITH ICON*/
-.btn-green span.ft-icon {
-  /*background-color: #444444;
-  -webkit-mask-image: url(images/icon.svg);
-  mask-image: url(images/icon.svg);*/
-  background-image: url(../images/add.svg);
-}
+  [class*="ft-button-color-gray"]:active {
+    background-color: #F4F4F4;
+  }
 
-.btn-green:active span.ft-icon {
-/*background-color: white;
--webkit-mask-image: url(images/icon.svg);
-mask-image: url(images/icon.svg);*/
-background-image: url(../images/add-white.svg);
--webkit-transition: background-image ease-in-out 0.01s; /* Safari */
--moz-transition: background-image ease-in-out 0.01s; /* FireFox */
--ms-transition: background-image ease-in-out 0.01s; /* Microsoft */
-transition: background-image ease-in-out 0.01s;
-}
-
-/*BUTTON GRAY*/
-.btn-gray {
-  background-color: #F4F4F4;
-  color: #191919;
-}
-
-.btn-gray:hover {
-  background: #e3e3e3;
-}
-
-.btn-gray:active{
-  background: #F4F4F4;
-}
-
-/*SECONDARY BUTTON*/
-.ft-button-2nd {
-  height: 36px;
-  border-radius: 2px;
-  background-color: #FFFFFF;
+/* --- ft-button-ghost --- */
+[class*="ft-button-ghost"] {
   border: 1px solid;
-  border-color: #FFFFFF;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-family: verdana, arial;
-  color: #008BAA;
-  font-size: 12px;
-  margin: 15px;
-  -webkit-transition: border .2s ease-in-out;
-  -moz-transition: border .2s ease-in-out;
-  -o-transition: border .2s ease-in-out;
-  -ms-transition: border .2s ease-in-out;
-  transition: border .2s ease-in-out;
-}
-.ft-button-2nd:hover {
-  padding: 9px 15px;
-  cursor: pointer;
-  color: #008BAA;
-  font-family: Verdana;
-  font-size: 12px;
   background-color: transparent;
-  border: 1px solid #008baa;
-  border-radius: 2px;
-  -webkit-transition: border ease-in-out 0.2s, background-color ease-in-out 0.2s, color ease-in-out 0.2s; /* Safari */
-  -moz-transition: border ease-in-out 0.2s, background-color ease-in-out 0.2s, color ease-in-out 0.2s; /* FireFox */
-  -ms-transition: border ease-in-out 0.2s, background-color ease-in-out 0.2s, color ease-in-out 0.2s; /* Microsoft */
-  transition: border ease-in-out 0.2s, background-color ease-in-out 0.2s, color ease-in-out 0.2s;
-
+  border-color: transparent;
+  -webkit-transition: border-color 0.2s ease-in-out, background-color ease-in-out 0.2s, color ease-in-out 0.2s; /* Safari */
+  -moz-transition: border-color 0.2s ease-in-out, background-color ease-in-out 0.2s, color ease-in-out 0.2s; /* FireFox */
+  transition: border-color 0.2s ease-in-out, background-color ease-in-out 0.2s, color ease-in-out 0.2s;
 }
 
-.ft-button-2nd:active {
-  padding: 9px 15px;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Verdana;
-  font-size: 12px;
-  background-color: #008baa;
-  border: 1px solid #008baa;
-  border-radius: 2px;
+[class*="ft-button-ghost"]:active {
   -webkit-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Safari */
   -moz-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* FireFox */
-  -ms-transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Microsoft */
   transition: background-color ease-in-out 0.01s, color ease-in-out 0.01s;
 }
+  /* red */
+  [class*="ft-button-ghost-red"] {
+    color: #9E0000;
+  }
+  [class*="ft-button-ghost-red"]:hover {
+    border-color: #9E0000;
+  }
+  [class*="ft-button-ghost-red"]:active {
+    color: #ffffff;
+    background-color: #9E0000;
+  }
 
-.ft-button-2nd:focus{
-  outline: none;
-}
+  /* green */
+  [class*="ft-button-ghost-green"] {
+    color: #c4d600;
+  }
+  [class*="ft-button-ghost-green"]:hover {
+    border-color: #c4d600;
+  }
+  [class*="ft-button-ghost-green"]:active {
+    color: #191919;
+    background-color: #c4d600;
+  }
 
-/*LINK BUTTON WITH ICON*/
+  /* blue */
+  [class*="ft-button-ghost-blue"] {
+    color: #008baa;
+  }
+  [class*="ft-button-ghost-blue"]:hover {
+    border-color: #008baa;
+  }
+  [class*="ft-button-ghost-blue"]:active {
+    color: #ffffff;
+    background-color: #008baa;
+  }
+
+/* ft-button-link*/
+
 .ft-button-link-icon {
-  height: 36px;
-  border-radius: 2px;
   background-color: #FFFFFF;
   line-height: 33px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border: none;
   color: #008BAA;
-  font-family: verdana, arial;
-  font-size: 12px;
-  margin: 15px;
   -webkit-transition: text-decoration ease-in-out 0.01s; /* Safari */
   -moz-transition: text-decoration ease-in-out 0.01s; /* FireFox */
-  -ms-transition: text-decoration ease-in-out 0.01s; /* Microsoft */
   transition: text-decoration ease-in-out 0.01s;
 }
 
 .ft-button-link-icon:hover {
 	text-decoration: underline;
-	cursor: pointer;
-	-webkit-transition: text-decoration ease-in-out 0.01s; /* Safari */
-	-moz-transition: text-decoration ease-in-out 0.01s; /* FireFox */
-	-ms-transition: text-decoration ease-in-out 0.01s; /* Microsoft */
-	transition: text-decoration ease-in-out 0.01s;
 }
 
-	.ft-button-link-icon:active {
-	background: #FFFFFF;
-	color: #008BAA;
+.ft-button-link-icon:active {
 	text-decoration: none;
-	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Safari */
-	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* FireFox */
-	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Microsoft */
-    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s;
 }
 
-	.ft-button-link-icon:focus{
-	outline: 0;
-	}
-
-	.ft-button-link-icon span.icon {
-	/*background-color: #9E0000;
-    -webkit-mask-image: url(images/pdf.svg);
-    mask-image: url(images/pdf.svg);*/
+.ft-button-link-icon span.icon {
 	background-image: url(../images/pdf.svg);
-    float: left;
-    width: 18px;
-    height: 18px;
+  float: left;
+  width: 18px;
+  height: 18px;
 	margin-right: 6px;
 	margin-top: 7px;
-	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease .08s; /* Safari */
-	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease .08s; /* FireFox */
-	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease .08s; /* Microsoft */
-    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease .08s;
-
+	-webkit-transition: background-color ease-in-out 0.01s, mask-image ease-in-out .02s, transform ease .08s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, mask-image ease-in-out .02s, transform ease .08s; /* FireFox */
+  transition: background-color ease-in-out 0.01s, mask-image ease-in-out .02s, transform ease .08s;
 }
-
-	.ft-button-link-icon:hover span.icon {
-	/*background-color: #DA291C;*/
+.ft-button-link-icon:hover span.icon {
 	transform: scale(1.1);
-    /*-webkit-mask-image: url(images/pdf.svg);
-    mask-image: url(images/pdf.svg);*/
-    float: left;
-    width: 18px;
-    height: 18px;
-	margin-top: 7px;
-	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease .08s; /* Safari */
-	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease .08s; /* FireFox */
-	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease .08s; /* Microsoft */
-    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease .08s;
-
-
-	}
-
-
-	.ft-button-link-icon:active span.icon {
+}
+.ft-button-link-icon:active span.icon {
 	background-color: #9E0000;
 	transform: scale(1);
-    -webkit-mask-image: url(../images/pdf.svg);
-    mask-image: url(../images/pdf.svg);
+  -webkit-mask-image: url(../images/pdf.svg);
+  mask-image: url(../images/pdf.svg);
+	-webkit-transition: background-color ease-in-out 0.01s, mask-image ease-in-out .02s, transform ease-in-out .02s; /* Safari */
+	-moz-transition: background-color ease-in-out 0.01s, mask-image ease-in-out .02s, transform ease-in-out .02s; /* FireFox */
+  transition: background-color ease-in-out 0.01s, mask-image ease-in-out .02s, transform ease-in-out .02s;
+}
 
-    float: left;
-    width: 18px;
-    height: 18px;
-	margin-right: 6px;
-	margin-top: 7px;
-	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease-in-out .02s; /* Safari */
-	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease-in-out .02s; /* FireFox */
-	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease-in-out .02s; /* Microsoft */
-    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, mask-image ease-in-out .02s, transform ease-in-out .02s;
-	}
-
-/*BACK BUTTON*/
+/* BACK BUTTON */
 .ft-button-back {
-    height: 36px;
-    border-radius: 2px;
 	color: #979797;
-    background-color: #FFFFFF;
+  background-color: #FFFFFF;
 	line-height: 33px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: none;
-	font-family: verdana, arial;
-    font-size: 12px;
-    margin: 15px;
-	-webkit-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.01s; /* Safari */
-	-moz-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.01s; /* FireFox */
-	-ms-transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.01s; /* Microsoft */
-    transition: background-color ease-in-out 0.2s, box-shadow ease-in-out 0.2s, color ease-in-out 0.01s;
-
-
 }
 
 .ft-button-back:hover {
-text-decoration: underline;
-cursor: pointer;
--webkit-transition: text-decoration ease-in-out 0.02s; /* Safari */
--moz-transition: text-decoration ease-in-out 0.02s; /* FireFox */
--ms-transition: text-decoration ease-in-out 0.02s; /* Microsoft */
-transition: text-decoration ease-in-out 0.02s;
+  text-decoration: underline;
+  -webkit-transition: text-decoration ease-in-out 0.2s, background-color ease-in-out 0.2s, color ease-in-out 0.2s; /* Safari */
+  -moz-transition: text-decoration ease-in-out 0.2s, background-color ease-in-out 0.2s, color ease-in-out 0.2s; /* FireFox */
+  transition: text-decoration ease-in-out 0.2s, background-color ease-in-out 0.2s, color ease-in-out 0.2s;
 }
 
-	.ft-button-back:active {
-	background: #FFFFFF;
+.ft-button-back:active {
+	background-color: #FFFFFF;
 	color: #191919;
 	text-decoration: none;
-	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, color ease-in-out 0.01s; /* Safari */
-	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, color ease-in-out 0.01s; /* FireFox */
-	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, color ease-in-out 0.01s; /* Microsoft */
-    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s, color ease-in-out 0.01s;
-	}
-
-	.ft-button-back:focus{
-	outline: 0;
-	}
+	-webkit-transition: text-decoration ease-in-out 0.01s, background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* Safari */
+	-moz-transition: text-decoration ease-in-out 0.01s, background-color ease-in-out 0.01s, color ease-in-out 0.01s; /* FireFox */
+	transition: text-decoration ease-in-out 0.01s, background-color ease-in-out 0.01s, color ease-in-out 0.01s;
+}
 
 		@keyframes ft-button-back {
 	16.65% {
@@ -345,41 +249,20 @@ transition: text-decoration ease-in-out 0.02s;
 	}
 }
 
-	.ft-button-back span.icon {
+.ft-button-back span.icon {
 	background-image: url(../images/arrow-back.svg);
-    width: 12px;
-    height: 12px;
+  width: 12px;
+  height: 12px;
 	margin-right: 6px;
 	margin-top: 10px;
-    float: left;
-
-
+  float: left;
 }
 
-	.ft-button-back:hover span.icon {
+.ft-button-back:hover span.icon {
 	background-image: url(../images/arrow-back.svg);
-    float: left;
-	margin-top: 10px;
 	animation-name: ft-button-back;
 	animation-duration: 1s;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: 1;
-	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Safari */
-	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* FireFox */
-	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Microsoft */
-    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s;
-
-	}
-
-
-	.ft-button-back:active span.icon {
-    float: left;
-	margin-right: 6px;
-	margin-top: 10px;
-	-webkit-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Safari */
-	-moz-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* FireFox */
-	-ms-transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s; /* Microsoft */
-    transition: background-color ease-in-out 0.01s, box-shadow ease-in-out 0.2s;
-    }
-
-    /*END BUTTONS*/
+}
+/* END BUTTONS */

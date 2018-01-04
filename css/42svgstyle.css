@@ -23,6 +23,8 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  margin-left: 6px;
 }
 
 .icon-close:before {

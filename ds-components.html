@@ -17,6 +17,15 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
         <!--42 SVG Font-->
         <link rel="stylesheet" href="css/42svgstyle.css"></head>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script>
+        $(function(){
+          $("#sidebar").load("/nav.html");
+        });
+        </script>
+        
     </head>
     <body>
 
@@ -25,31 +34,15 @@
         <div class="wrapper">
             <!-- Sidebar Holder -->
             <nav id="sidebar">
-                <div class="sidebar-header">
-                    <a href="index.html"><img style="width:100%; height:auto;" src="images/42-ph-logo.svg"></a>
-                </div>
-
-                <ul class="list-unstyled components">
-                    <li>
-                        <a href="index.html" >Overview</a>
-                    </li>
-                    <li class="active">
-                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true">Components</a>
-                        <ul class="list-unstyled collapse in" id="pageSubmenu">
-                            <li><a href="ds-components.html">Components Overview</a></li>
-                            <li><a href="#">Buttons</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                
+                <link rel="import" href="nav.html">
             </nav>
-            
+
             <!-- Page Content Holder -->
             <div id="content">
 
                 <nav class="navbar navbar-default ">
 
-                        
+
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="navbar-header col-xs-3 col-xs-offset-0">
@@ -63,7 +56,7 @@
                                 <div class="col-lg-4 col-lg-offset-4 col-sm-3 col-sm-offset-4 col-md-3 col-md-offset-4 hidden-xs text-right content-title ">
                                     <h4>Components</h4>
                                 </div>
-                                
+
                             </div>
                         </div>
                 </nav>
@@ -71,7 +64,7 @@
                     <div class="col-lg-12 ">
                         <h1>Overview</h1>
                         <p>The components makeup the parts and elements of the visual aspect of our front-end applications. By ulitlizing these appropriately we will make visually consistent applications for our users.</p>
-                       
+
                     </div>
                     <hr class="col-lg-12">
                     <div class="col-lg-12">
@@ -79,15 +72,15 @@
                     </div>
                     <div class="row col-lg-12">
                         <div class="col-xs-12 col-xs-offset-0 col-md-8 col-sm-5 col-lg-7 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
-                            
+
                             <p>Buttons communicate the action that will occur when the user touches them.</p>
                             <p>Component buttons trigger a link reaction on press. They may display text, iconography, or both. Flat buttons and raised buttons are the most commonly used types.</p>
                         </div>
                         <div class="col-lg-4 col-lg-offset-1 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-0 hidden-xs text-right">
                             <img src="images/buttons-grahic.svg"/>
-                            
+
                         </div>
-                        
+
                     </div>
                     <hr class="col-lg-12">
                     <div class="row col-lg-12">
@@ -96,7 +89,7 @@
                                 <p>The most common button types are:</p>
                             </div>
                             <div class="col-xs-12 col-xs-offset-0 col-md-4 col-sm-12 col-lg-4 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
-                                
+
                                 <h3 class="align-top">Flat buttons</h3>
                                 <p>Flat buttons are text-only buttons. They may be used in dialogs, toolbars, or inline. They do not lift, but fill with color on press.</p>
 
@@ -104,7 +97,7 @@
                                 <p>Raised buttons are rectangular-shaped buttons. They may be used inline. They lift and display reactions on press.</p>
 
                                 <h3>Elevation</h3>
-                                <p>Flat buttons: 0dp</p> 
+                                <p>Flat buttons: 0dp</p>
                                 <p>Raised buttons: 1dp</p>
 
                             </div>
@@ -115,7 +108,7 @@
                                     Left padding: 16dp<br>
                                     Right padding: 16dp<br>
                                     Border Radius: 2dp</p>
-                                
+
                             </div>
 
                             <div class="col-lg-4 col-lg-offset-0 col-sm-12 col-sm-offset-0 col-md-4 col-md-offset-0  text-left">
@@ -131,9 +124,9 @@
                             </div>
                             <hr class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="col-xs-12 col-xs-offset-0 col-md-4 col-sm-12 col-lg-4 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
-                                
+
                                 <h3 class="align-top">Secondary Buttons</h3>
-                                <p>The secondary button is used for alternative actions. It is on a transparent background with a border on hover and an active state. 
+                                <p>The secondary button is used for alternative actions. It is on a transparent background with a border on hover and an active state.
                                     <br><br>
                                         Example Uses:<br>
                                         Cancel<br>
@@ -145,12 +138,12 @@
                                 <img class="resp-img"  src="images/secondary-button-sample.svg"/>
                                 <p><b>Secondary Action Button</b><br>
                                     Used primarily for alternative user actions. <br>
-                                
+
                             </div>
 
                             <hr class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="col-xs-12 col-xs-offset-0 col-md-4 col-sm-12 col-lg-4 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
-                                
+
                                 <h3 class="align-top">Style</h3>
                                 <p>Every button for Allied Electronics can be built following the following criteria. </p>
 
@@ -159,19 +152,19 @@
                             <div class="col-lg-4 col-lg-offset-0 col-sm-12 col-sm-offset-0 col-md-4 col-md-offset-0  text-left">
                                 <img class="resp-img"  src="images/button-style-sample.svg"/>
                                 <p>Maintain a 2pd border radius on all Allie Electronics Buttons. Minimum 36pd hieght with 16pd left and right margin and padding for every button. We use our brand font Verdana in ALL CAPS minimum size of 12pd.</p>
-                                
+
                             </div>
 
                             <div class="col-lg-4 col-lg-offset-0 col-sm-12 col-sm-offset-0 col-md-4 col-md-offset-0  text-left">
                                     <img class="resp-img"  src="images/button-style-icon-sample.svg"/>
                                     <p><b>Adding an Icon</b><br>
-                                        When adding an icon to a button maitain a 6dp padding between the verbiage and the icon. Continue to maintain the min height and padding to the left and right. 
+                                        When adding an icon to a button maitain a 6dp padding between the verbiage and the icon. Continue to maintain the min height and padding to the left and right.
                                     </p>
                                 </div>
 
                             <hr class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="col-xs-12 col-xs-offset-0 col-md-4 col-sm-12 col-lg-4 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">
-                                
+
                                 <h3 class="align-top">Code</h3>
                                 <p>When applying a button to the front end of an Allied product simply copy and paste the html found here. You can also view the CSS to see how it works.</p>
 
@@ -188,7 +181,7 @@
                                 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
                             </div>
 
-                            
+
                         </div>
 
             </div>
@@ -209,7 +202,7 @@
                      $('#sidebar').toggleClass('active');
                  });
              });
-             
+
          </script>
     </body>
 </html>

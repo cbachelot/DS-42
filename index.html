@@ -17,39 +17,30 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
         <!--42 SVG Font-->
         <link rel="stylesheet" href="css/42svgstyle.css" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script>
+        $(function(){
+          $("#sidebar").load("/nav.html");
+        });
+        </script>
+
     </head>
     <body>
-
-
 
         <div class="wrapper">
             <!-- Sidebar Holder -->
             <nav id="sidebar">
-                <div class="sidebar-header">
-                    <a href="index.html"><img style="width:100%; height:auto;" src="images/42-ph-logo.svg"></a>
-                </div>
-            
-                <ul class="list-unstyled components">
-                    <li class="active">
-                        <a href="#" >Overview</a>
-                    </li>
-                    <li>
-                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Components</a>
-                        <ul class="collapse list-unstyled" id="pageSubmenu">
-                            <li><a href="/ds-components.html">Components Overview</a></li>
-                            <li><a href="#">Buttons</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            
+                <link rel="import" href="nav.html">
             </nav>
-            
+
             <!-- Page Content Holder -->
             <div id="content">
 
                 <nav class="navbar navbar-default ">
 
-                        
+
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="navbar-header col-xs-3 col-xs-offset-0">
@@ -63,7 +54,7 @@
                                 <div class="col-lg-4 col-lg-offset-4 col-sm-3 col-sm-offset-4 col-md-3 col-md-offset-4 hidden-xs text-right content-title ">
                                     <h4>Overview</h4>
                                 </div>
-                                
+
                             </div>
                         </div>
                 </nav>
@@ -95,7 +86,7 @@
                      $('#sidebar').toggleClass('active');
                  });
              });
-             
+
          </script>
     </body>
 </html>

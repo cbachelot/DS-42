@@ -66,7 +66,7 @@ h3 {
 }
 
 #ds42-nav ul li a:hover {
-  color: #008BAA;
+  color: white;
   text-decoration: underline;
   background-color: #008bAA;
   transition: background-color text-decoration .3s ease-in-out;

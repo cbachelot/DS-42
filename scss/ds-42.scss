@@ -34,6 +34,17 @@ $allied_font: 'Lato', Verdana, Arial, Helvetica, sans-serif;
 
 
 
+hr {
+ border: none;
+    height: 1px;
+    color: #e4e4e4; 
+    background-color: #e4e4e4; 
+}
+
+body {
+	margin: 0px;
+}
+
 .ds42-main-grid {
 	display: grid;
 	font-family: lato, verdana, arial, san-serif;
@@ -79,10 +90,16 @@ $allied_font: 'Lato', Verdana, Arial, Helvetica, sans-serif;
 #ds42-nav ul li a:hover {
     color: $allied_blue_d;
     text-decoration: underline;
+	background-color: #008bAA;
+	transition: background-color text-decoration .3s ease-in-out;
+	
 }
 
 .ds42-nav-title {
-	font-size: 20px;
+	font-size: 18px;
+	color: #2c2c2c;
+	margin: 10px 0px 10px 0px;
+	
 }
 
 .ds42-nav-category {
@@ -153,9 +170,8 @@ color: #2c2c2c;
 	grid-template-columns: 1fr;
 	grid-template-areas:
 		"nav" 
-		 "body"
+		"body"
 }
-	
 	
 	#ds42-nav {
         position: fixed; /* or choose `absolute` depending on desired behavior*/

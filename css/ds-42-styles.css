@@ -17,7 +17,7 @@
     border-right: thin solid #eeeeee;
     z-index: 2;
     position: fixed;
-	height: 100vw;
+	height: 100vh;
 	padding: 10px 10px 0px 10px;
     border-bottom: thin solid #eeeeee;
 	list-style-type: none;

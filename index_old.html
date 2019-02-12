@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>DS - 42</title>
+
+        <!--Bootstrap CSS-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--DS - 42 Custom CSS-->
+        <link rel="stylesheet" href="css/style.css">
+        <!--Allied Style Sheet-->
+        <link rel = "stylesheet" type = "text/css" href ="styles/alliedstyle.css" />
+        <!--Lato Google Font-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        <!--42 SVG Font-->
+        <link rel="stylesheet" href="css/42svgstyle.css" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script>
+        $(function(){
+          $("#sidebar").load("nav.html");
+        });
+        </script>
+
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                
+            </nav>
+
+            <!-- Page Content Holder -->
+            <div id="content">
+
+                <nav class="navbar navbar-default ">
+
+
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="navbar-header col-xs-3 col-xs-offset-0">
+                                    <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+                                        <i class="icon-menu"></i>
+                                    </button>
+                                </div>
+                                <div class="col-xs-6 col-xs-offset-3 col-md-5 col-sm-5 col-lg-4 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 text-sm-right ds-title">
+                                    <h1>DS - 42</h1>
+                                </div>
+                                <div class="col-lg-4 col-lg-offset-4 col-sm-3 col-sm-offset-4 col-md-3 col-md-offset-4 hidden-xs text-right content-title ">
+                                    <h4>Overview</h4>
+                                </div>
+
+                            </div>
+                        </div>
+                </nav>
+                        <div class="mast-bg container-fluid">
+                            <div class="col-lg-10 col-lg-offset-1 ov-mast">
+                                <img src="images/ds42-mast.svg">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <h2>Overview</h2>
+                            <p>The ultimate answer to a consistent and scalable design language, user experience, and digital identity is... Design System 42.</p>
+                            <p>We challenge ourselves every day to make consistent usefull designs that help make our users lives better. We acknowledge that this is a constant, moving goal that we must adapt to over time and we accept this challenge as a way to strive to be better tomorrow than we are today.</p>
+                        </div>
+
+        </div>
+
+
+
+
+
+        <!-- jQuery CDN -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="js/bootstrap.min.js"></script>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                 });
+             });
+
+         </script>
+    </body>
+</html>

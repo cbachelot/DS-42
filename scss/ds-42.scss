@@ -1,5 +1,38 @@
-@charset "UTF-8";
-/* CSS Document */
+$allied_red: #DA291C;
+$allied_red_l: #FF6147;
+$allied_red_d: #9E0000;
+
+$allied_blue: #00BBDC;
+$allied_blue_l: #63EEFF;
+$allied_blue_d: #008BAA;
+
+$allied_green: #8DC63F;
+$allied_green_l: #C0F970;
+$allied_green_d: #5B9500;
+
+$allied_orange: #F2A900;
+$allied_orange_l: #FFDA4A;
+$allied_orange_d: #BA7A00;
+
+$allied_black: #000000;
+$allied_black_l: #2c2c2c;
+$allied_black_overlay: rgba(0, 0, 0, 0.8);
+
+$allied_support_gray: #979797;
+$allied_support_gray_l: #e4e4e4;
+$allied_background_gray_l: #f4f4f4;
+
+$allied_white: rgba(255, 255, 255, 1);
+$allied_white_overlay: rgba(255, 255, 255, 0.9);
+
+$allied_transparent: rgba(255, 255, 255, 0);
+
+$allied_box_shadow: rgba(0, 0, 0, 0.3);
+
+
+$allied_font: 'Lato', Verdana, Arial, Helvetica, sans-serif;
+
+
 
 .ds42-main-grid {
 	display: grid;
@@ -12,15 +45,15 @@
 /* Start of the Nav */
 #ds42-nav {
 	grid-area: nav;
-	background-color: #FFFFFF;
-    color: #000000;
+	background-color: $allied_white;
+    color: $allied_black;
     transition: all 0.3s;
-    border-right: thin solid #eeeeee;
+    border-right: thin solid $allied_background_gray_l;
     z-index: 2;
     position: fixed;
 	height: 100vh;
 	padding: 10px 10px 0px 10px;
-    border-bottom: thin solid #eeeeee;
+    border-bottom: thin solid $allied_background_gray_l;
 	list-style-type: none;
 }
 
@@ -30,16 +63,21 @@
 }
 
 
+.sass-test{
+	color: $allied_blue_d;
+
+}
+
 #ds42-nav ul li a {
     padding: 10px 10px 10px 0px;
-    color: #008BAA;
+    color: $allied_blue_d;
     display: block;
     border-bottom: solid thin transparent;
 	text-decoration: none;
 	
 }
 #ds42-nav ul li a:hover {
-    color: #008BAA;
+    color: $allied_blue_d;
     text-decoration: underline;
 }
 
@@ -108,10 +146,6 @@ font-size: 16px;
 color: #2c2c2c;
 
 }
-
-
-
-
 
 
 @media only screen and (max-width: 768px) {

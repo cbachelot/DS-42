@@ -9,6 +9,7 @@
 	"nav body"
 }
 
+/* Start of the Nav */
 #ds42-nav {
 	grid-area: nav;
 	background-color: #FFFFFF;
@@ -29,11 +30,6 @@
 }
 
 
-.ds42-body {
-	grid-area: body;
-}
-
-
 #ds42-nav ul li a {
     padding: 10px 10px 10px 0px;
     color: #008BAA;
@@ -47,10 +43,6 @@
     text-decoration: underline;
 }
 
-.toggle {
-    display: none;
-  }
-
 .ds42-nav-title {
 	font-size: 20px;
 }
@@ -58,6 +50,20 @@
 .ds42-nav-category {
 	font-size: 16px;
 }
+
+/* End of Nav */
+
+
+.ds42-body {
+	grid-area: body;
+}
+
+
+.toggle {
+    display: none;
+  }
+
+
 
 
 /* START OF THE BODY GRID */

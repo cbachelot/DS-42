@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="856px" height="310px" viewBox="0 0 856 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>components-overview</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Buttons" transform="translate(-331.000000, -2194.000000)">
+            <g id="components-overview" transform="translate(331.000000, 2194.000000)">
+                <rect id="Rectangle-Copy-24" fill="#2DB6C4" x="0" y="0" width="210" height="310"></rect>
+                <rect id="Rectangle-Copy-25" fill="#2DB6C4" x="646" y="0" width="210" height="310"></rect>
+                <rect id="Rectangle-Copy-26" fill="#54D8ED" x="211" y="0" width="434" height="310"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="30" y="32" width="143" height="123"></rect>
+                <rect id="Rectangle-Copy-37" fill="#2DB6C4" x="48" y="104" width="105" height="33"></rect>
+                <rect id="Rectangle-Copy-27" fill="#FFFFFF" x="246" y="30" width="143" height="18"></rect>
+                <rect id="Rectangle-Copy-39" fill="#FFFFFF" x="30" y="172" width="95" height="18"></rect>
+                <rect id="Rectangle-Copy-31" fill="#FFFFFF" x="246" y="142" width="143" height="18"></rect>
+                <rect id="Rectangle-Copy-28" fill="#FFFFFF" x="246" y="58" width="216" height="18"></rect>
+                <rect id="Rectangle-Copy-40" fill="#FFFFFF" x="30" y="200" width="143" height="18"></rect>
+                <rect id="Rectangle-Copy-32" fill="#FFFFFF" x="246" y="170" width="216" height="18"></rect>
+                <rect id="Rectangle-Copy-35" fill="#FFFFFF" x="246" y="254" width="216" height="18"></rect>
+                <rect id="Rectangle-Copy-29" fill="#FFFFFF" x="246" y="86" width="182" height="18"></rect>
+                <rect id="Rectangle-Copy-41" fill="#FFFFFF" x="30" y="228" width="120" height="18"></rect>
+                <rect id="Rectangle-Copy-42" fill="#FFFFFF" x="30" y="256" width="143" height="18"></rect>
+                <rect id="Rectangle-Copy-36" fill="#54D8ED" x="680" y="76" width="144" height="206"></rect>
+                <rect id="Rectangle-Copy-38" fill="#FFFFFF" x="699" y="228" width="105" height="35"></rect>
+                <rect id="Rectangle-Copy-33" fill="#FFFFFF" x="246" y="198" width="182" height="18"></rect>
+                <rect id="Rectangle-Copy-30" fill="#FFFFFF" x="246" y="114" width="245" height="18"></rect>
+                <rect id="Rectangle-Copy-34" fill="#FFFFFF" x="246" y="226" width="245" height="18"></rect>
+                <circle id="Oval" fill="#FFFFFF" cx="752.5" cy="76.5" r="46.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

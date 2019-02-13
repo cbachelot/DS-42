@@ -1,37 +1,6 @@
-$allied_red: #DA291C;
-$allied_red_l: #FF6147;
-$allied_red_d: #9E0000;
-
-$allied_blue: #00BBDC;
-$allied_blue_l: #63EEFF;
-$allied_blue_d: #008BAA;
-
-$allied_green: #8DC63F;
-$allied_green_l: #C0F970;
-$allied_green_d: #5B9500;
-
-$allied_orange: #F2A900;
-$allied_orange_l: #FFDA4A;
-$allied_orange_d: #BA7A00;
-
-$allied_black: #000000;
-$allied_black_l: #2c2c2c;
-$allied_black_overlay: rgba(0, 0, 0, 0.8);
-
-$allied_support_gray: #979797;
-$allied_support_gray_l: #e4e4e4;
-$allied_background_gray_l: #f4f4f4;
-
-$allied_white: rgba(255, 255, 255, 1);
-$allied_white_overlay: rgba(255, 255, 255, 0.9);
-
-$allied_transparent: rgba(255, 255, 255, 0);
-
-$allied_box_shadow: rgba(0, 0, 0, 0.3);
 
 
-$allied_font: 'Lato', Verdana, Arial, Helvetica, sans-serif;
-
+@import 'allied_variables.scss';
 
 
 hr {
@@ -105,14 +74,14 @@ h3{
 #ds42-nav ul li a:hover {
     color: $allied_white;
     text-decoration: underline;
-	background-color: #008bAA;
+	background-color: $allied_blue_d;
 	transition: background-color text-decoration .3s ease-in-out;
 	
 }
 
 .ds42-nav-title {
 	font-size: 18px;
-	color: #2c2c2c;
+	color: $allied_black_l;
 	margin: 10px 0px 10px 0px;
 	
 }
@@ -195,7 +164,7 @@ grid-template-areas:
 
 .page-title {
 grid-area: pagetitle;	
-background-color: #2c2c2c;	
+background-color: $allied_black_l;	
 padding-left: 15px;	
 padding-top: 10px;
 color: $allied_white;
@@ -206,28 +175,28 @@ padding: 35px 100px;
 .page-title h1 {
 font-size: 24px;
 font-weight: normal;
-color: #FFFFFF;	
+color: $allied_white;	
 margin:0;	
 }
 
 
 .page-overview {
 grid-area: pageoverview;
-background-color: #f4f4f4;	
+background-color: $allied_background_gray_l;	
 padding: 100px;	
 
 }
 
 .page-overview h2 {
 font-size: 60px;
-color: #2c2c2c;
+color: $allied_black_l;
 font-weight: 300;
 margin-top: 0px;
 }
 
 .page-overview p {
 font-size: 16px;
-color: #2c2c2c;
+color: $allied_black_l;
 line-height: 32px;
 
 }

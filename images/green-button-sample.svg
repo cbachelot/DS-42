@@ -21,15 +21,15 @@
                     <rect id="Rectangle-9" fill="#F4F4F4" x="0" y="0" width="300" height="220"></rect>
                     <g id="Default-Green-Button" transform="translate(104.000000, 36.000000)" stroke-width="1">
                         <g id="flat-button-copy-6">
-                            <rect id="Rectangle-6" fill="#8DC63F" x="0" y="0" width="84" height="36" rx="2"></rect>
-                            <text id="DEFAULT" font-family="Verdana" font-size="12" font-weight="normal" fill="#3A3A3A">
+                            <rect id="Rectangle-6" fill="#5B9500" x="0" y="0" width="84" height="36" rx="2"></rect>
+                            <text id="DEFAULT" font-family="Verdana" font-size="12" font-weight="normal" fill="#FFFFFF">
                                 <tspan x="15" y="23">DEFAULT</tspan>
                             </text>
                         </g>
                     </g>
                     <g id="flat-button-copy-7" filter="url(#filter-1)" stroke-width="1" transform="translate(109.000000, 93.000000)">
-                        <rect id="Rectangle-6" fill="#5B9500" x="0" y="0" width="75" height="36" rx="2"></rect>
-                        <text id="HOVER" font-family="Verdana" font-size="12" font-weight="normal" fill="#3A3A3A">
+                        <rect id="Rectangle-6" fill="#8DC63F" x="0" y="0" width="75" height="36" rx="2"></rect>
+                        <text id="HOVER" font-family="Verdana" font-size="12" font-weight="normal" fill="#FFFFFF">
                             <tspan x="16" y="23">HOVER</tspan>
                         </text>
                     </g>

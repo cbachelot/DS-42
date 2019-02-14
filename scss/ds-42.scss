@@ -1,8 +1,8 @@
 
 
 @import 'allied_variables.scss';
+@import 'ds42_variables.scss';
 
-/*This is my test*/
 
 hr {
  border: none;
@@ -50,14 +50,12 @@ h3{
 /* Start of the Nav */
 #ds42-nav {
 	grid-area: nav;
-	background-color: $allied_black_l;
+	background-color: $ds42_blue_d;
     color: $allied_white;
     transition: all 0.3s;
-    /*border-right: thin solid $allied_background_gray_l;*/
     z-index: 2;
     position: fixed;
 	height: 100vh;
-	/*padding: 10px 10px 0px 10px;*/
     border-bottom: thin solid $allied_background_gray_l;
     list-style-type: none;
 
@@ -71,7 +69,6 @@ nav {
 nav a {
 	position: relative;
     display: block;
-    /*margin: 15px 25px;*/
     margin-top: 1px;
     padding-top: 10px;
     padding-bottom: 9px;
@@ -88,10 +85,8 @@ nav a {
 
 .nav-effect a {
 	overflow: hidden;
-	/*padding: 0 4px;*/
     height: 1em;
-    
-    
+
 }
 
 .nav-effect a span {
@@ -122,7 +117,7 @@ nav a {
 } 
 
 .nav-effect a:hover {
-    background-color: #008bAA;
+    background-color: $ds42_blue;
     transition: background-color font-weight .3s ease-in-out;
 }
 
@@ -290,13 +285,14 @@ line-height: 32px;
         position: fixed; /* or choose `absolute` depending on desired behavior*/
         top: 0;
         bottom: 0;
-        width: 300px;
+        width: 310px;
         left: -340px;
         transition: transform .3s ease-in-out;
     }
 	
 	.toggle {
     display: inline-block;
+    margin: 12px 0px 20px 12px;
   }
 	
 	#ds42-nav:target {
@@ -309,8 +305,11 @@ line-height: 32px;
 	}
 	
 	.nav-close-icon {
-		float: right;
+        float: right;
+        margin-right: 12px;
+        margin-top: 12px;
     }
+
     
     .content-column-left{
         grid-template-areas:

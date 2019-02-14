@@ -137,7 +137,7 @@ nav a {
 #ds42-nav ul li a:hover {
   color: white;
   text-decoration: underline;
-  background-color: #008bAA;
+  background-color: #008BAA;
   -webkit-transition: background-color text-decoration .3s ease-in-out;
   transition: background-color text-decoration .3s ease-in-out;
 }
@@ -240,7 +240,7 @@ nav a {
 .page-title h1 {
   font-size: 24px;
   font-weight: normal;
-  color: #FFFFFF;
+  color: white;
   margin: 0;
 }
 

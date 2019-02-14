@@ -1,4 +1,4 @@
-/*This is my test*/
+/*New DS42 Colors*/
 hr {
   border: none;
   height: 1px;
@@ -48,15 +48,13 @@ h3 {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: nav;
-  background-color: #2c2c2c;
+  background-color: #001D2C;
   color: white;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  /*border-right: thin solid $allied_background_gray_l;*/
   z-index: 2;
   position: fixed;
   height: 100vh;
-  /*padding: 10px 10px 0px 10px;*/
   border-bottom: thin solid #f4f4f4;
   list-style-type: none;
 }
@@ -69,7 +67,6 @@ nav {
 nav a {
   position: relative;
   display: block;
-  /*margin: 15px 25px;*/
   margin-top: 1px;
   padding-top: 10px;
   padding-bottom: 9px;
@@ -86,7 +83,6 @@ nav a {
 
 .nav-effect a {
   overflow: hidden;
-  /*padding: 0 4px;*/
   height: 1em;
 }
 
@@ -116,7 +112,7 @@ nav a {
 }
 
 .nav-effect a:hover {
-  background-color: #008bAA;
+  background-color: #94C5CC;
   -webkit-transition: background-color font-weight .3s ease-in-out;
   transition: background-color font-weight .3s ease-in-out;
 }
@@ -281,7 +277,7 @@ nav a {
     /* or choose `absolute` depending on desired behavior*/
     top: 0;
     bottom: 0;
-    width: 300px;
+    width: 310px;
     left: -340px;
     -webkit-transition: -webkit-transform .3s ease-in-out;
     transition: -webkit-transform .3s ease-in-out;
@@ -290,6 +286,7 @@ nav a {
   }
   .toggle {
     display: inline-block;
+    margin: 12px 0px 20px 12px;
   }
   #ds42-nav:target {
     -webkit-transform: translateX(340px);
@@ -301,6 +298,8 @@ nav a {
   }
   .nav-close-icon {
     float: right;
+    margin-right: 12px;
+    margin-top: 12px;
   }
   .content-column-left {
         grid-template-areas: "left" "right";

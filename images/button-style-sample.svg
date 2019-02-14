@@ -19,8 +19,8 @@
                         <rect id="Rectangle-9-Copy-2" fill="#F4F4F4" x="0" y="0" width="300" height="220"></rect>
                         <g id="button" stroke-width="1" transform="translate(74.000000, 78.000000)">
                             <g id="measurement-copy-4" transform="translate(116.000000, 9.000000)" fill="#BD10E0">
-                                <text id="36dp-Min-Height" font-family="Verdana" font-size="6" font-weight="normal">
-                                    <tspan x="7" y="20">36dp Min Height</tspan>
+                                <text id="36px-Min-Height" font-family="Verdana" font-size="6" font-weight="normal">
+                                    <tspan x="7" y="20">36px Min Height</tspan>
                                 </text>
                                 <rect id="Rectangle-12" x="2" y="0" width="1" height="36"></rect>
                                 <rect id="Rectangle-12-Copy" transform="translate(2.500000, 0.500000) rotate(90.000000) translate(-2.500000, -0.500000) " x="2" y="-2" width="1" height="5"></rect>
@@ -42,8 +42,8 @@
                                 <text id="15" font-family="Verdana" font-size="6" font-weight="normal" fill="#BD10E0">
                                     <tspan x="18" y="36">15</tspan>
                                 </text>
-                                <text id="2dp-Corner-Radius" font-family="Verdana" font-size="6" font-weight="normal" fill="#BD10E0">
-                                    <tspan x="0.201171875" y="6">2dp Corner Radius</tspan>
+                                <text id="2px-Corner-Radius" font-family="Verdana" font-size="6" font-weight="normal" fill="#BD10E0">
+                                    <tspan x="0.388671875" y="6">2px Corner Radius</tspan>
                                 </text>
                                 <g id="corner-angle" transform="translate(30.000000, 9.000000)">
                                     <path d="M2,0.5 C1.17157288,0.5 0.5,1.17157288 0.5,2 L0.5,8.17157288 C0.5,8.56939761 0.658035261,8.95092848 0.939339828,9.23223305 C1.52512627,9.81801948 2.47487373,9.81801948 3.06066017,9.23223305 L9.23223305,3.06066017 C9.51353761,2.7793556 9.67157288,2.39782473 9.67157288,2 C9.67157288,1.17157288 9,0.5 8.17157288,0.5 L2,0.5 Z" id="Rectangle-7" stroke="#BD10E0" fill="#C4D600"></path>

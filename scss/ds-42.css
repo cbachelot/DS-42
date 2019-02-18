@@ -16,7 +16,7 @@ body {
 p {
   line-height: 28px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 a:link {
@@ -43,6 +43,12 @@ h3 {
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 9px;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 0px;
 }
 
 .ds42-main-grid {
@@ -296,6 +302,7 @@ nav a {
   color: #2c2c2c;
   font-weight: 300;
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .page-overview p {
@@ -306,6 +313,47 @@ nav a {
 
 .page-overview .content-column-left {
   margin: 0;
+}
+
+/*Four Column Lahyout Grid*/
+.four-column-layout {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-column-gap: 4%;
+}
+
+.overview-section-cta {
+  padding: 20px;
+  border: solid white 1px;
+  border-radius: 2px;
+}
+
+.overview-section-cta img {
+  width: 100%;
+}
+
+.overview-section-desc {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+}
+
+a, div.overview-section-cta, p, h4 {
+  text-decoration: none;
+  color: inherit;
+}
+
+a .overview-section-cta:hover {
+  border: solid #e4e4e4 1px;
+  -webkit-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
+}
+
+/*CodePen Edits*/
+.cp_embed_wrapper {
+  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 768px) {

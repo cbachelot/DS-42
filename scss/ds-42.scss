@@ -24,6 +24,16 @@ p{
     font-weight: 400;
 }
 
+a:link {
+    color: $ds42_blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: $ds42_blue;
+    text-decoration: none;
+}
+
 h1{
     font-size: 44px;
     font-weight: 300;
@@ -37,7 +47,10 @@ h2{
 h3{
     font-size: 24px;
     font-weight: 300;
+    margin-bottom: 9px;
+   
 }
+
 
 .ds42-main-grid {
 	display: grid;
@@ -75,7 +88,6 @@ nav a {
     padding-left: 30px;
     width: 280px;
 	outline: none;
-	color: #fff;
 	text-decoration: none;
 	letter-spacing: 1px;
     font-weight: 300;
@@ -104,20 +116,22 @@ nav a {
 	top: 25px;
 	content: attr(data-hover);
 	font-weight: 700;
-	-webkit-transform: translate3d(0,0,0);
+	/*webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);*/
 }
 
 .nav-effect a:hover span,
 .nav-effect a:focus span {
-	-webkit-transform: translateY(-29px);
+	/*-webkit-transform: translateY(-29px);
 	-moz-transform: translateY(-29px);
-	transform: translateY(-29px);
+	transform: translateY(-29px);*/
 } 
 
 .nav-effect a:hover {
-    background-color: $ds42_blue;
+    background-color: $ds42_blue_l;
+    color: $allied_white;
+    font-weight: 700;
     transition: background-color font-weight .3s ease-in-out;
 }
 
@@ -188,6 +202,29 @@ grid-template-areas:
     padding: 100px;
 }
 
+
+.content-three-column-even {
+    display: grid;
+    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(min-content, 1fr);
+    grid-column-gap: 2%;
+}
+
+.content-three-column-even img {
+box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.20);
+}
+
+.content-three-column-even img:hover {
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.20);
+    transition: box-shadow .3s ease-in-out;
+    }
+
+.overview-explaination{
+ min-height: 40px;
+ margin-bottom: 15px;
+}
+
+
+
 .content-column-right{
     display: grid;
     grid-template-areas: "left right";
@@ -226,7 +263,6 @@ grid-template-areas:
 
 .content-column-right img{
     width: 100%;
-
 }
 
 .page-title {
@@ -282,7 +318,7 @@ line-height: 32px;
 }
 	
 	#ds42-nav {
-        position: fixed; /* or choose `absolute` depending on desired behavior*/
+        position: fixed; 
         top: 0;
         bottom: 0;
         width: 310px;
@@ -310,6 +346,10 @@ line-height: 32px;
         margin-top: 12px;
     }
 
+    .content-three-column-even {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     
     .content-column-left{
         grid-template-areas:

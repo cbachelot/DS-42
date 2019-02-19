@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="150px" viewBox="0 0 210 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C6E4E8" offset="0%"></stop>
+            <stop stop-color="#94C5CC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-235.000000, -726.000000)" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(235.000000, 726.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="210" height="150" rx="2"></rect>
+                <rect id="Rectangle" fill="#D8D8D8" x="17" y="19" width="193" height="25"></rect>
+                <rect id="Rectangle" fill="#F3F3F3" x="17" y="42" width="193" height="108"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="17" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="26" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="53" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="61" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#E6E6E6" x="27" y="49" width="183" height="36"></rect>
+                <rect id="Rectangle" fill="#E6E6E6" x="27" y="105" width="61" height="36"></rect>
+                <rect id="Rectangle" fill="#E6E6E6" x="97" y="105" width="61" height="36"></rect>
+                <rect id="Rectangle" fill="#E6E6E6" x="167" y="105" width="43" height="36"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="53" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="61" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="88" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="96" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="123" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="131" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="158" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="166" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="193" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="201" y="19" width="1" height="131"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="18" y="90" width="192" height="1"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="17" y="18" width="193" height="1"></rect>
+                <rect id="Rectangle" fill="#001D2C" x="18" y="99" width="192" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

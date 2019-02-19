@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="150px" viewBox="0 0 210 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C6E4E8" offset="0%"></stop>
+            <stop stop-color="#94C5CC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-499.000000, -726.000000)" fill-rule="nonzero">
+            <g id="Group-4" transform="translate(499.000000, 726.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="210" height="150"></rect>
+                <g id="Group-6" transform="translate(20.000000, 19.000000)">
+                    <path d="M9,0 L190,0 L190,131 L0,131 L0,9 C-6.08718376e-16,4.02943725 4.02943725,9.13077564e-16 9,0 Z" id="Rectangle" fill="#F3F3F3"></path>
+                    <path d="M8,0 L190,0 L190,13 L0,13 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="Rectangle" fill="#D8D8D8"></path>
+                    <rect id="Rectangle" fill="#E6E6E6" x="14" y="35" width="176" height="14"></rect>
+                    <rect id="Rectangle" fill="#E6E6E6" x="14" y="60" width="155" height="13"></rect>
+                    <rect id="Rectangle" fill="#D8D8D8" x="14" y="89" width="87" height="28" rx="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

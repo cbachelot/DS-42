@@ -65,6 +65,22 @@ h4{
 	"nav body"
 }
 
+.green-gradient {
+    background-image: $ds42_green-gradient;
+}
+
+.red-gradient {
+    background-image: $ds42_red-gradient;
+}
+
+.blue-gradient {
+    background-image: $ds42_blue-gradient;
+}
+
+.overview-image {
+    mix-blend-mode: multiply;
+}
+
 /* Start of the Nav */
 #ds42-nav {
 	grid-area: nav;
@@ -134,7 +150,7 @@ nav a {
 } 
 
 .nav-effect a:hover {
-    background-color: $ds42_blue_l;
+    background-color: $ds42_blue_daccent;
     color: $allied_white;
     font-weight: 700;
     transition: background-color font-weight .3s ease-in-out;
@@ -277,7 +293,8 @@ margin:0;
 .page-overview {
 grid-area: pageoverview;
 background-color: $allied_background_gray_l;	
-padding: 100px;	
+padding: 100px;
+
 
 }
 
@@ -287,12 +304,14 @@ color: $allied_black_l;
 font-weight: 300;
 margin-top: 0px;
 margin-bottom: 20px;
+color: $ds42_white;
 }
 
 .page-overview p {
 font-size: 16px;
 color: $allied_black_l;
 line-height: 32px;
+color: $ds42_white;
 
 }
 

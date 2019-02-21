@@ -211,7 +211,7 @@ nav a {
 
 .page-grid {
 display: grid;
-grid-template-rows: 100px auto auto;	
+grid-template-rows: auto auto auto;	
 grid-template-areas:
 	"pagetitle" 
     "pageoverview"
@@ -249,7 +249,7 @@ box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.20);
 .content-column-right{
     display: grid;
     grid-template-areas: "left right";
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: minmax(min-content, 2fr) minmax(min-content, 1fr);
     margin:100px 0px;
     grid-column-gap: 2%;
 
@@ -286,15 +286,6 @@ box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.20);
     width: 100%;
 }
 
-.page-title {
-grid-area: pagetitle;	
-background-color: $allied_black_l;	
-padding-left: 15px;	
-padding-top: 10px;
-color: $allied_white;
-font-size: 24px;
-padding: 35px 100px;
-}
 
 .page-title h1 {
 font-size: 24px;
@@ -330,6 +321,10 @@ color: $ds42_white;
 }
 
 .page-overview .content-column-left{
+    margin: 0;
+}
+
+.page-overview .content-column-right{
     margin: 0;
 }
 

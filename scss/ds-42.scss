@@ -24,6 +24,9 @@ p{
     font-weight: 300;
 }
 
+::-moz-selection { background: $ds42_blue_d; color: $ds42_white; }
+::selection { background: $ds42_blue_d; color: $ds42_white; }
+
 a:link {
     color: $ds42_blue;
     text-decoration: none;

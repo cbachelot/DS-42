@@ -81,6 +81,7 @@ h4{
     mix-blend-mode: multiply;
 }
 
+
 /* Start of the Nav */
 #ds42-nav {
 	grid-area: nav;
@@ -104,7 +105,7 @@ nav a {
 	position: relative;
     display: block;
     margin-top: 1px;
-    padding-top: 10px;
+    padding-top: 6px;
     padding-bottom: 9px;
     padding-left: 30px;
     width: 280px;
@@ -113,7 +114,8 @@ nav a {
 	letter-spacing: 1px;
     font-weight: 300;
     font-size: 16px;
-	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    
 }
 
 .nav-effect a {
@@ -126,58 +128,32 @@ nav a {
 	position: relative;
     display: inline-block;
     white-space: nowrap;
-	-webkit-transition: -webkit-transform 0.3s;
-	-moz-transition: -moz-transform 0.3s;
-    transition: transform 0.3s;
-    
 }
 
 .nav-effect a span::before {
 	position: absolute;
 	top: 25px;
 	content: attr(data-hover);
-	font-weight: 700;
+
 	/*webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);*/
 }
 
-.nav-effect a:hover span,
+/*.nav-effect a:hover span,
 .nav-effect a:focus span {
-	/*-webkit-transform: translateY(-29px);
+	-webkit-transform: translateY(-29px);
 	-moz-transform: translateY(-29px);
-	transform: translateY(-29px);*/
-} 
+	transform: translateY(-29px);
+} */
 
 .nav-effect a:hover {
     background-color: $ds42_blue_daccent;
-    color: $allied_white;
-    font-weight: 700;
-    transition: background-color font-weight .3s ease-in-out;
-}
-
-
-
-#ds42-nav ul {
-	list-style-type: none;
-	padding: 0px;
-}
-
-#ds42-nav ul li a {
-    padding: 10px 10px 10px 0px;
-    color: $allied_support_gray_l;
-    font-weight: 300;
-    display: block;
-    border-bottom: solid thin transparent;
-	text-decoration: none;
-	
-}
-#ds42-nav ul li a:hover {
-    color: $allied_white;
-    text-decoration: underline;
-	background-color: $allied_blue_d;
-	transition: background-color text-decoration .3s ease-in-out;
-	
+    color: $ds42-grey;
+    border-left: solid 3px $ds42_blue_l;
+    padding-left: 27px;
+   
+   
 }
 
 .ds42-nav-title {
@@ -211,9 +187,8 @@ nav a {
 
 .page-grid {
 display: grid;
-grid-template-rows: 100px auto auto;	
+grid-template-rows: auto auto;	
 grid-template-areas:
-	"pagetitle" 
     "pageoverview"
     "pagecontent";
 }
@@ -221,13 +196,6 @@ grid-template-areas:
 .page-content{
     grid-area: pagecontent;
     padding: 100px;
-}
-
-
-.content-three-column-even {
-    display: grid;
-    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr) minmax(min-content, 1fr);
-    grid-column-gap: 2%;
 }
 
 .content-three-column-even img {
@@ -238,13 +206,6 @@ box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.20);
     box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.20);
     transition: box-shadow .3s ease-in-out;
     }
-
-.overview-explaination{
- min-height: 40px;
- margin-bottom: 15px;
-}
-
-
 
 .content-column-right{
     display: grid;
@@ -333,7 +294,7 @@ color: $ds42_white;
     margin: 0;
 }
 
-/*Four Column Lahyout Grid*/
+/*Four Column Layout Grid*/
 
 .four-column-layout{
     display: grid;
@@ -386,16 +347,23 @@ a .overview-section-cta:hover{
 		"nav" 
 		"body";
 }
-	
+
+
 	#ds42-nav {
         position: fixed; 
+        overflow-y: scroll;
         top: 0;
         bottom: 0;
         width: 310px;
         left: -340px;
         transition: transform .3s ease-in-out;
     }
-	
+    
+    #ds-42-nav::-webkit-scrollbar { 
+        display: none; 
+    }
+
+   
 	.toggle {
     display: inline-block;
     margin: 12px 0px 20px 12px;

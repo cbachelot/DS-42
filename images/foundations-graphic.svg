@@ -5,37 +5,33 @@
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#C6E4E8" offset="0%"></stop>
-            <stop stop-color="#94C5CC" offset="100%"></stop>
+            <stop stop-color="#2D4B64" offset="0%"></stop>
+            <stop stop-color="#0A143A" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="210" height="150" rx="2"></rect>
+        <linearGradient x1="100%" y1="100%" x2="100%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#840090" offset="0%"></stop>
+            <stop stop-color="#003C5C" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-Copy" transform="translate(-235.000000, -726.000000)" fill-rule="nonzero">
+        <g id="Desktop-Copy" transform="translate(-235.000000, -726.000000)">
             <g id="Group-3" transform="translate(235.000000, 726.000000)">
-                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="210" height="150" rx="2"></rect>
-                <rect id="Rectangle" fill="#D8D8D8" x="17" y="19" width="193" height="25"></rect>
-                <rect id="Rectangle" fill="#F3F3F3" x="17" y="42" width="193" height="108"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="17" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="26" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="53" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="61" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#E6E6E6" x="27" y="49" width="183" height="36"></rect>
-                <rect id="Rectangle" fill="#E6E6E6" x="27" y="105" width="61" height="36"></rect>
-                <rect id="Rectangle" fill="#E6E6E6" x="97" y="105" width="61" height="36"></rect>
-                <rect id="Rectangle" fill="#E6E6E6" x="167" y="105" width="43" height="36"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="53" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="61" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="88" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="96" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="123" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="131" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="158" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="166" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="193" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="201" y="19" width="1" height="131"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="18" y="90" width="192" height="1"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="17" y="18" width="193" height="1"></rect>
-                <rect id="Rectangle" fill="#001D2C" x="18" y="99" width="192" height="1"></rect>
+                <g id="Rectangle">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <rect fill="#F3F3F3" fill-rule="nonzero" mask="url(#mask-3)" x="17" y="19" width="193" height="131"></rect>
+                </g>
+                <g id="Group-7" transform="translate(17.000000, 18.000000)" fill-rule="nonzero">
+                    <rect id="Rectangle" fill="#D8D8D8" x="0" y="1" width="193" height="25"></rect>
+                    <rect id="Rectangle" fill="#E6E6E6" x="10" y="31" width="183" height="36"></rect>
+                    <rect id="Rectangle" fill="#E6E6E6" x="10" y="87" width="61" height="36"></rect>
+                    <rect id="Rectangle" fill="#E6E6E6" x="80" y="87" width="61" height="36"></rect>
+                    <rect id="Rectangle" fill="#E6E6E6" x="150" y="87" width="43" height="36"></rect>
+                    <path d="M1,82 L1,132 L0,132 L0,1 L0,0 L193,0 L193,1 L185,1 L185,72 L193,72 L193,73 L185,73 L185,81 L193,81 L193,82 L185,82 L185,132 L184,132 L184,82 L177,82 L177,132 L176,132 L176,82 L150,82 L150,132 L149,132 L149,82 L142,82 L142,132 L141,132 L141,82 L115,82 L115,132 L114,132 L114,82 L107,82 L107,132 L106,132 L106,82 L80,82 L80,132 L79,132 L79,82 L72,82 L72,132 L71,132 L71,82 L45,82 L45,132 L44,132 L44,82 L37,82 L37,132 L36,132 L36,82 L10,82 L10,132 L9,132 L9,82 L1,82 Z M1,81 L9,81 L9,73 L1,73 L1,81 Z M10,81 L36,81 L36,73 L10,73 L10,81 Z M37,81 L44,81 L44,73 L37,73 L37,81 Z M45,81 L71,81 L71,73 L45,73 L45,81 Z M72,81 L79,81 L79,73 L72,73 L72,81 Z M80,81 L106,81 L106,73 L80,73 L80,81 Z M107,81 L114,81 L114,73 L107,73 L107,81 Z M115,81 L141,81 L141,73 L115,73 L115,81 Z M142,81 L149,81 L149,73 L142,73 L142,81 Z M150,81 L176,81 L176,73 L150,73 L150,81 Z M177,81 L184,81 L184,73 L177,73 L177,81 Z M1,1 L1,72 L9,72 L9,1 L1,1 Z M184,1 L177,1 L177,72 L184,72 L184,1 Z M176,1 L150,1 L150,72 L176,72 L176,1 Z M149,1 L142,1 L142,72 L149,72 L149,1 Z M141,1 L115,1 L115,72 L141,72 L141,1 Z M114,1 L107,1 L107,72 L114,72 L114,1 Z M106,1 L80,1 L80,72 L106,72 L106,1 Z M79,1 L72,1 L72,72 L79,72 L79,1 Z M71,1 L45,1 L45,72 L71,72 L71,1 Z M44,1 L37,1 L37,72 L44,72 L44,1 Z M36,1 L10,1 L10,72 L36,72 L36,1 Z" id="Combined-Shape" fill="url(#linearGradient-4)"></path>
+                </g>
             </g>
         </g>
     </g>

@@ -5,10 +5,14 @@
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#C6E4E8" offset="0%"></stop>
-            <stop stop-color="#94C5CC" offset="100%"></stop>
+            <stop stop-color="#2D4B64" offset="0%"></stop>
+            <stop stop-color="#0A143A" offset="100%"></stop>
         </linearGradient>
         <rect id="path-2" x="0" y="0" width="210" height="150" rx="2"></rect>
+        <linearGradient x1="100%" y1="100%" x2="100%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#840090" offset="0%"></stop>
+            <stop stop-color="#003C5C" offset="100%"></stop>
+        </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-Copy" transform="translate(-763.000000, -726.000000)">
@@ -17,11 +21,11 @@
                     <mask id="mask-3" fill="white">
                         <use xlink:href="#path-2"></use>
                     </mask>
-                    <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
-                    <rect stroke="#001D2C" fill="#D8D8D8" fill-rule="nonzero" mask="url(#mask-3)" x="21.5" y="19.5" width="167" height="133" rx="2"></rect>
+                    <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <rect stroke="url(#linearGradient-4)" fill="#D8D8D8" fill-rule="nonzero" mask="url(#mask-3)" x="21.5" y="19.5" width="167" height="133" rx="2"></rect>
                 </g>
-                <rect id="Rectangle" stroke="#191919" fill="#FFFFFF" fill-rule="nonzero" x="183.5" y="16.5" width="7" height="7"></rect>
-                <rect id="Rectangle" stroke="#191919" fill="#FFFFFF" fill-rule="nonzero" x="183.5" y="92.5" width="7" height="7"></rect>
+                <rect id="Rectangle" stroke="#727272" fill="#FFFFFF" fill-rule="nonzero" x="185.5" y="16.5" width="7" height="7"></rect>
+                <rect id="Rectangle" stroke="#727272" fill="#FFFFFF" fill-rule="nonzero" x="185.5" y="92.5" width="7" height="7"></rect>
                 <g id="Group-2" transform="translate(28.000000, 86.000000)" fill="#F3F3F3" fill-rule="nonzero">
                     <rect id="Rectangle" x="0" y="0" width="151" height="7"></rect>
                     <rect id="Rectangle" x="0" y="12" width="151" height="7"></rect>
@@ -29,12 +33,14 @@
                     <rect id="Rectangle" x="0" y="36" width="151" height="7"></rect>
                     <rect id="Rectangle" x="0" y="48" width="151" height="7"></rect>
                 </g>
-                <rect id="Rectangle" stroke="#191919" fill="#FFFFFF" fill-rule="nonzero" x="17.5" y="92.5" width="7" height="7"></rect>
-                <rect id="Rectangle" stroke="#191919" fill="#FFFFFF" fill-rule="nonzero" x="17.5" y="16.5" width="7" height="7"></rect>
-                <g id="Group" transform="translate(91.000000, 83.000000)" fill-rule="nonzero" stroke="#191919">
-                    <circle id="Oval" cx="13.5" cy="13.5" r="7.5"></circle>
-                    <path d="M0.5,13.5 L26.5,13.5" id="Line-2" stroke-linecap="square"></path>
-                    <path d="M0.5,13.5 L26.5,13.5" id="Line-2" stroke-linecap="square" transform="translate(13.500000, 13.500000) rotate(-90.000000) translate(-13.500000, -13.500000) "></path>
+                <rect id="Rectangle" stroke="#727272" fill="#FFFFFF" fill-rule="nonzero" x="17.5" y="92.5" width="7" height="7"></rect>
+                <rect id="Rectangle" stroke="#727272" fill="#FFFFFF" fill-rule="nonzero" x="17.5" y="16.5" width="7" height="7"></rect>
+                <g id="Group" transform="translate(91.000000, 83.000000)" fill-rule="nonzero" stroke="#727272">
+                    <g id="Group-8">
+                        <circle id="Oval" cx="13.5" cy="13.5" r="7.5"></circle>
+                        <path d="M0.5,13.5 L26.5,13.5" id="Line-2" stroke-linecap="square"></path>
+                        <path d="M0.5,13.5 L26.5,13.5" id="Line-2" stroke-linecap="square" transform="translate(13.500000, 13.500000) rotate(-90.000000) translate(-13.500000, -13.500000) "></path>
+                    </g>
                 </g>
                 <rect id="Rectangle" fill="#F3F3F3" fill-rule="nonzero" x="28" y="27" width="151" height="51"></rect>
             </g>

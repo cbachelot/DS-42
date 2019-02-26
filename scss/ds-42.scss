@@ -15,7 +15,7 @@ hr {
 
 body {
     margin: 0px;
-    font-family: $allied_font;
+    font-family: $ds42_font;
 }
 
 p{
@@ -60,6 +60,15 @@ h4{
     margin-bottom: 0px;
 }
 
+ul{
+    font-family: $ds42_font;
+    font-weight: 300;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
 .ds42-main-grid {
 	display: grid;
 	font-family: lato, verdana, arial, san-serif;
@@ -78,6 +87,10 @@ h4{
 
 .blue-gradient {
     background-image: $ds42_blue-gradient;
+}
+
+.purple-gradient {
+    background-image: $ds42_purple-gradient;
 }
 
 .overview-image {

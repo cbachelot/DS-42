@@ -61,6 +61,15 @@ h4 {
   margin-bottom: 0px;
 }
 
+ul {
+  font-family: "Lato", Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
 .ds42-main-grid {
   display: grid;
   font-family: lato, verdana, arial, san-serif;
@@ -78,6 +87,10 @@ h4 {
 
 .blue-gradient {
   background-image: linear-gradient(to right top, #001d2c, #002434, #002c3d, #003445, #003c4d, #004454, #004b5b, #005361, #005c67, #00646c, #006d71, #007674);
+}
+
+.purple-gradient {
+  background-image: linear-gradient(to right top, #484166, #624473, #814479, #a04177, #bd3f6e);
 }
 
 .overview-image {

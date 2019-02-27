@@ -26,6 +26,13 @@
 <!--NAV will display here-->
 
 </div>
+
+<div class="prog-bar">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
+      </div>
+<div class="ds42-body">
 	  
 	<div class="ds42-body"> <div class="page-grid">
 	<div class="page-overview blue-gradient">
@@ -76,5 +83,16 @@
 </div>
 </div>
 
+<script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("myBar").style.width = scrolled + "%";
+        }
+        </script>
 </body>
 </html>

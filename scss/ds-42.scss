@@ -344,6 +344,29 @@ a .overview-section-cta:hover{
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
 }
+/*Horizontal Scroll Indicator*/
+/* Style the header: fixed position (always stay at the top) */
+.prog-bar {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    background-color: transparent;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 3px;
+    background: transparent;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 3px;
+    background: $ds42_purple-gradient;
+    width: 0%;
+  }
 
 /*CodePen Edits*/
 

@@ -319,6 +319,30 @@ a .overview-section-cta:hover {
   transition: border .2s ease-in-out;
 }
 
+/*Horizontal Scroll Indicator*/
+/* Style the header: fixed position (always stay at the top) */
+.prog-bar {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  background-color: transparent;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 3px;
+  background: transparent;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 3px;
+  background: linear-gradient(to right top, #484166, #624473, #814479, #a04177, #bd3f6e);
+  width: 0%;
+}
+
 /*CodePen Edits*/
 .cp_embed_wrapper {
   margin-bottom: 40px;

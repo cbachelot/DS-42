@@ -139,6 +139,9 @@ nav a {
 	-moz-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);*/
 }
+ 
+
+
 
 /*.nav-effect a:hover span,
 .nav-effect a:focus span {
@@ -155,6 +158,13 @@ nav a {
    
    
 }
+
+
+.current { 
+    background-color: red;
+    color:red; 
+}
+
 
 .ds42-nav-title {
     font-size: 18px;
@@ -338,6 +348,8 @@ a .overview-section-cta:hover{
 .cp_embed_wrapper{
     margin-bottom:40px;
 }
+
+
 
 
 @media only screen and (max-width: 768px) {

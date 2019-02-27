@@ -149,6 +149,11 @@ nav a {
   padding-left: 27px;
 }
 
+.current {
+  background-color: red;
+  color: red;
+}
+
 .ds42-nav-title {
   font-size: 18px;
   font-weight: 300;

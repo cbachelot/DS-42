@@ -137,6 +137,7 @@ nav a {
 .nav-effect a {
 	overflow: hidden;
     height: 1em;
+    border-left: solid 3px $ds42_blue_d;
 
 }
 
@@ -167,8 +168,12 @@ nav a {
     background-color: $ds42_blue_daccent;
     color: $ds42-grey;
     border-left: solid 3px $ds42_blue_l;
-    padding-left: 27px;
-   
+    padding-left: 33px;
+    width: 277px;
+    -webkit-transition: padding-left 0.2s ease-in-out, border-left 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -moz-transition: padding-left 0.2s ease-in-out, border-left 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    -o-transition: padding-left 0.2s ease-in-out, border-left 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    transition: padding-left 0.2s ease-in-out, border-left 0.2s ease-in-out, background-color 0.2s ease-in-out;
    
 }
 

@@ -384,6 +384,14 @@ color: $ds42_white;
     cursor: pointer;
 }
 
+span.white-icon-overwrite ::before{
+    color:$ds42_white !important;
+}
+
+span.greyd-icon-overwrite ::before{
+    color: $ds42_grey_d !important;
+}
+
 
 /*Four Column Layout Grid*/
 

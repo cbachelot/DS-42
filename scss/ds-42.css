@@ -354,6 +354,14 @@ nav a {
   cursor: pointer;
 }
 
+span.white-icon-overwrite ::before {
+  color: #ffffff !important;
+}
+
+span.greyd-icon-overwrite ::before {
+  color: #74767A !important;
+}
+
 /*Four Column Layout Grid*/
 .four-column-layout {
   display: grid;

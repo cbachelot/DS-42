@@ -97,6 +97,23 @@ li{
     mix-blend-mode: multiply;
 }
 
+/*Colors for Colors Page*/
+
+.allied-red{
+    background-color: $allied_red;
+
+}
+
+.allied-red-dark{
+    background-color: $allied_red_d;
+
+}
+
+.allied-red-light{
+    background-color: $allied_red_l;
+
+}
+
 
 /* Start of the Nav */
 #ds42-nav {
@@ -202,8 +219,6 @@ nav a {
   }
 
 
-
-
 /* START OF THE BODY GRID */
 
 .page-grid {
@@ -302,8 +317,42 @@ color: $ds42_white;
 
 }
 
-.page-overview .content-column-left{
+.page-overview .content-column-left:first-of-type{
     margin: 0;
+}
+
+.page-content .content-column-left{
+    margin-top: 0px;
+}
+
+.align-top{
+    margin-top: 0px;
+}
+
+.color-container{
+    display: grid;
+    grid-column-gap: 2%;
+    grid-row-gap:15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr);
+}
+
+.color-container > div{
+    padding: 20px;
+}
+
+.color-container > div > p{
+    margin:0px;
+}
+
+.color-block{
+    display: grid;
+    border: solid 1px $ds42_blue_daccent;
+}
+
+.color-data{
+    display: grid;
+    border: solid 1px $ds42_blue_daccent;
 }
 
 /*Four Column Layout Grid*/
@@ -344,6 +393,7 @@ a .overview-section-cta:hover{
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
 }
+
 /*Horizontal Scroll Indicator*/
 /* Style the header: fixed position (always stay at the top) */
 .prog-bar {
@@ -477,6 +527,3 @@ a .overview-section-cta:hover{
         
     }
 }
-
-
-

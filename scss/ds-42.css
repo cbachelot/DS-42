@@ -97,6 +97,19 @@ li {
   mix-blend-mode: multiply;
 }
 
+/*Colors for Colors Page*/
+.allied-red {
+  background-color: #DA291C;
+}
+
+.allied-red-dark {
+  background-color: #9E0000;
+}
+
+.allied-red-light {
+  background-color: #FF6147;
+}
+
 /* Start of the Nav */
 #ds42-nav {
   grid-area: nav;
@@ -278,8 +291,42 @@ nav a {
   color: #ffffff;
 }
 
-.page-overview .content-column-left {
+.page-overview .content-column-left:first-of-type {
   margin: 0;
+}
+
+.page-content .content-column-left {
+  margin-top: 0px;
+}
+
+.align-top {
+  margin-top: 0px;
+}
+
+.color-container {
+  display: grid;
+  grid-column-gap: 2%;
+  grid-row-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1fr);
+}
+
+.color-container > div {
+  padding: 20px;
+}
+
+.color-container > div > p {
+  margin: 0px;
+}
+
+.color-block {
+  display: grid;
+  border: solid 1px #002E45;
+}
+
+.color-data {
+  display: grid;
+  border: solid 1px #002E45;
 }
 
 /*Four Column Layout Grid*/

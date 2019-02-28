@@ -305,7 +305,7 @@ nav a {
 
 .color-container {
   display: grid;
-  grid-column-gap: 2%;
+  grid-column-gap: 1%;
   grid-row-gap: 15px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(1fr);
@@ -321,12 +321,37 @@ nav a {
 
 .color-block {
   display: grid;
-  border: solid 1px #002E45;
+}
+
+.color-block p {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 24px;
 }
 
 .color-data {
   display: grid;
   border: solid 1px #002E45;
+}
+
+.color-data p {
+  margin-top: 0px;
+}
+
+.color-data p:last-of-type {
+  margin-bottom: 0px;
+}
+
+.color-data {
+  font-size: 24px;
+  text-align: middle;
+  vertical-align: top;
+  margin-left: 12px;
+}
+
+.copy-icon {
+  margin-left: 8px;
+  cursor: pointer;
 }
 
 /*Four Column Layout Grid*/

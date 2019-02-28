@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>tools-wrench</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tools-wrench" fill="#979797">
+            <g id="wrench">
+                <path d="M17.0173353,16.3436231 L9.89559618,8.03492742 C10.599944,5.93492742 10.2086397,3.46971002 8.72168314,1.73492742 C7.15646575,-0.0911595402 4.80863966,-0.456376932 2.93037879,0.547970895 L6.29559618,4.47405785 L3.94777009,7.21318829 L0.504291833,3.28710133 C-0.434838601,5.47840568 -0.0435342535,8.21753611 1.52168314,10.0436231 C3.00863966,11.7784057 5.12168314,12.2349274 6.92168314,11.4131883 L14.0434223,19.7218839 C14.3564657,20.0871013 14.826031,20.0871013 15.1390744,19.7218839 L16.9390744,17.6218839 C17.3303788,17.2566665 17.3303788,16.6175361 17.0173353,16.3436231 Z" id="Shape" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="19px" viewBox="0 0 15 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Filter (Data Table)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-22">
+            <g id="Group-21" transform="translate(0.000000, 0.135937)">
+                <g id="Filter-(Data-Table)">
+                    <g id="Group-29">
+                        <path d="M5.13147401,18.5329166 L5.13147401,8.29311597 C4.92499107,8.15300857 4.7287046,7.99146958 4.54573402,7.808499 L1.03404533,4.29681031 C0.201677733,3.46444272 -0.187160594,2.35650137 -0.132469655,1.26666667 L14.9005594,1.26666667 C14.9498465,2.35041157 14.5607074,3.45037989 13.7331421,4.27794513 L10.2025883,7.808499 C9.96816912,8.04291815 9.71189281,8.24215873 9.44031943,8.40622074 L9.44031943,15.5822596 L5.13147401,18.5329166 Z" id="Combined-Shape" fill="#979797"></path>
+                        <ellipse id="Oval-2" fill="#E4E4E4" cx="7.3779085" cy="1.26666667" rx="7.24160154" ry="1"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="21px" viewBox="0 0 28 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Credit-Card-Add</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Credit-Card-Add" transform="translate(2.000000, 2.000000)">
+            <g>
+                <g id="Credit-Card">
+                    <g id="Group">
+                        <rect id="Rectangle-4" stroke="#979797" stroke-width="2" x="-1" y="-1" width="22" height="16.7826087" rx="2"></rect>
+                        <rect id="Rectangle-5" fill="#979797" x="0" y="3" width="20" height="4.48000002"></rect>
+                    </g>
+                </g>
+                <circle id="Oval-3" fill="#FFFFFF" cx="19" cy="12" r="7"></circle>
+                <g id="add-circle" transform="translate(13.000000, 6.000000)" fill="#8FA500">
+                    <g id="Shape">
+                        <path d="M6,0 C2.7,0 0,2.7 0,6 C0,9.3 2.7,12 6,12 C9.3,12 12,9.3 12,6 C12,2.7 9.3,0 6,0 L6,0 Z M9,6.6 L6.6,6.6 L6.6,9 L5.4,9 L5.4,6.6 L3,6.6 L3,5.4 L5.4,5.4 L5.4,3 L6.6,3 L6.6,5.4 L9,5.4 L9,6.6 L9,6.6 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="20px" viewBox="0 0 14 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>map-marker</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0004 14 0.0004 14 19.748 0 19.748"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="map-marker">
+            <g id="Page-1">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M4.5,7 C4.5,5.619 5.619,4.5 7,4.5 C8.381,4.5 9.5,5.619 9.5,7 C9.5,8.381 8.381,9.5 7,9.5 C5.619,9.5 4.5,8.381 4.5,7 M14,7 C14,3.134 10.866,0 7,0 C3.134,0 0,3.134 0,7 C0,11.541 5.227,17.939 6.641,19.588 C6.734,19.686 6.863,19.748 7.008,19.748 C7.165,19.748 7.299,19.674 7.392,19.563 C7.396,19.562 7.404,19.556 7.407,19.555 C8.726,18.026 14,11.607 14,7" id="Fill-1" fill="#000000" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

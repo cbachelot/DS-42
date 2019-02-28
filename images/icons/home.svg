@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="19px" viewBox="0 0 21 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>home</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" fill="#191919">
+            <g>
+                <g transform="translate(0.000000, 0.527778)">
+                    <path d="M8.35999985,15.6300046 L8.35999985,11.6111109 L12.5399998,11.6111109 L12.5399998,16.3008081 L17.7649997,16.3008081 L17.7649997,9.49999983 L20.8999996,9.49999983 L11.1226726,0.611520722 C10.7412514,0.264774153 10.1587482,0.264774153 9.77732702,0.611520722 L0,9.49999983 L3.13499994,9.49999983 L3.13499994,16.6309269 L8.35999985,15.6300046 Z" id="Shape"></path>
+                    <rect id="Rectangle" x="3.13499994" y="12.6666664" width="5.2249999" height="5.27777768"></rect>
+                    <rect id="Rectangle" x="12.5399998" y="12.6666664" width="5.2249999" height="5.27777768"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

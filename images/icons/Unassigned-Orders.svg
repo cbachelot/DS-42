@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="17px" viewBox="0 0 22 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Unassigned-Orders</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Unassigned-Orders" transform="translate(0.000000, -2.000000)">
+            <g id="Group-10">
+                <g>
+                    <g id="Group-9" transform="translate(5.000000, 2.000000)" fill="#686868">
+                        <path d="M8.5,8.5 C10.8375,8.5 12.75,6.5875 12.75,4.25 C12.75,1.9125 10.8375,0 8.5,0 C6.1625,0 4.25,1.9125 4.25,4.25 C4.25,6.5875 6.1625,8.5 8.5,8.5 L8.5,8.5 Z" id="Path"></path>
+                        <path d="M8.5,10.625 C5.63125,10.625 0,12.00625 0,14.875 L0,17 L17,17 L17,14.875 C17,12.00625 11.36875,10.625 8.5,10.625 L8.5,10.625 Z" id="Path"></path>
+                    </g>
+                    <text id="?" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="12.5" font-weight="normal" fill="#9E0000">
+                        <tspan x="0" y="12">?</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

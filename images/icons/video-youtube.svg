@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>video-youtube</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="video-youtube" fill="#BBBDBF">
+            <g id="Shape">
+                <path d="M16.2,0.35 C15.66,0.175 12.33,0 9,0 C5.67,0 2.34,0.175 1.8,0.35 C0.36,0.7875 0,3.85 0,7 C0,10.15 0.36,13.2125 1.8,13.65 C2.34,13.825 5.67,14 9,14 C12.33,14 15.66,13.825 16.2,13.65 C17.64,13.2125 18,10.15 18,7 C18,3.85 17.64,0.7875 16.2,0.35 L16.2,0.35 Z M7.2,10.9375 L7.2,3.0625 L12.6,7 L7.2,10.9375 L7.2,10.9375 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

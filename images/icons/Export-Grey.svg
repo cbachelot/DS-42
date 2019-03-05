@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Export-Grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Export-Grey" fill="#979797">
+            <g id="Export-gray">
+                <path d="M18.5469459,7.5352 L13.1475405,7.5352 L13.1475405,0.3082 C13.1475405,0.1382 12.9871622,0.0002 12.7907568,0.0002 L6.966,0.0002 C6.76959459,0.0002 6.61037838,0.1382 6.61037838,0.3082 L6.61037838,7.5352 L1.20981081,7.5352 C1.14124324,7.6252 1.14589189,7.7582 1.22491892,7.8422 L9.7272973,16.9842 C9.80981081,17.0752 9.94694595,17.0752 10.0294595,16.9842 L18.5318378,7.8422 C18.6108649,7.7582 18.6155135,7.6252 18.5469459,7.5352" id="Fill-1"></path>
+                <polygon id="Fill-3" points="18.5945946 17 18.5945946 19 1.16216216 19 1.16216216 17 0 17 0 21 1.16216216 21 18.5945946 21 19.7567568 21 19.7567568 17"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

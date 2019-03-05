@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="20px" viewBox="0 0 17 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>calendar-date-picked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-413.000000, -939.000000)">
+            <g id="calendar-date-picked" transform="translate(413.000000, 939.000000)">
+                <g id="calendar-picker">
+                    <g>
+                        <g id="calendar-blank" transform="translate(0.000000, 1.818182)" fill="#979797" fill-rule="nonzero">
+                            <path d="M14.5454545,16.3636364 L1.81818182,16.3636364 L1.81818182,6.36363636 L14.5454545,6.36363636 M11.8181818,0 L11.8181818,1.81818182 L4.54545455,1.81818182 L4.54545455,0 L2.72727273,0 L2.72727273,1.81818182 L1.81818182,1.81818182 C0.809090909,1.81818182 0,2.62727273 0,3.63636364 L0,16.3636364 C0,17.3677905 0.814027728,18.1818182 1.81818182,18.1818182 L14.5454545,18.1818182 C15.5496086,18.1818182 16.3636364,17.3677905 16.3636364,16.3636364 L16.3636364,3.63636364 C16.3636364,2.62727273 15.5454545,1.81818182 14.5454545,1.81818182 L13.6363636,1.81818182 L13.6363636,0" id="Shape"></path>
+                        </g>
+                        <circle id="Oval-3" fill="#979797" cx="12.7272727" cy="1.81818182" r="1"></circle>
+                        <circle id="Oval-3" fill="#979797" cx="3.63636364" cy="1.81818182" r="1"></circle>
+                        <circle id="Oval" fill="#8FA500" cx="11.25" cy="11.5" r="2"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -28,3 +28,4 @@ document.body.addEventListener("click", function(e) {
     testText.addEventListener('change', updateTest, false);
     updateSize();
 }());
+

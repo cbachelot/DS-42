@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="23px" viewBox="0 0 16 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>compliance check</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="compliance-check" transform="translate(-1.000000, -1.000000)" fill="#8FA500">
+            <g id="check" stroke-width="1" transform="translate(4.000000, 9.000000)">
+                <g transform="translate(0.000000, 0.321429)" id="Shape">
+                    <polygon points="3.61703704 5.83964286 1.57925926 3.87464286 0.9 4.52964286 3.61703704 7.14964286 9.43925926 1.53535714 8.76 0.880357143"></polygon>
+                </g>
+            </g>
+            <path d="M15,22 L3,22 L3,5 L5,5 L5,6.476 C5,6.764 5.236,7 5.524,7 L12.476,7 C12.764,7 13,6.764 13,6.476 L13,5 L15,5 L15,22 Z M16.476,3 L11,3 L11,1.524 C11,1.235 10.764,1 10.476,1 L7.524,1 C7.236,1 7,1.235 7,1.524 L7,3 L1.524,3 C1.236,3 1,3.235 1,3.524 L1,23.476 C1,23.764 1.236,24 1.524,24 L16.476,24 C16.764,24 17,23.764 17,23.476 L17,3.524 C17,3.235 16.764,3 16.476,3 Z" id="Page-1"></path>
+        </g>
+    </g>
+</svg>

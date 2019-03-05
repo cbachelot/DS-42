@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>post-twitter</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer-2" transform="translate(-971.000000, -179.000000)" fill="#2C2C2C">
+            <g id="footer" transform="translate(-1.000000, 0.000000)">
+                <g id="post-twitter" transform="translate(972.000000, 179.000000)">
+                    <g id="Shape">
+                        <path d="M28.8,0 L3.2,0 C1.44,0 0,1.44 0,3.2 L0,28.8 C0,30.56 1.44,32 3.2,32 L28.8,32 C30.56,32 32,30.56 32,28.8 L32,3.2 C32,1.44 30.56,0 28.8,0 L28.8,0 Z M25.12,11.68 C24.96,19.04 20.32,24.16 13.28,24.48 C10.4,24.64 8.32,23.68 6.4,22.56 C8.48,22.88 11.2,22.08 12.64,20.8 C10.56,20.64 9.28,19.52 8.64,17.76 C9.28,17.92 9.92,17.76 10.4,17.76 C8.48,17.12 7.2,16 7.04,13.44 C7.52,13.76 8.16,13.92 8.8,13.92 C7.36,13.12 6.4,10.08 7.52,8.16 C9.6,10.4 12.16,12.32 16.32,12.64 C15.2,8.16 21.28,5.76 23.68,8.8 C24.8,8.64 25.6,8.16 26.4,7.84 C26.08,8.96 25.44,9.6 24.64,10.24 C25.44,10.08 26.24,9.92 26.88,9.6 C26.72,10.4 25.92,11.04 25.12,11.68 L25.12,11.68 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

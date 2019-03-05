@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="22px" viewBox="0 0 28 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Credit-Card-Saved</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Credit-Card">
+            <g id="Group" stroke-width="1" transform="translate(2.000000, 2.000000)">
+                <rect id="Rectangle-4" stroke="#979797" stroke-width="2" x="-1" y="-1" width="22" height="16.7826087" rx="2"></rect>
+                <rect id="Rectangle-5" fill="#979797" x="0" y="3" width="20" height="4.48000002"></rect>
+            </g>
+            <circle id="Oval-3" fill="#FFFFFF" cx="21" cy="15" r="7"></circle>
+            <circle id="Oval-3" fill="#8FA500" cx="21" cy="15" r="6"></circle>
+            <g id="check" transform="translate(16.000000, 11.000000)" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1">
+                <g transform="translate(0.476190, 0.947368)" id="Shape">
+                    <polygon stroke-width="0.5" points="2.85714286 5.30526316 0.857142857 3.31578947 0.19047619 3.97894737 2.85714286 6.63157895 8.57142857 0.947368421 7.9047619 0.284210526"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

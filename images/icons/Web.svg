@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="18.5" height="9.5"></rect>
+        <rect id="path-3" x="0" y="0" width="18.5" height="9.5"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet---CMS-Search-Copy-2" transform="translate(-36.000000, -506.000000)">
+            <g id="Group-22" transform="translate(36.000000, 506.000000)">
+                <g id="Group-21">
+                    <g id="Combined-Shape" transform="translate(0.000000, 6.000000)">
+                        <g>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill-opacity="0" fill="#D4D4D4" xlink:href="#path-1"></use>
+                            <path d="M19,12 C19,15.4517797 14.9705627,18.25 10,18.25 C5.02943725,18.25 1,15.4517797 1,12 C1,8.54822031 5.02943725,5.75 10,5.75 C14.9705627,5.75 19,8.54822031 19,12 Z M18,12 C18,9.51471863 14.418278,7.5 10,7.5 C5.581722,7.5 2,9.51471863 2,12 C2,14.4852814 5.581722,16.5 10,16.5 C14.418278,16.5 18,14.4852814 18,12 Z" fill="#979797" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                    <path d="M10,20 C4.4771525,20 0,15.5228475 0,10 C0,4.4771525 4.4771525,0 10,0 C15.5228475,0 20,4.4771525 20,10 C20,15.5228475 15.5228475,20 10,20 Z M10,18.5 C14.6944204,18.5 18.5,14.6944204 18.5,10 C18.5,5.30557963 14.6944204,1.5 10,1.5 C5.30557963,1.5 1.5,5.30557963 1.5,10 C1.5,14.6944204 5.30557963,18.5 10,18.5 Z" id="Combined-Shape" fill="#979797"></path>
+                    <path d="M10,19 C6.54822031,19 3.75,14.9705627 3.75,10 C3.75,5.02943725 6.54822031,1 10,1 C13.4517797,1 16.25,5.02943725 16.25,10 C16.25,14.9705627 13.4517797,19 10,19 Z M10,18 C12.4852814,18 14.5,14.418278 14.5,10 C14.5,5.581722 12.4852814,2 10,2 C7.51471863,2 5.5,5.581722 5.5,10 C5.5,14.418278 7.51471863,18 10,18 Z" id="Combined-Shape" fill="#979797"></path>
+                    <g id="Combined-Shape" transform="translate(9.500000, 9.000000) scale(1, -1) translate(-9.500000, -9.000000) translate(0.000000, 4.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill-opacity="0" fill="#D4D4D4" xlink:href="#path-3"></use>
+                        <path d="M19,12 C19,15.4517797 14.9705627,18.25 10,18.25 C5.02943725,18.25 1,15.4517797 1,12 C1,8.54822031 5.02943725,5.75 10,5.75 C14.9705627,5.75 19,8.54822031 19,12 Z M18,12 C18,9.51471863 14.418278,7.5 10,7.5 C5.581722,7.5 2,9.51471863 2,12 C2,14.4852814 5.581722,16.5 10,16.5 C14.418278,16.5 18,14.4852814 18,12 Z" fill="#979797" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

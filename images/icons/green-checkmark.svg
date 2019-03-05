@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>green-checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="green-checkmark">
+            <g>
+                <circle id="Oval-3" fill="#8FA500" cx="10" cy="10" r="10"></circle>
+                <g id="check" transform="translate(2.666667, 4.333333)" fill="#FFFFFF" stroke="#FFFFFF">
+                    <g transform="translate(0.714286, 1.368421)" id="Shape">
+                        <polygon stroke-width="0.5" points="4.28571429 7.66315789 1.28571429 4.78947368 0.285714286 5.74736842 4.28571429 9.57894737 12.8571429 1.36842105 11.8571429 0.410526316"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

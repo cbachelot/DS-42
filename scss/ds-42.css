@@ -97,6 +97,19 @@ li {
   mix-blend-mode: multiply;
 }
 
+/*Colors for Colors Page*/
+.allied-red {
+  background-color: #DA291C;
+}
+
+.allied-red-dark {
+  background-color: #9E0000;
+}
+
+.allied-red-light {
+  background-color: #FF6147;
+}
+
 /* Start of the Nav */
 #ds42-nav {
   grid-area: nav;
@@ -283,8 +296,75 @@ nav a {
   color: #ffffff;
 }
 
-.page-overview .content-column-left {
+.page-overview .content-column-left:first-of-type {
   margin: 0;
+}
+
+.page-content .content-column-left {
+  margin-top: 0px;
+}
+
+.align-top {
+  margin-top: 0px;
+}
+
+.color-container {
+  display: grid;
+  grid-column-gap: 1%;
+  grid-row-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(1fr);
+}
+
+.color-container > div {
+  padding: 20px;
+}
+
+.color-container > div > p {
+  margin: 0px;
+}
+
+.color-block {
+  display: grid;
+}
+
+.color-block p {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.color-data {
+  display: grid;
+  border: solid 1px #002E45;
+}
+
+.color-data p {
+  margin-top: 0px;
+}
+
+.color-data p:last-of-type {
+  margin-bottom: 0px;
+}
+
+.color-data {
+  font-size: 24px;
+  text-align: middle;
+  vertical-align: top;
+  margin-left: 12px;
+}
+
+.copy-icon {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+span.white-icon-overwrite ::before {
+  color: #ffffff !important;
+}
+
+span.greyd-icon-overwrite ::before {
+  color: #74767A !important;
 }
 
 /*Four Column Layout Grid*/
@@ -322,6 +402,30 @@ a .overview-section-cta:hover {
   -ms-transition: border .2s ease-in-out;
   -o-transition: border .2s ease-in-out;
   transition: border .2s ease-in-out;
+}
+
+/*Horizontal Scroll Indicator*/
+/* Style the header: fixed position (always stay at the top) */
+.prog-bar {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  background-color: transparent;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 3px;
+  background: transparent;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 3px;
+  background: linear-gradient(to right top, #484166, #624473, #814479, #a04177, #bd3f6e);
+  width: 0%;
 }
 
 /*CodePen Edits*/

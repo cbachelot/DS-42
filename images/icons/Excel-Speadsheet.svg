@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Excel-Speadsheet</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="9.50013571 19 19 19 19 0 9.50013571 0 0.000271428571 0 0.000271428571 19"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Excel-Speadsheet">
+            <g id="Excel">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M16.6130571,15.9464286 L11.7225929,15.9464286 L9.2777,12.3900357 L7.0547,15.9464286 L2.38680714,15.9464286 L7.0547,9.5 L2.38680714,3.05357143 L7.0547,3.05357143 L9.2777,6.60996429 L11.7225929,3.05357143 L16.6130571,3.05357143 L11.7225929,9.5 L16.6130571,15.9464286 Z M17.6431286,0 L1.35741429,0 C0.607592857,0 0.000271428571,0.608 0.000271428571,1.35714286 L0.000271428571,17.6428571 C0.000271428571,18.392 0.607592857,19 1.35741429,19 L17.6431286,19 C18.3922714,19 19.0002714,18.392 19.0002714,17.6428571 L19.0002714,1.35714286 C19.0002714,0.608 18.3922714,0 17.6431286,0 Z" id="Fill-1" fill="#686868" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

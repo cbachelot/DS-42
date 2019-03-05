@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Buttons-Copy" transform="translate(-1215.000000, -1485.000000)" fill="#9E0000">
+            <g id="Close" transform="translate(1215.000000, 1485.000000)">
+                <g id="X">
+                    <path d="M6.7658166,4.54640097 L11.3306533,-0.0184357232 L13.0952636,1.74617455 L8.53042687,6.31101125 L13.0952636,10.8758479 L11.3306533,12.6404582 L6.7658166,8.07562152 L2.2009799,12.6404582 L0.436369627,10.8758479 L5.00120632,6.31101125 L0.436369627,1.74617455 L2.2009799,-0.0184357232 L6.7658166,4.54640097 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

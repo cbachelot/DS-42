@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="23px" viewBox="0 0 25 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>FAX</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="FAX">
+            <g>
+                <g id="fax" transform="translate(6.250000, 0.000000)" fill="#000000" fill-rule="nonzero">
+                    <path d="M1.25,7.5 L1.25,0 L15,0 L15,7.5 C17.0710678,7.5 18.75,9.17893219 18.75,11.25 L18.75,18.75 L15,18.75 L15,22.5 L1.25,22.5 L1.25,18.75 L0,18.75 L0,7.5 L1.25,7.5 Z M2.5,7.5 L13.75,7.5 L13.75,1.25 L2.5,1.25 L2.5,7.5 Z M3.75,15 L3.75,20 L12.5,20 L12.5,15 L3.75,15 Z M15,10 C14.3096441,10 13.75,10.5596441 13.75,11.25 C13.75,11.9403559 14.3096441,12.5 15,12.5 C15.6903559,12.5 16.25,11.9403559 16.25,11.25 C16.25,10.5596441 15.6903559,10 15,10 Z" id="Shape"></path>
+                </g>
+                <g id="Group" transform="translate(0.000000, 2.500000)">
+                    <path d="M5,6.25 L2.5,6.25 L2.5,16.25 L5,16.25 L5,17.0833333 C5,18.0038079 4.44035594,18.75 3.75,18.75 L2.5,18.75 C1.11928813,18.75 0,17.2576158 0,15.4166667 L0,7.08333333 C-2.77555756e-16,5.24238417 1.11928813,3.75 2.5,3.75 L3.75,3.75 C4.44035594,3.75 5,4.49619208 5,5.41666667 L5,6.25 Z" id="Combined-Shape" fill="#000000"></path>
+                    <path d="M5,6.25 C5,7.63071187 4.16053391,8.75 3.125,8.75 L2.1875,8.75 C1.66973305,8.75 1.25,8.19035594 1.25,7.5 L1.25,6.25 L5,6.25 Z" id="Combined-Shape" fill="#000000"></path>
+                    <path d="M5,13.75 C5,15.1307119 4.16053391,16.25 3.125,16.25 L2.1875,16.25 C1.66973305,16.25 1.25,15.6903559 1.25,15 L1.25,13.75 L5,13.75 Z" id="Combined-Shape" fill="#000000" transform="translate(3.125000, 15.000000) rotate(-180.000000) translate(-3.125000, -15.000000) "></path>
+                    <polygon id="Path" fill="#979797" points="11.25 0 17.5 0 17.5 1.25 11.25 1.25"></polygon>
+                    <polygon id="Path" fill="#979797" points="11.25 2.5 17.5 2.5 17.5 3.75 11.25 3.75"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

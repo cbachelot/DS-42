@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="11px" viewBox="0 0 9 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="delete" fill="#9E0000">
+            <g id="Shape">
+                <path d="M0.642857143,9.77777778 C0.642857143,10.45 1.22142857,11 1.92857143,11 L7.07142857,11 C7.77857143,11 8.35714286,10.45 8.35714286,9.77777778 L8.35714286,2.44444444 L0.642857143,2.44444444 L0.642857143,9.77777778 L0.642857143,9.77777778 Z M9,0.611111111 L6.75,0.611111111 L6.10714286,0 L2.89285714,0 L2.25,0.611111111 L0,0.611111111 L0,1.83333333 L9,1.83333333 L9,0.611111111 L9,0.611111111 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

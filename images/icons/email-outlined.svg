@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>email-outlined</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="email-outline" fill="#979797">
+            <g id="Page-1">
+                <path d="M2.041,14.0737 L17.958,14.0737 L17.958,1.9907 L2.041,1.9907 L2.041,14.0737 Z M18.001,-0.0003 L1.999,-0.0003 C0.899,-0.0003 0,0.8997 0,1.9987 L0,14.0637 C0,15.1627 0.899,16.0627 1.999,16.0627 L18.001,16.0627 C19.101,16.0627 20,15.1627 20,14.0637 L20,1.9987 C20,0.8997 19.101,-0.0003 18.001,-0.0003 Z" id="Fill-1"></path>
+                <polygon id="Fill-3" points="16.6631 3.3887 10.0001 7.5537 3.3361 3.3887 3.3361 5.7527 9.9961 9.9107 16.6631 5.7527"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

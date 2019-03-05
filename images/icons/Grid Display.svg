@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Grid Display</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grid-Display" fill="#1B1B1B">
+            <rect id="Rectangle" x="0" y="0" width="5" height="5"></rect>
+            <rect id="Rectangle-Copy-3" x="0" y="8" width="5" height="5"></rect>
+            <rect id="Rectangle-Copy-6" x="0" y="16" width="5" height="5"></rect>
+            <rect id="Rectangle-Copy" x="8" y="0" width="5" height="5"></rect>
+            <rect id="Rectangle-Copy-4" x="8" y="8" width="5" height="5"></rect>
+            <rect id="Rectangle-Copy-7" x="8" y="16" width="5" height="5"></rect>
+            <rect id="Rectangle-Copy-2" x="16" y="0" width="5" height="5"></rect>
+            <rect id="Rectangle-Copy-5" x="16" y="8" width="5" height="5"></rect>
+            <rect id="Rectangle-Copy-8" x="16" y="16" width="5" height="5"></rect>
+        </g>
+    </g>
+</svg>

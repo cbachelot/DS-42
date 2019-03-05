@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>box</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="box" transform="translate(9.000000, 10.000000) scale(-1, 1) translate(-9.000000, -10.000000) " fill="#191919" fill-rule="nonzero">
+            <path d="M18,14.5 C18,14.88 17.79,15.21 17.47,15.38 L9.57,19.82 C9.41,19.94 9.21,20 9,20 C8.79,20 8.59,19.94 8.43,19.82 L0.53,15.38 C0.21,15.21 0,14.88 0,14.5 L0,5.5 C0,5.12 0.21,4.79 0.53,4.62 L8.43,0.18 C8.59,0.06 8.79,0 9,0 C9.21,0 9.41,0.06 9.57,0.18 L17.47,4.62 C17.79,4.79 18,5.12 18,5.5 L18,14.5 Z M9,2.15 L7.11,3.22 L13,6.61 L14.96,5.5 L9,2.15 Z M3.04,5.5 L9,8.85 L10.96,7.75 L5.08,4.35 L3.04,5.5 Z M2,13.91 L8,17.29 L8,10.58 L2,7.21 L2,13.91 Z M16,13.91 L16,7.21 L10,10.58 L10,17.29 L16,13.91 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

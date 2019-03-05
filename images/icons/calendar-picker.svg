@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="23px" viewBox="0 0 20 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>calendar-picker</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="calendar-picker" transform="translate(0.000000, -1.000000)">
+            <g id="calendar-blank" stroke-width="1" transform="translate(0.000000, 2.181818)" fill="#979797">
+                <path d="M17.7777778,19.6363636 L2.22222222,19.6363636 L2.22222222,7.63636364 L17.7777778,7.63636364 M14.4444444,0 L14.4444444,2.18181818 L5.55555556,2.18181818 L5.55555556,0 L3.33333333,0 L3.33333333,2.18181818 L2.22222222,2.18181818 C0.988888889,2.18181818 0,3.15272727 0,4.36363636 L0,19.6363636 C0,20.8413485 0.994922778,21.8181818 2.22222222,21.8181818 L17.7777778,21.8181818 C19.0050772,21.8181818 20,20.8413485 20,19.6363636 L20,4.36363636 C20,3.15272727 19,2.18181818 17.7777778,2.18181818 L16.6666667,2.18181818 L16.6666667,0" id="Shape" fill-rule="nonzero"></path>
+            </g>
+            <ellipse id="Oval-3" fill="#979797" cx="15.5555556" cy="2.18181818" rx="1.11111111" ry="1.09090909"></ellipse>
+            <ellipse id="Oval-3" fill="#8FA500" cx="10" cy="12.5454545" rx="1.11111111" ry="1.63636364"></ellipse>
+            <ellipse id="Oval-3" fill="#8FA500" cx="15.5555556" cy="12.5454545" rx="1.11111111" ry="1.63636364"></ellipse>
+            <ellipse id="Oval-3" fill="#979797" cx="4.44444444" cy="2.18181818" rx="1.11111111" ry="1.09090909"></ellipse>
+            <rect id="Rectangle-3" fill="#8FA500" x="10" y="10.9090909" width="5.55555556" height="3.27272727"></rect>
+            <ellipse id="Oval-3" fill="#8FA500" cx="4.44444444" cy="16.9090909" rx="1.11111111" ry="1.63636364"></ellipse>
+            <ellipse id="Oval-3" fill="#8FA500" cx="10" cy="16.9090909" rx="1.11111111" ry="1.63636364"></ellipse>
+            <rect id="Rectangle-3" fill="#8FA500" x="4.44444444" y="15.2727273" width="5.55555556" height="3.27272727"></rect>
+            <rect id="Path" fill="#2C2C2C" x="4.44444444" y="16.3636364" width="1.11111111" height="1.09090909"></rect>
+            <rect id="Path" fill="#2C2C2C" x="6.66666667" y="16.3636364" width="1.11111111" height="1.09090909"></rect>
+            <rect id="Path" fill="#2C2C2C" x="8.88888889" y="16.3636364" width="1.11111111" height="1.09090909"></rect>
+            <rect id="Path" fill="#2C2C2C" x="12.2222222" y="12" width="1.11111111" height="1.09090909"></rect>
+            <rect id="Path" fill="#2C2C2C" x="10" y="12" width="1.11111111" height="1.09090909"></rect>
+            <rect id="Path" fill="#2C2C2C" x="14.4444444" y="12" width="1.11111111" height="1.09090909"></rect>
+        </g>
+    </g>
+</svg>

@@ -71,25 +71,31 @@ li {
 }
 
 .ds42-main-grid {
+  display: -ms-grid;
   display: grid;
   font-family: lato, verdana, arial, san-serif;
-  grid-template-columns: 300px 1fr;
-  grid-template-areas: "nav body";
+  -ms-grid-columns: 300px 1fr;
+      grid-template-columns: 300px 1fr;
+      grid-template-areas: "nav body";
 }
 
 .green-gradient {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#007758), color-stop(#0a805e), color-stop(#148865), color-stop(#1c916b), color-stop(#249a72), color-stop(#39a675), color-stop(#4cb177), color-stop(#5fbd79), color-stop(#83cd76), color-stop(#a8dd72), color-stop(#cfeb70), to(#f9f871));
   background-image: linear-gradient(to right top, #007758, #0a805e, #148865, #1c916b, #249a72, #39a675, #4cb177, #5fbd79, #83cd76, #a8dd72, #cfeb70, #f9f871);
 }
 
 .red-gradient {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#792632), color-stop(#7f2837), color-stop(#852b3c), color-stop(#8a2d41), color-stop(#903046), color-stop(#96324b), color-stop(#9b3550), color-stop(#a13755), color-stop(#a8395b), color-stop(#af3b61), color-stop(#b63d67), to(#bd3f6e));
   background-image: linear-gradient(to right top, #792632, #7f2837, #852b3c, #8a2d41, #903046, #96324b, #9b3550, #a13755, #a8395b, #af3b61, #b63d67, #bd3f6e);
 }
 
 .blue-gradient {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#001d2c), color-stop(#002434), color-stop(#002c3d), color-stop(#003445), color-stop(#003c4d), color-stop(#004454), color-stop(#004b5b), color-stop(#005361), color-stop(#005c67), color-stop(#00646c), color-stop(#006d71), to(#007674));
   background-image: linear-gradient(to right top, #001d2c, #002434, #002c3d, #003445, #003c4d, #004454, #004b5b, #005361, #005c67, #00646c, #006d71, #007674);
 }
 
 .purple-gradient {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#484166), color-stop(#624473), color-stop(#814479), color-stop(#a04177), to(#bd3f6e));
   background-image: linear-gradient(to right top, #484166, #624473, #814479, #a04177, #bd3f6e);
 }
 
@@ -112,9 +118,12 @@ li {
 
 /* Start of the Nav */
 #ds42-nav {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   grid-area: nav;
   background-color: #001D2C;
   color: white;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
   z-index: 2;
   position: fixed;
@@ -125,7 +134,6 @@ li {
 
 nav {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -179,8 +187,6 @@ nav a {
   padding-left: 33px;
   width: 277px;
   -webkit-transition: padding-left 0.2s ease-in-out, border-left 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -moz-transition: padding-left 0.2s ease-in-out, border-left 0.2s ease-in-out, background-color 0.2s ease-in-out;
-  -o-transition: padding-left 0.2s ease-in-out, border-left 0.2s ease-in-out, background-color 0.2s ease-in-out;
   transition: padding-left 0.2s ease-in-out, border-left 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
@@ -203,6 +209,8 @@ nav a {
 
 /* End of Nav */
 .ds42-body {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
   grid-area: body;
 }
 
@@ -212,45 +220,86 @@ nav a {
 
 /* START OF THE BODY GRID */
 .page-grid {
+  display: -ms-grid;
   display: grid;
-  grid-template-rows: auto auto;
-  grid-template-areas: "pageoverview" "pagecontent";
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+      grid-template-areas: "pageoverview" "pagecontent";
 }
 
 .page-content {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
   grid-area: pagecontent;
   padding: 100px;
 }
 
+.content-column-two {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2%;
+  margin-bottom: 85px;
+}
+
+.content-column-two img {
+  width: 100%;
+}
+
+.two-col-left {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.two-col-right {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .content-three-column-even img {
-  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 .content-three-column-even img:hover {
-  box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: -webkit-box-shadow .3s ease-in-out;
+  transition: -webkit-box-shadow .3s ease-in-out;
   transition: box-shadow .3s ease-in-out;
+  transition: box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
 }
 
 .content-column-right {
+  display: -ms-grid;
   display: grid;
-  grid-template-areas: "left right";
-  grid-template-columns: minmax(min-content, 2fr) minmax(min-content, 1fr);
+      grid-template-areas: "left right";
+  -ms-grid-columns: minmax(min-content, 2fr) minmax(min-content, 1fr);
+      grid-template-columns: minmax(-webkit-min-content, 2fr) minmax(-webkit-min-content, 1fr);
+      grid-template-columns: minmax(min-content, 2fr) minmax(min-content, 1fr);
   margin: 100px 0px;
   grid-column-gap: 2%;
 }
 
 .content-column-left {
+  display: -ms-grid;
   display: grid;
-  grid-template-areas: "left right";
-  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 2fr);
+      grid-template-areas: "left right";
+  -ms-grid-columns: minmax(min-content, 1fr) minmax(min-content, 2fr);
+      grid-template-columns: minmax(-webkit-min-content, 1fr) minmax(-webkit-min-content, 2fr);
+      grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 2fr);
   margin: 100px 0px;
   grid-column-gap: 2%;
 }
 
 .content-column-three {
+  display: -ms-grid;
   display: grid;
-  grid-template-areas: "left middle right";
-  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 2fr) minmax(min-content, 2fr);
+      grid-template-areas: "left middle right";
+  -ms-grid-columns: minmax(min-content, 1fr) minmax(min-content, 2fr) minmax(min-content, 2fr);
+      grid-template-columns: minmax(-webkit-min-content, 1fr) minmax(-webkit-min-content, 2fr) minmax(-webkit-min-content, 2fr);
+      grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 2fr) minmax(min-content, 2fr);
   margin: 100px 0px;
   grid-column-gap: 2%;
 }
@@ -275,6 +324,8 @@ nav a {
 }
 
 .page-overview {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   grid-area: pageoverview;
   background-color: #f4f4f4;
   padding: 100px;
@@ -309,11 +360,14 @@ nav a {
 }
 
 .color-container {
+  display: -ms-grid;
   display: grid;
   grid-column-gap: 1%;
   grid-row-gap: 15px;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(1fr);
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: ()[1fr];
+      grid-template-rows: repeat(1fr);
 }
 
 .color-container > div {
@@ -325,6 +379,7 @@ nav a {
 }
 
 .color-block {
+  display: -ms-grid;
   display: grid;
 }
 
@@ -335,6 +390,7 @@ nav a {
 }
 
 .color-data {
+  display: -ms-grid;
   display: grid;
   border: solid 1px #002E45;
 }
@@ -369,8 +425,10 @@ span.greyd-icon-overwrite ::before {
 
 /*Four Column Layout Grid*/
 .four-column-layout {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-column-gap: 4%;
 }
 
@@ -398,9 +456,6 @@ a, div.overview-section-cta, p, h4 {
 a .overview-section-cta:hover {
   border: solid #e4e4e4 1px;
   -webkit-transition: border .2s ease-in-out;
-  -moz-transition: border .2s ease-in-out;
-  -ms-transition: border .2s ease-in-out;
-  -o-transition: border .2s ease-in-out;
   transition: border .2s ease-in-out;
 }
 
@@ -424,6 +479,7 @@ a .overview-section-cta:hover {
 /* The progress bar (scroll indicator) */
 .progress-bar {
   height: 3px;
+  background: -webkit-gradient(linear, left bottom, right top, from(#484166), color-stop(#624473), color-stop(#814479), color-stop(#a04177), to(#bd3f6e));
   background: linear-gradient(to right top, #484166, #624473, #814479, #a04177, #bd3f6e);
   width: 0%;
 }
@@ -433,10 +489,20 @@ a .overview-section-cta:hover {
   margin-bottom: 40px;
 }
 
+/* Form Fields Page */
+.form-fields-margin {
+  margin-top: 40px;
+}
+
+.remove-margin-bottom {
+  margin-bottom: 0px;
+}
+
 @media only screen and (max-width: 768px) {
   .ds42-main-grid {
-    grid-template-columns: 1fr;
-    grid-template-areas: "nav"  "body";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "nav"  "body";
   }
   #ds42-nav {
     position: fixed;
@@ -445,7 +511,10 @@ a .overview-section-cta:hover {
     bottom: 0;
     width: 310px;
     left: -340px;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: -webkit-transform .3s ease-in-out;
     transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
   }
   #ds-42-nav::-webkit-scrollbar {
     display: none;
@@ -455,7 +524,8 @@ a .overview-section-cta:hover {
     margin: 12px 0px 20px 12px;
   }
   #ds42-nav:target {
-    transform: translateX(340px);
+    -webkit-transform: translateX(340px);
+            transform: translateX(340px);
   }
   .nav-lgo-padding {
     padding-top: 20px;
@@ -467,23 +537,29 @@ a .overview-section-cta:hover {
     margin-top: 12px;
   }
   .content-three-column-even {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
   .content-column-left {
-    grid-template-areas: "left" "right";
-    grid-template-columns: 1fr;
+        grid-template-areas: "left" "right";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     margin: 50px 0px;
   }
   .content-column-right {
-    grid-template-areas: "left" "right";
-    grid-template-columns: 1fr;
+        grid-template-areas: "left" "right";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     margin: 50px 0px;
   }
   .content-column-three {
+    display: -ms-grid;
     display: grid;
-    grid-template-areas: "left" "middle" "right";
-    grid-template-columns: 1fr;
+        grid-template-areas: "left" "middle" "right";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
     margin: 10px 0px;
   }
   .content-column-left img {
@@ -501,4 +577,9 @@ a .overview-section-cta:hover {
   .page-content {
     padding: 10px;
   }
+  .content-column-two {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
+/*# sourceMappingURL=ds-42.css.map */

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="386px" height="122px" viewBox="0 0 386 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="9" cy="9" r="9"></circle>
+        <filter x="-13.9%" y="-13.9%" width="138.9%" height="138.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.198539402 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-601.000000, -1508.000000)">
+            <g id="Group-13" transform="translate(601.000000, 1508.000000)">
+                <g id="Group-5" transform="translate(37.000000, 14.000000)">
+                    <g id="user-name" transform="translate(0.000000, 36.000000)">
+                        <path d="M2,6.62765957 C1.17157288,6.62765957 0.5,7.29923245 0.5,8.12765957 L0.5,43.1276596 C0.5,43.9560867 1.17157288,44.6276596 2,44.6276596 L310,44.6276596 C310.828427,44.6276596 311.5,43.9560867 311.5,43.1276596 L311.5,8.12765957 C311.5,7.29923245 310.828427,6.62765957 310,6.62765957 L2,6.62765957 Z" id="Rectangle-10" stroke="#E4E4E4" fill="#FFFFFF"></path>
+                        <polygon id="Rectangle-4" fill="#FFFFFF" points="10 0 90 0 90 13.0212766 10 13.0212766"></polygon>
+                        <text id="Disabled-State" font-family="Verdana" font-size="10" font-weight="normal" fill="#E4E4E4">
+                            <tspan x="13" y="10.0106383">Disabled State</tspan>
+                        </text>
+                        <text id="Non-changeable-Text" font-family="Verdana" font-size="12" font-weight="normal" fill="#979797">
+                            <tspan x="13" y="30.9230769">Non-changeable Text</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-2" transform="translate(140.000000, 59.000000)">
+                        <polygon id="Path-2" stroke="#FFFFFF" fill="#000000" transform="translate(12.500000, 12.500000) rotate(-39.000000) translate(-12.500000, -12.500000) " points="12 3 20 22 12.5 17.9285714 5 22"></polygon>
+                        <g id="Group" transform="translate(14.000000, 17.000000)">
+                            <g id="Oval">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <circle id="Oval" fill="#FFFFFF" cx="9" cy="9" r="7.2"></circle>
+                            <rect id="Rectangle-2" fill="#D8D8D8" transform="translate(9.276425, 8.482159) rotate(45.000000) translate(-9.276425, -8.482159) " x="1.17642458" y="7.13215908" width="16.2" height="2.7"></rect>
+                        </g>
+                    </g>
+                    <g id="tooltip" transform="translate(86.000000, 0.000000)">
+                        <path d="M76.8591836,28.8651927 L69.0482993,36.6760771 L61.237415,28.8651927 L2,28.8651927 C0.8954305,28.8651927 1.3527075e-16,27.9697622 0,26.8651927 L0,2.43662131 C-1.3527075e-16,1.33205181 0.8954305,0.436621312 2,0.436621312 L139,0.436621312 C140.104569,0.436621312 141,1.33205181 141,2.43662131 L141,26.8651927 C141,27.9697622 140.104569,28.8651927 139,28.8651927 L76.8591836,28.8651927 Z" id="Combined-Shape" fill="#2C2C2C"></path>
+                        <text id="Reason-for-being-dis" font-family="Verdana" font-size="9" font-weight="normal" fill="#E9E9E9">
+                            <tspan x="13" y="17">Reason for being disabled</tspan>
+                        </text>
+                    </g>
+                </g>
+                <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="385" height="121"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

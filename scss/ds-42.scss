@@ -244,6 +244,27 @@ grid-template-areas:
     padding: 100px;
 }
 
+.content-column-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2%;
+    margin-bottom: 85px;
+}
+
+.content-column-two img{
+    width: 100%;
+}
+
+.two-col-left {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.two-col-right {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
 .content-three-column-even img {
 box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.20);
 }
@@ -472,8 +493,15 @@ a .overview-section-cta:hover{
     margin-bottom:40px;
 }
 
+/* Form Fields Page */
 
+.form-fields-margin {
+    margin-top: 40px;
+}
 
+.remove-margin-bottom {
+    margin-bottom: 0px;
+}
 
 @media only screen and (max-width: 768px) {
 	.ds42-main-grid {
@@ -575,5 +603,9 @@ a .overview-section-cta:hover{
     .page-content {
         padding: 10px;	
         
+    }
+
+    .content-column-two {
+    grid-template-columns: 1fr;
     }
 }

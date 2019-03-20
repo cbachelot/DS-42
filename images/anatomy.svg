@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="314px" height="144px" viewBox="0 0 314 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-386.000000, -95.000000)">
+            <g id="Group-14" transform="translate(387.000000, 95.000000)">
+                <g id="Group-4" transform="translate(0.000000, 3.000000)">
+                    <g id="Group-3">
+                        <g id="user-name" transform="translate(0.000000, 16.000000)">
+                            <path d="M2,0.5 C1.17157288,0.5 0.5,1.17157288 0.5,2 L0.5,37 C0.5,37.8284271 1.17157288,38.5 2,38.5 L310,38.5 C310.828427,38.5 311.5,37.8284271 311.5,37 L311.5,2 C311.5,1.17157288 310.828427,0.5 310,0.5 L2,0.5 Z" id="Rectangle-10" stroke="#E4E4E4" fill="#FFFFFF"></path>
+                            <text id="Input-Text" font-family="Verdana" font-size="12" font-weight="normal" fill="#979797">
+                                <tspan x="37" y="24">Input Text</tspan>
+                            </text>
+                            <g id="calendar-date-picked" transform="translate(13.000000, 9.000000)">
+                                <g id="calendar-picker">
+                                    <g>
+                                        <g id="calendar-blank" transform="translate(0.000000, 1.818182)" fill="#979797" fill-rule="nonzero">
+                                            <path d="M14.5454545,16.3636364 L1.81818182,16.3636364 L1.81818182,6.36363636 L14.5454545,6.36363636 M11.8181818,0 L11.8181818,1.81818182 L4.54545455,1.81818182 L4.54545455,0 L2.72727273,0 L2.72727273,1.81818182 L1.81818182,1.81818182 C0.809090909,1.81818182 0,2.62727273 0,3.63636364 L0,16.3636364 C0,17.3677905 0.814027728,18.1818182 1.81818182,18.1818182 L14.5454545,18.1818182 C15.5496086,18.1818182 16.3636364,17.3677905 16.3636364,16.3636364 L16.3636364,3.63636364 C16.3636364,2.62727273 15.5454545,1.81818182 14.5454545,1.81818182 L13.6363636,1.81818182 L13.6363636,0" id="Shape"></path>
+                                        </g>
+                                        <circle id="Oval-3" fill="#979797" cx="12.7272727" cy="1.81818182" r="1"></circle>
+                                        <circle id="Oval-3" fill="#979797" cx="3.63636364" cy="1.81818182" r="1"></circle>
+                                        <circle id="Oval" fill="#8FA500" cx="11.25" cy="11.5" r="2"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <path d="M0,16 L10,16 C11.1045695,16 12,16.8954305 12,18 L12,28" id="Path-2" stroke="#BD10E0" transform="translate(6.000000, 22.000000) scale(-1, 1) translate(-6.000000, -22.000000) "></path>
+                        <text id="2px-Corner-Radius" font-family="Verdana" font-size="10" font-weight="normal" fill="#BD10E0">
+                            <tspan x="0" y="10">2px Corner Radius</tspan>
+                        </text>
+                        <text id="9px" font-family="Verdana" font-size="10" font-weight="normal" fill="#BD10E0">
+                            <tspan x="1" y="52">9px</tspan>
+                        </text>
+                        <text id="36px-height" font-family="Verdana" font-size="10" font-weight="normal" fill="#BD10E0">
+                            <tspan x="252" y="74">36px height</tspan>
+                        </text>
+                        <g id="Group" transform="translate(303.000000, 15.000000)" stroke="#BD10E0" stroke-linecap="square">
+                            <path d="M0.346153846,1 L8.65519832,1" id="Line-3"></path>
+                            <path d="M0.346153846,40 L8.65519832,40" id="Line-3"></path>
+                            <path d="M-15,20.5 L23.5019531,20.5" id="Line-3" transform="translate(4.500000, 20.500000) rotate(-90.000000) translate(-4.500000, -20.500000) "></path>
+                        </g>
+                        <g id="Group" transform="translate(7.500000, 36.000000) rotate(-270.000000) translate(-7.500000, -36.000000) translate(3.000000, 30.000000)" stroke="#BD10E0" stroke-linecap="square">
+                            <path d="M0.346153846,0.5 L8.65519832,0.5" id="Line-3"></path>
+                            <path d="M0.346153846,11.5 L8.65519832,11.5" id="Line-3"></path>
+                            <path d="M-0.75,5.75 L9.75,5.75" id="Line-3" transform="translate(4.500000, 5.750000) rotate(-90.000000) translate(-4.500000, -5.750000) "></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="Helper-Text" font-family="Verdana" font-size="9" font-weight="normal" fill="#979797">
+                    <tspan x="0" y="73">Helper Text</tspan>
+                </text>
+                <circle id="Oval" fill="#5B9500" cx="109" cy="39" r="8"></circle>
+                <text id="3" font-family="Verdana" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="106" y="42">3</tspan>
+                </text>
+                <circle id="Oval" fill="#5B9500" cx="31" cy="28" r="8"></circle>
+                <text id="1" font-family="Verdana" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="28" y="31">1</tspan>
+                </text>
+                <circle id="Oval" fill="#5B9500" cx="61" cy="70" r="8"></circle>
+                <circle id="Oval" fill="#5B9500" cx="61" cy="70" r="8"></circle>
+                <text id="4" font-family="Verdana" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="58" y="73">4</tspan>
+                </text>
+                <circle id="Oval" fill="#5B9500" cx="104" cy="8" r="8"></circle>
+                <text id="2" font-family="Verdana" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="101" y="11">2</tspan>
+                </text>
+                <g id="focus-state" transform="translate(0.000000, 97.000000)">
+                    <path d="M2,8.5 C1.17157288,8.5 0.5,9.17157288 0.5,10 L0.5,45 C0.5,45.8284271 1.17157288,46.5 2,46.5 L310,46.5 C310.828427,46.5 311.5,45.8284271 311.5,45 L311.5,10 C311.5,9.17157288 310.828427,8.5 310,8.5 L2,8.5 Z" id="Rectangle-10" stroke="#008BAA" fill="#FFFFFF"></path>
+                    <path d="M13.5,19.5 L13.5,37.5" id="Line-2" stroke="#979797" stroke-linecap="square"></path>
+                    <rect id="Rectangle-4" fill="#FFFFFF" x="10" y="0" width="59" height="17"></rect>
+                    <text id="Focus-State" font-family="Verdana" font-size="9" font-weight="normal" fill="#009CB9">
+                        <tspan x="13" y="12">Focus State</tspan>
+                    </text>
+                </g>
+                <circle id="Oval" fill="#5B9500" cx="76" cy="106" r="8"></circle>
+                <circle id="Oval" fill="#5B9500" cx="76" cy="106" r="8"></circle>
+                <text id="5" font-family="Verdana" font-size="9" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="73" y="109">5</tspan>
+                </text>
+                <g id="Group-15" transform="translate(20.000000, 117.000000)">
+                    <circle id="Oval" fill="#5B9500" cx="8" cy="8" r="8"></circle>
+                    <text id="6" font-family="Verdana" font-size="9" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="5" y="11">6</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -649,4 +649,10 @@ a .overview-section-cta:hover {
   .content-column-two {
     grid-template-columns: 1fr;
   }
+  .color-block {
+    grid-template-columns: 1fr;
+  }
+  .color-data {
+    font-size: 12px;
+  }
 }

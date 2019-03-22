@@ -731,4 +731,16 @@ a .overview-section-cta:hover{
       .color-data{
           font-size: 12px;
       }
+
+      .accent-color-block{
+          grid-template-columns: 1fr;
+      }
+
+      .accent-content{
+          grid-template-columns: 1fr;
+      }
+
+      .accent-variable{
+          text-align: left;
+      }
 }

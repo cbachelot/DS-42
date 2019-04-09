@@ -97,6 +97,10 @@ li {
   background-image: linear-gradient(to right top, #484166, #624473, #814479, #a04177, #bd3f6e);
 }
 
+.orange-gradient {
+  background-image: linear-gradient(to right top, #e4500a, #ee7800, #f39e00, #f2c300, #ebe712);
+}
+
 .overview-image {
   mix-blend-mode: multiply;
 }

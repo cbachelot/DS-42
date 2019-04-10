@@ -328,6 +328,11 @@ nav a {
   grid-column-gap: 2%;
 }
 
+.content-column-full {
+  width: 100%;
+  margin: 100px 0px;
+}
+
 .content-column-three img {
   width: 100%;
 }

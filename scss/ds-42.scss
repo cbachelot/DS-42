@@ -324,7 +324,7 @@ box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.20);
 .content-three-column-even img:hover {
     box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.20);
     transition: box-shadow .3s ease-in-out;
-    }
+}
 
 .content-column-right{
     display: grid;
@@ -350,6 +350,12 @@ box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.20);
     grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 2fr) minmax(min-content, 2fr);
     margin:100px 0px;
     grid-column-gap: 2%;
+
+}
+
+.content-column-full{
+    width: 100%;
+    margin:100px 0px;
 
 }
 

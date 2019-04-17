@@ -440,9 +440,9 @@ color: $ds42_white;
     display: grid;
     grid-column-gap: 1%;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     -ms-grid-rows: ()[1fr];
-        grid-template-rows: 1fr;
+    grid-template-rows: 1fr;
   }
 
   
@@ -657,7 +657,7 @@ a .overview-section-cta:hover{
     background-color: $allied_white;
     cursor: pointer;
     -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
-    -webkit-box-shadow:: 0px 0px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
     box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
     -webkit-transition: all .3s; /* Safari */
     transition: all .3s;

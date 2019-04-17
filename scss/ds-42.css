@@ -408,7 +408,7 @@ nav a {
   grid-column-gap: 1%;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-  -ms-grid-rows: [1fr];
+  -ms-grid-rows: 1fr;
   grid-template-rows: 1fr;
 }
 

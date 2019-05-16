@@ -97,6 +97,10 @@ li{
     background-image: $ds42_purple-gradient;
 }
 
+.orange-gradient {
+    background-image: $ds42_orange-gradient;
+}
+
 .overview-image {
     mix-blend-mode: multiply;
 }
@@ -320,7 +324,7 @@ box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.20);
 .content-three-column-even img:hover {
     box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.20);
     transition: box-shadow .3s ease-in-out;
-    }
+}
 
 .content-column-right{
     display: grid;
@@ -346,6 +350,12 @@ box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.20);
     grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 2fr) minmax(min-content, 2fr);
     margin:100px 0px;
     grid-column-gap: 2%;
+
+}
+
+.content-column-full{
+    width: 100%;
+    margin:100px 0px;
 
 }
 
@@ -430,9 +440,9 @@ color: $ds42_white;
     display: grid;
     grid-column-gap: 1%;
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: ()[1fr];
-        grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr;
+    grid-template-rows: 1fr;
   }
 
   
@@ -616,6 +626,66 @@ a .overview-section-cta:hover{
 
 .remove-margin-bottom {
     margin-bottom: 0px;
+}
+
+/*Icon Page Styles*/
+
+.all-icons-cont{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 2%;
+}
+.icons-wrapper{
+    text-align: center;
+
+}
+
+.icons-wrapper p{
+    margin-top: 5px;
+
+}
+
+.icons-wrapper:hover{
+    cursor: pointer;
+
+}
+
+
+.icons-wrapper:hover > .icon-container{
+    background-color: $allied_white;
+    cursor: pointer;
+    -moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+    -webkit-transition: all .3s; /* Safari */
+    transition: all .3s;
+
+}
+
+.icons-wrapper:hover > p{
+    cursor: pointer;
+    text-decoration: underline;
+    -webkit-transition: all .3s; /* Safari */
+    transition: all .3s;
+
+}
+
+.icon-container{
+    border-radius: 2px;
+    background-color: #f4f4f4;
+    text-align: center;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    height: 77px;
+    display: flex;
+   
+}
+
+.icon-container img{
+    margin: auto;
+
 }
 
 @media only screen and (max-width: 768px) {

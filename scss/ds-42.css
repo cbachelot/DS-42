@@ -199,7 +199,7 @@ nav a {
 
 .nav-effect a {
   overflow: hidden;
-  height: 1em;
+  /*height: 1em;*/
   border-left: solid 3px #001D2C;
 }
 

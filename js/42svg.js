@@ -29,3 +29,17 @@ document.body.addEventListener("click", function(e) {
     updateSize();
 }());
 
+
+
+
+
+(function() {
+  panel.addEventListener('click', function(event) {
+      panel = document.getElementsByClassName(panelClass)[0];
+
+      if (hasClass(event.target, 'js-cd-close') || hasClass(event.target, panelClass)) {
+          event.preventDefault();
+          removeClass(panel, 'cd-panel--is-visible');
+      }
+  });
+})

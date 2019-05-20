@@ -19,8 +19,12 @@
 
     <!--Icon Font-->
     <link rel="stylesheet" href="styles/icon-style.css">
+    <!--Slide-in-Panel Style Sheet-->
+    <link rel="stylesheet" type"text/css" href="styles/slide-in-panel.css" />
+
 </head>
 
+<scrip src="https://code.jquery.com/jquery-3.3.1.min.js"</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -30,6 +34,8 @@
     });
 </script>
 
+
+
 </head>
 
 <body>
@@ -38,7 +44,7 @@
 
     <div class="ds42-main-grid">
         <!-- Sidebar Holder -->
-        <a class="toggle open" href="#ds42-nav"><img src="images/menu.svg" alt="menu icon" /></a>
+        <a class="toggle open" href="#ds42-nav"><img src="https://assets.alliedelec.com/image/upload/v1558106135/DS-42/menu.svg" alt="menu icon" /></a>
 
         <div id="ds42-nav">
 
@@ -67,7 +73,7 @@
                         </div>
 
                         <div>
-                            <img class="overview-image" src="images/icons-overview.svg">
+                            <img class="overview-image" src="https://assets.alliedelec.com/image/upload/v1558106133/DS-42/icons-overview.svg">
                         </div>
 
                     </div>
@@ -78,94 +84,99 @@
                         <div class="content-column-full align-top">
 
                                 <h3 class="align-top">Icon Library</h3>
-                                
+
                                 <div class="all-icons-cont">
-                                    <div class="icons-wrapper">
-                                        <div class="icon-container">
-                                            <img src="images/icons/360.svg">
+                                    <div class="icons-wrapper" id="icons-wrapper" data-panel="main" onclick="downloadIcon()">
+                                        <div class="icon-container" id="icon-container-1">
+                                            <!--<img src="images/icons/360.svg" id="360img">-->
+                                            <img src="https://assets.alliedelec.com/image/upload/v1558106076/DS-42/icons/360.svg" id="360img">
                                         </div>
                                         <p>360 Spin 360 Spin 360 Spin 360 Spin</p>
                                     </div>
 
-                                    <div class="icons-wrapper">
+                                    <div class="icons-wrapper" id="icons-wrapper" data-panel="main">
                                         <div class="icon-container">
                                             <img src="images/icons/Amex-Active.svg">
                                         </div>
                                         <p>360 Spin</p>
                                     </div>
 
-                                    <div class="icons-wrapper">
+                                    <div class="icons-wrapper" id="icons-wrapper" data-panel="main">
                                         <div class="icon-container">
                                             <img src="images/icons/Assigned-Leads.svg">
                                         </div>
                                         <p>360 Spin</p>
                                     </div>
 
-                                    <div class="icons-wrapper">
+                                    <div class="icons-wrapper" data-panel="main">
                                         <div class="icon-container">
                                             <img src="images/icons/Assigned-Leads.svg">
                                         </div>
                                         <p>360 Spin</p>
                                     </div>
 
-                                    <div class="icons-wrapper">
+                                    <div class="icons-wrapper" data-panel="main">
                                         <div class="icon-container">
                                             <img src="images/icons/Assigned-Leads.svg">
                                         </div>
                                         <p>360 Spin</p>
                                     </div>
 
-                                    <div class="icons-wrapper">
+                                    <div class="icons-wrapper" data-panel="main">
                                         <div class="icon-container">
                                             <img src="images/icons/Assigned-Leads.svg">
                                         </div>
                                         <p>360 Spin</p>
                                     </div>
 
-                                    <div class="icons-wrapper">
+                                    <div class="icons-wrapper" data-panel="main">
                                         <div class="icon-container">
                                             <img src="images/icons/360.svg">
                                         </div>
                                         <p>360 Spin 360 Spin 360 Spin 360 Spin</p>
                                     </div>
 
-                                    <div class="icons-wrapper">
+                                    <div class="icons-wrapper" data-panel="main">
                                         <div class="icon-container">
                                             <img src="images/icons/Amex-Active.svg">
                                         </div>
                                         <p>360 Spin</p>
                                     </div>
 
-                                    <div class="icons-wrapper">
+                                    <div class="icons-wrapper" data-panel="main">
                                         <div class="icon-container">
                                             <img src="images/icons/Assigned-Leads.svg">
                                         </div>
                                         <p>360 Spin</p>
                                     </div>
 
-                                    <div class="icons-wrapper">
+                                    <div class="icons-wrapper" data-panel="main">
                                         <div class="icon-container">
                                             <img src="images/icons/Assigned-Leads.svg">
                                         </div>
                                         <p>360 Spin</p>
                                     </div>
 
-                                    <div class="icons-wrapper">
+                                    <div class="icons-wrapper" data-panel="main">
                                         <div class="icon-container">
                                             <img src="images/icons/Assigned-Leads.svg">
                                         </div>
                                         <p>360 Spin</p>
                                     </div>
 
-                                    <div class="icons-wrapper">
+
+                                    <div class="icons-wrapper" data-panel="main">
                                         <div class="icon-container">
+
                                             <img src="images/icons/Assigned-Leads.svg">
+
                                         </div>
                                         <p>360 Spin</p>
                                     </div>
+
                                 </div>
 
-                            
+
                         </div>
 
                         <hr>
@@ -181,29 +192,59 @@
                                     <p>When creating an icon, the bounding around the icon should retain the standard sizes of 16x16, 32x32, and 48x48.</p>
 
                                     <p>Avoid anitaliasing, and retain hard edges by utilizing SVG file formats.</p>
-                                        
+
                                     <p>When designing a vertical or horizontal icon, center the icon in your standard size area and split the difference for equal spacing. Youc an design at any width or height as needed for the icon as long as the additional space can be split evenly in the container.</p>
-                                </div>
-    
-                                <div>
-                                    <img src="images/icon-size-sample.svg">
-                                    <img src="images/icon-space-sample.svg">
                                 </div>
 
                                 <div>
-                                    <img src="images/icon-res-sample.svg">
+                                    <img src="https://assets.alliedelec.com/image/upload/v1558106132/DS-42/icon-size-sample.svg">
+                                    <img src="https://assets.alliedelec.com/image/upload/v1558106134/DS-42/icon-space-sample.svg">
+                                </div>
+
+                                <div>
+                                    <img src="https://assets.alliedelec.com/image/upload/v1558106132/DS-42/icon-res-sample.svg">
                                 </div>
                             </div>
                         <hr>
 
-                        
+
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="cd-panel cd-panel--from-right js-cd-panel-main">
+    		<header class="cd-panel__header">
+    			<h1>Icon Name</h1>
+    			<a href="#0" class="cd-panel__close js-cd-close">Close</a>
+    		</header>
+
+        <header class="cd-panel__header-two">
+
+        </header>
+
+  		<div class="cd-panel__container">
+  			<div class="cd-panel__content">
+
+          <div>
+            <a id="panel-download-button" href="sourceAttr" download><button class="download-icon-button" onclick="downloadIcon()">Download Icon</button></a>
+          </div>
+
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto, nostrum eaque necessitatibus sint eos omnis! Beatae, itaque, in. Vel reiciendis consequatur saepe soluta itaque aliquam praesentium, neque tempora. Voluptatibus sit, totam rerum quo ex nemo pariatur tempora voluptatem est repudiandae iusto, architecto perferendis sequi, asperiores dolores doloremque odit. Libero, ipsum fuga repellat quae numquam cumque nobis ipsa voluptates pariatur, a rerum aspernatur aliquid maxime magnam vero dolorum omnis neque fugit laboriosam eveniet veniam explicabo, similique reprehenderit at. Iusto totam vitae blanditiis. Culpa, earum modi rerum velit voluptatum voluptatibus debitis, architecto aperiam vero tempora ratione sint ullam voluptas non! Odit sequi ipsa, voluptatem ratione illo ullam quaerat qui, vel dolorum eligendi similique inventore quisquam perferendis reprehenderit quos officia! Maxime aliquam, soluta reiciendis beatae quisquam. Alias porro facilis obcaecati et id, corporis accusamus? Ab porro fuga consequatur quisquam illo quae quas tenetur.</p>
+
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque similique, at excepturi adipisci repellat ut veritatis officia, saepe nemo soluta modi ducimus velit quam minus quis reiciendis culpa ullam quibusdam eveniet. Dolorum alias ducimus, ad, vitae delectus eligendi, possimus magni ipsam repudiandae iusto placeat repellat omnis veritatis adipisci aliquam hic ullam facere voluptatibus ratione laudantium perferendis quos ut. Beatae expedita, itaque assumenda libero voluptatem adipisci maiores voluptas accusantium, blanditiis saepe culpa laborum iusto maxime quae aperiam fugiat odit consequatur soluta hic. Sed quasi beatae quia repellendus, adipisci facilis ipsa vel, aperiam, consequatur eaque mollitia quaerat. Iusto fugit inventore eveniet velit.</p>
+
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque similique, at excepturi adipisci repellat ut veritatis officia, saepe nemo soluta modi ducimus velit quam minus quis reiciendis culpa ullam quibusdam eveniet. Dolorum alias ducimus, ad, vitae delectus eligendi, possimus magni ipsam repudiandae iusto placeat repellat omnis veritatis adipisci aliquam hic ullam facere voluptatibus ratione laudantium perferendis quos ut. Beatae expedita, itaque assumenda libero voluptatem adipisci maiores voluptas accusantium, blanditiis saepe culpa laborum iusto maxime quae aperiam fugiat odit consequatur soluta hic. Sed quasi beatae quia repellendus, adipisci facilis ipsa vel, aperiam, consequatur eaque mollitia quaerat. Iusto fugit inventore eveniet velit.</p>
+
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam magnam accusamus obcaecati nisi eveniet quo veniam quibusdam veritatis autem accusantium doloribus nam mollitia maxime explicabo nemo quae aspernatur impedit cupiditate dicta molestias consectetur, sint reprehenderit maiores. Tempora, exercitationem, voluptate. Sapiente modi officiis nulla sed ullam, amet placeat, illum necessitatibus, eveniet dolorum et maiores earum tempora, quas iste perspiciatis quibusdam vero accusamus veritatis. Recusandae sunt, repellat incidunt impedit tempore iusto, nostrum eaque necessitatibus sint eos omnis! Beatae, itaque, in. Vel reiciendis consequatur saepe soluta itaque aliquam praesentium, neque tempora. Voluptatibus sit, totam rerum quo ex nemo pariatur tempora voluptatem est repudiandae iusto, architecto perferendis sequi, asperiores dolores doloremque odit. Libero, ipsum fuga repellat quae numquam cumque nobis ipsa voluptates pariatur, a rerum aspernatur aliquid maxime magnam vero dolorum omnis neque fugit laboriosam eveniet veniam explicabo, similique reprehenderit at. Iusto totam vitae blanditiis. Culpa, earum modi rerum velit voluptatum voluptatibus debitis, architecto aperiam vero tempora ratione sint ullam voluptas non! Odit sequi ipsa, voluptatem ratione illo ullam quaerat qui, vel dolorum eligendi similique inventore quisquam perferendis reprehenderit quos officia! Maxime aliquam, soluta reiciendis beatae quisquam. Alias porro facilis obcaecati et id, corporis accusamus? Ab porro fuga consequatur quisquam illo quae quas tenetur.</p>
+  			</div> <!-- cd-panel__content -->
+  		</div> <!-- cd-panel__container -->
+    </div>
+
+    <script src="js/slide-in-panel.js"></script><!--JS for slide-in-panel-->
+
     <script>
-        // When the user scrolls the page, execute myFunction 
+        // When the user scrolls the page, execute myFunction
         window.onscroll = function () { myFunction() };
 
         function myFunction() {
@@ -212,6 +253,34 @@
             var scrolled = (winScroll / height) * 100;
             document.getElementById("myBar").style.width = scrolled + "%";
         }
+    </script>
+
+    <script>
+        function downloadIcon() {
+            var sourceAttr = $('#icon-container-1').find('img:first').attr('src');
+            var sourceProp = $('#icon-container-1').find('img:first').prop('src');
+
+            //Uncomment to verify that the above variables are getting the url
+            //alert("sourceAttr = " + sourceAttr);
+            //alert("sourceProp = " + sourceProp);
+
+            document.getElementById("panel-download-button").setAttribute("href", sourceProp);
+        }
+    </script>
+
+    <script>
+    var folder = "https://s3.amazonaws.com/ds42-images/icons/";
+
+    $.ajax({
+        url : folder,
+        success: function (data) {
+            $(data).find("a").attr("href", function (i, val) {
+                if( val.match(/\.(jpe?g|png|gif)$/) ) {
+                    $("body").append( "<img src='"+ folder + val +"'>" );
+                }
+            });
+        }
+    });
     </script>
 
 </body>

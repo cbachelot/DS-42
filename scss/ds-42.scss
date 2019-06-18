@@ -41,6 +41,8 @@ a:visited {
     text-decoration: none;
 }
 
+
+
 h1{
     font-size: 44px;
     font-weight: 300;
@@ -99,6 +101,10 @@ li{
 
 .orange-gradient {
     background-image: $ds42_orange-gradient;
+}
+
+.yellow-gradient {
+    background-image: $ds42_yellow-gradient;
 }
 
 .overview-image {
@@ -406,6 +412,14 @@ color: $ds42_white;
 
 }
 
+.page-overview h2.black-text-overwrite {
+    color: $allied_black_l;
+    }
+    
+.page-overview p.black-text-overwrite {
+color: $allied_black_l;
+}
+
 .page-overview .content-column-left:first-of-type{
     margin: 0;
 }
@@ -688,6 +702,15 @@ a .overview-section-cta:hover{
 
 }
 
+img.icon{
+    width: inherit;
+    margin: 0 6px;
+}
+
+
+
+
+
 @media only screen and (max-width: 768px) {
 	.ds42-main-grid {
 	grid-template-columns: 1fr;
@@ -813,4 +836,6 @@ a .overview-section-cta:hover{
       .accent-variable{
           text-align: left;
       }
-}
+
+    }
+     

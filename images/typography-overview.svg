@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="857px" height="310px" viewBox="0 0 857 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>typography-banner</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-419.000000, -2955.000000)">
+            <g id="typography-banner" transform="translate(419.000000, 2955.000000)">
+                <rect id="Rectangle" fill="#575601" fill-rule="evenodd" x="0" y="0" width="857" height="310"></rect>
+                <polygon id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" points="151 105 201 205 101 205"></polygon>
+                <path d="M238,105 L297,105 C310.807119,105 322,116.192881 322,130 C322,143.807119 310.807119,155 297,155 L238,155 L238,105 Z" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd"></path>
+                <path d="M238,155 L297,155 C310.807119,155 322,166.192881 322,180 C322,193.807119 310.807119,205 297,205 L238,205 L238,155 Z" id="Rectangle-Copy-10" fill="#FFFFFF" fill-rule="evenodd"></path>
+                <path d="M409,205 C408.857794,177.854494 408.978947,132.927628 409,105 C381.385763,105 359,127.385763 359,155 C359,182.614237 381.385763,205 409,205 Z" id="Oval" fill="#FFFFFF" fill-rule="evenodd"></path>
+                <path d="M496,205 C495.857794,177.854494 495.978947,132.927628 496,105 C468.385763,105 446,127.385763 446,155 C446,182.614237 468.385763,205 496,205 Z" id="Oval-Copy" fill="#FFFFFF" fill-rule="evenodd" transform="translate(471.000000, 155.000000) rotate(180.000000) translate(-471.000000, -155.000000) "></path>
+                <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="526" y="105" width="100" height="100"></rect>
+                <rect id="Rectangle-Copy-17" fill="#FFFFFF" fill-rule="evenodd" x="656" y="105" width="100" height="69"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="656" y="105" width="50" height="100"></rect>
+                <path d="M526,138.5 L626,138.5" id="Line" stroke="#575601" stroke-width="1" stroke-linecap="square"></path>
+                <path d="M656,138.5 L756,138.5" id="Line-Copy-2" stroke="#575601" stroke-width="1" stroke-linecap="square"></path>
+                <path d="M526,174 L626,174" id="Line-Copy" stroke="#575601" stroke-width="1" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

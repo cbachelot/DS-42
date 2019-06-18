@@ -5,7 +5,7 @@ hr {
   color: #002E45;
   background-color: #002E45;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 body {
@@ -99,6 +99,10 @@ li {
 
 .orange-gradient {
   background-image: linear-gradient(to right top, #e4500a, #ee7800, #f39e00, #f2c300, #ebe712);
+}
+
+.yellow-gradient {
+  background-image: linear-gradient(to right top, #f9f771, #d6d459, #b5b241, #94912a, #747212);
 }
 
 .overview-image {
@@ -199,7 +203,7 @@ nav a {
 
 .nav-effect a {
   overflow: hidden;
-  /*height: 1em;*/
+  height: 1em;
   border-left: solid 3px #001D2C;
 }
 
@@ -372,6 +376,14 @@ nav a {
   color: #2c2c2c;
   line-height: 32px;
   color: #ffffff;
+}
+
+.page-overview h2.black-text-overwrite {
+  color: #2c2c2c;
+}
+
+.page-overview p.black-text-overwrite {
+  color: #2c2c2c;
 }
 
 .page-overview .content-column-left:first-of-type {
@@ -639,6 +651,11 @@ a .overview-section-cta:hover {
 
 .icon-container img {
   margin: auto;
+}
+
+img.icon {
+  width: inherit;
+  margin: 0 6px;
 }
 
 @media only screen and (max-width: 768px) {

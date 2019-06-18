@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220px" height="103px" viewBox="0 0 220 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>buttons-preview</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-801.000000, -2994.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(419.000000, 2551.000000)">
+                <g id="buttons-grahic-min" transform="translate(382.000000, 443.000000)">
+                    <g id="Group">
+                        <g id="buttons-preview">
+                            <polygon id="Rectangle-5" fill="#FFFFFF" points="1 1 219 1 219 12 1 12"></polygon>
+                            <rect id="Rectangle-5-Copy" fill="#DA291C" x="0" y="0" width="220" height="52"></rect>
+                            <rect id="Rectangle-5-Copy-Copy" fill="#81140C" x="0" y="52" width="220" height="51"></rect>
+                            <path d="M188.5,8 L199.5,8 C205.29899,8 210,12.7010101 210,18.5 L210,18.5 C210,24.2989899 205.29899,29 199.5,29 L188.5,29 C182.70101,29 178,24.2989899 178,18.5 L178,18.5 C178,12.7010101 182.70101,8 188.5,8 Z" id="Rectangle-14-Copy-2" fill="#FFFFFF"></path>
+                            <circle id="Oval" fill="#DA291C" cx="199.5" cy="18.5" r="9.5"></circle>
+                            <ellipse id="Oval-2" fill="#FFFFFF" cx="110" cy="52" rx="25" ry="26"></ellipse>
+                            <rect id="Rectangle-14" fill="#FFFFFF" x="159" y="78" width="50" height="16"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

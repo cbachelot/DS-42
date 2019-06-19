@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="386px" height="122px" viewBox="0 0 386 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-176.000000, -1358.000000)">
+            <g id="Group-16" transform="translate(176.000000, 1358.000000)">
+                <g id="Group-11" fill="#F4F4F4">
+                    <rect id="Rectangle" x="0" y="0" width="386" height="122"></rect>
+                </g>
+                <text id="Error-Message-Instru" font-family="Verdana" font-size="9" font-weight="normal" fill="#9E0000">
+                    <tspan x="37" y="91">Error Message Instruction Goes Here.</tspan>
+                </text>
+                <g id="user-name" transform="translate(37.000000, 33.000000)">
+                    <path d="M2,5.62765957 C1.17157288,5.62765957 0.5,6.29923245 0.5,7.12765957 L0.5,42.1276596 C0.5,42.9560867 1.17157288,43.6276596 2,43.6276596 L310,43.6276596 C310.828427,43.6276596 311.5,42.9560867 311.5,42.1276596 L311.5,7.12765957 C311.5,6.29923245 310.828427,5.62765957 310,5.62765957 L2,5.62765957 Z" id="Rectangle-10" stroke="#9E0000" fill="#FFFFFF"></path>
+                    <polygon id="Rectangle-4" fill="#FFFFFF" points="10 5.0212766 64 5.0212766 64 12.0212766 10 12.0212766"></polygon>
+                    <text id="Completed" font-family="Verdana" font-size="9" font-weight="normal" fill="#9E0000">
+                        <tspan x="13" y="9.0106383">Completed</tspan>
+                    </text>
+                    <text id="Text-Entered" font-family="Verdana" font-size="12" font-weight="normal" fill="#9E0000">
+                        <tspan x="13" y="29.9230769">Text Entered</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

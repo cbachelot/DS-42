@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="300px" height="220px" viewBox="0 0 300 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
     <title>secondary-button-sample</title>
     <desc>Created with Sketch.</desc>
     <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -10,7 +10,7 @@
                     <rect id="Rectangle-9-Copy-3" fill="#F4F4F4" x="0" y="0" width="300" height="220"></rect>
                     <g id="Secondary-CTA" transform="translate(104.000000, 36.000000)" stroke-width="1">
                         <g id="flat-hover">
-                            <rect id="Rectangle-6-Copy" x="0" y="0" width="84" height="36" rx="2"></rect>
+                            <rect id="Rectangle-6-Copy" stroke="#008BAA" fill="#FFFFFF" x="0.5" y="0.5" width="83" height="35" rx="2"></rect>
                             <text id="DEFAULT" font-family="Verdana" font-size="12" font-weight="normal" fill="#008EAC">
                                 <tspan x="15" y="23">DEFAULT</tspan>
                             </text>
@@ -18,7 +18,7 @@
                     </g>
                     <g id="Secondary-CTA-Hover" transform="translate(104.000000, 86.000000)" stroke-width="1">
                         <g id="flat-hover-copy">
-                            <rect id="Rectangle-6-Copy" stroke="#008BAA" x="0.5" y="0.5" width="83" height="35" rx="2"></rect>
+                            <rect id="Rectangle-6-Copy" stroke="#008BAA" fill="#F4F4F4" x="0.5" y="0.5" width="83" height="35" rx="2"></rect>
                             <text id="HOVER" font-family="Verdana" font-size="12" font-weight="normal" fill="#008EAC">
                                 <tspan x="21.2011719" y="23">HOVER</tspan>
                             </text>

@@ -74,6 +74,32 @@ li {
   margin-bottom: 15px;
 }
 
+/*Allied Typography*/
+.allied-h1 {
+  font-size: 25px;
+  line-height: 24px;
+}
+
+.allied-h2 {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.allied-h3 {
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: bold;
+}
+
+.allied-p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.allied-a {
+  font-size: 14px;
+}
+
 .ds42-main-grid {
   display: grid;
   font-family: 'lato', verdana, arial, san-serif;
@@ -164,6 +190,18 @@ li {
 
 .allied-blue-d {
   background-color: #008BAA;
+}
+
+.allied-gray {
+  background-color: #979797;
+}
+
+.allied-gray-l {
+  background-color: #e4e4e4;
+}
+
+.allied-background-gray-l {
+  background-color: #f4f4f4;
 }
 
 /* Start of the Nav */
@@ -670,6 +708,31 @@ img.icon {
     grid-template-columns: 1fr;
     grid-template-areas: "nav"  "body";
   }
+  /*Allied Typography*/
+  .allied-h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c2c2c;
+    line-height: 22px;
+  }
+  .allied-h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .allied-h3 {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+  }
+  .allied-p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .allied-a {
+    color: #008BAA;
+    text-decoration: none;
+    font-size: 13px;
+  }
   #ds42-nav {
     position: fixed;
     overflow-y: scroll;
@@ -750,5 +813,9 @@ img.icon {
   }
   .accent-variable {
     text-align: left;
+  }
+  img.icon {
+    width: inherit;
+    margin: 0 6px;
   }
 }

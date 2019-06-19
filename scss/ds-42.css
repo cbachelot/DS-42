@@ -76,7 +76,7 @@ li {
 
 .ds42-main-grid {
   display: grid;
-  font-family: lato, verdana, arial, san-serif;
+  font-family: 'lato', verdana, arial, san-serif;
   grid-template-columns: 300px 1fr;
   grid-template-areas: "nav body";
 }
@@ -656,6 +656,13 @@ a .overview-section-cta:hover {
 img.icon {
   width: inherit;
   margin: 0 6px;
+}
+
+.typ-cont-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  padding: 40px;
+  background-color: #f4f4f4;
 }
 
 @media only screen and (max-width: 768px) {

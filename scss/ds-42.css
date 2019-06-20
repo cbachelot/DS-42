@@ -24,12 +24,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #001D2C;
+  background: #a04177;
   color: #ffffff;
 }
 
 ::selection {
-  background: #001D2C;
+  background: #a04177;
   color: #ffffff;
 }
 

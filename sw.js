@@ -1,4 +1,4 @@
-importScripts('./js/polyfill.js');
+importScripts('/js/polyfill.js');
 
 
 self.addEventListener('install', function(e) {

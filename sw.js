@@ -3,7 +3,7 @@ importScripts('/js/polyfill.js');
 
 self.addEventListener('install', function(event) {
     event.waitUntil(
-      caches.open(ds42).then(function(cache) {
+      caches.open(cacheName).then(function(cache) {
         return cache.addAll(
           [
             './',

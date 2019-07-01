@@ -3,7 +3,8 @@ self.addEventListener('install', function(event) {
       caches.open(cacheName).then(function(cache) {
         return cache.addAll(
           [
-            './',
+            './index.html',
+            './ds-components-buttones.html',
             './ds-component-buttons.html',
             './styles/alliedstyles.css',
             './styles/icon-style.css',

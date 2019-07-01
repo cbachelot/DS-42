@@ -1,7 +1,9 @@
-self.addEventListener('install', function(event) {
-    // Perform install steps
-    var CACHE_NAME = 'ds-42-cache-v1';
-    var urlsToCache = [
+const version = "0.6.14";
+const cacheName = `airhorner-${version}`;
+self.addEventListener('install', e => {
+  e.waitUntil(
+    caches.open(cacheName).then(cache => {
+      return cache.addAll([
         './',
         './ds-component-buttons.html',
         './styles/alliedstyles.css',
@@ -14,17 +16,23 @@ self.addEventListener('install', function(event) {
         './scss/ds-42.scss',
         './scss/ds42_variables.css',
         './scss/ds42_variables.scss',
-        './js/slide-in-panel.js',
-    ];
+        './js/slide-in-panel.js'
+      ])
+          .then(() => self.skipWaiting());
+    })
+  );
+});
 
-    self.addEventListener('install', function(event) {
-      // Perform install steps
-        event.waitUntil(
-        caches.open(CACHE_NAME)
-          .then(function(cache) {
-            console.log('Opened cache');
-            return cache.addAll(urlsToCache);
-          })
-      );
-    });
+self.addEventListener('activate', event => {
+  event.waitUntil(self.clients.claim());
+});
+
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    caches.open(cacheName)
+      .then(cache => cache.match(event.request, {ignoreSearch: true}))
+      .then(response => {
+      return response || fetch(event.request);
+    })
+  );
 });

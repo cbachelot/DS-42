@@ -3,11 +3,18 @@ self.addEventListener('install', function(event) {
     var CACHE_NAME = 'ds-42-cache-v1';
     var urlsToCache = [
         './',
-        './css/ds42styles.css',
-        './js/playground-app.js',
-        './images/42-ph-logo.svg',
+        './ds-component-buttons.html',
+        './styles/alliedstyles.css',
+        './styles/icon-style.css',
+        './styles/slide-in-panel.css',
         './images/ds42-mast.svg',
-        './Home/Components',
+        './scss/allied_variables.scss',
+        './scss/allied_variables.css',
+        './scss/ds-42.css',
+        './scss/ds-42.scss',
+        './scss/ds42_variables.css',
+        './scss/ds42_variables.scss',
+        './js/slide-in-panel.js',
     ];
 
     self.addEventListener('install', function(event) {

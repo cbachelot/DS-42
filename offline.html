@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DS-42 - Allied Electronics and Automation</title>
+<!--DS42 sass-->
+<link rel="stylesheet" href="scss/ds-42.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="manifest" href="./manifest.json">
+
+<!--Icon Font-->
+<link rel="stylesheet" href="styles/icon-style.css">
+
+<script>
+    $(function(){
+      $("#ds42-nav").load("nav.html");
+    });
+</script>
+
+</head>
+
+<body>
+
+<div class="ds42-main-grid">
+ <a class="toggle open" href="#ds42-nav"><img src="images/menu.svg" alt="menu icon"/></a>
+
+<div id="ds42-nav">
+
+<!--NAV will display here-->
+
+</div>
+
+<div class="prog-bar">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
+      </div>
+<div class="ds42-body">
+
+	<div class="ds42-body"> <div class="page-grid">
+	<div class="page-overview blue-gradient">
+      <div class="content-column-left">
+          <div>
+          <h2>OH NO!</h2>
+          <p>You appear to be offline. Not to worry, when you get back online we will be right here waiting for you.</p>
+          </div>
+          <div>
+          <img class="overview-image" src="./images/ds42-mast.svg">
+          </div>
+
+      </div>
+    </div>
+	 <div class="page-content">
+
+
+
+</div>
+	</div>
+</div>
+</div>
+
+<script>
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("myBar").style.width = scrolled + "%";
+        }
+        </script>
+
+<script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('/sw.js')
+           .then(function() { console.log("Service Worker Registered"); });
+}
+</script>
+</body>
+</html>

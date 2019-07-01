@@ -8,6 +8,8 @@
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+<link rel="manifest" href="./manifest.json">
+
 <!--Icon Font-->
 <link rel="stylesheet" href="styles/icon-style.css">
 
@@ -15,6 +17,20 @@
     $(function(){
       $("#ds42-nav").load("nav.html");
     });
+</script>
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('service-worker.js')
+    .then(registration => {
+      console.log('Service Worker is registered', registration);
+    })
+    .catch(err => {
+      console.error('Registration failed:', err);
+    });
+  });
+}
 </script>
 
 </head>

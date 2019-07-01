@@ -1,4 +1,3 @@
-const version = "0.6.14";
 const cacheName = `ds42-${version}`;
 self.addEventListener('install', e => {
   e.waitUntil(

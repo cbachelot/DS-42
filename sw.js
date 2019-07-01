@@ -1,4 +1,4 @@
-importScripts('https://github.com/dominiccooney/cache-polyfill.git');
+importScripts('./js/polyfill.js');
 
 
 self.addEventListener('install', function(e) {

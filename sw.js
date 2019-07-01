@@ -19,7 +19,8 @@ self.addEventListener('install', function(event) {
             './scss/ds42_variables.css',
             './scss/ds42_variables.scss',
             './js/slide-in-panel.js',
-            './nav.html'
+            './nav.html',
+            '/offline.html',
           ]
         );
       })

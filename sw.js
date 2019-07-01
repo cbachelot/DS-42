@@ -1,24 +1,24 @@
-self.addEventListener('install', function(event) {
-    event.waitUntil(
-      caches.open(cacheName).then(function(cache) {
-        return cache.addAll(
-          [
-            './index.html',
-            './ds-components-buttons.html',
-            './ds-component-buttons.html',
-            './styles/alliedstyles.css',
-            './styles/icon-style.css',
-            './styles/slide-in-panel.css',
-            './images/ds42-mast.svg',
-            './scss/allied_variables.scss',
-            './scss/allied_variables.css',
-            './scss/ds-42.css',
-            './scss/ds-42.scss',
-            './scss/ds42_variables.css',
-            './scss/ds42_variables.scss',
-            './js/slide-in-panel.js'
-          ]
-        );
-      })
-    );
-  });
+importScripts('https://github.com/dominiccooney/cache-polyfill.git');
+
+
+self.addEventListener('install', function(e) {
+ e.waitUntil(
+   caches.open('ds42').then(function(cache) {
+     return cache.addAll([
+        './',
+        './ds-component-buttons.html',
+        './styles/alliedstyles.css',
+        './styles/icon-style.css',
+        './styles/slide-in-panel.css',
+        './images/ds42-mast.svg',
+        './scss/allied_variables.scss',
+        './scss/allied_variables.css',
+        './scss/ds-42.css',
+        './scss/ds-42.scss',
+        './scss/ds42_variables.css',
+        './scss/ds42_variables.scss',
+        './js/slide-in-panel.js'
+     ]);
+   })
+ );
+});

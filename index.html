@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <title>DS-42 - Allied Electronics and Automation</title>
@@ -103,12 +103,26 @@
         }
         </script>
 
-<script>
+<!--<script>
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
            .register('/sw.js')
            .then(function() { console.log("Service Worker Registered"); });
 }
 </script>
+-->
+
+<script>
+  if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').then(function (registration) {
+          // Registration was successful
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, function (err) {
+          // registration failed :disappointed:
+          console.log('ServiceWorker registration failed: ', err);
+      });
+  }
+</script>
+
 </body>
 </html>

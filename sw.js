@@ -5,6 +5,7 @@ self.addEventListener('install', function(event) {
         return cache.addAll(
           [
             '/',
+            '/index.html',
             '/ds-component-buttons.html',
             '/styles/alliedstyle.css',
             '/styles/icon-style.css',

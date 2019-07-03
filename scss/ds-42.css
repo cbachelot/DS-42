@@ -329,12 +329,12 @@ nav a {
 
 .two-col-left {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .two-col-right {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .content-three-column-even img {
@@ -587,7 +587,7 @@ span.black-icon-overwrite:before {
 
 a, div.overview-section-cta, p, h4 {
   text-decoration: none;
-  color: inherit;
+  color: #001D2C;
 }
 
 a .overview-section-cta:hover {

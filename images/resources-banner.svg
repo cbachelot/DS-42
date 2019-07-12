@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="857px" height="315px" viewBox="0 0 857 315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>resources-banner</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-419.000000, -3359.000000)">
+            <g id="resources-banner" transform="translate(419.000000, 3359.000000)">
+                <rect id="Rectangle" fill="#001D2C" fill-rule="evenodd" x="0" y="0" width="857" height="310"></rect>
+                <rect id="Rectangle-Copy-27" fill="#FFFFFF" fill-rule="evenodd" x="390" y="96" width="78" height="83" rx="5"></rect>
+                <path d="M390,0 L468,0 L468,76 C468,78.7614237 465.761424,81 463,81 L395,81 C392.238576,81 390,78.7614237 390,76 L390,0 Z" id="Rectangle-Copy-30" fill="#FFFFFF" fill-rule="evenodd"></path>
+                <rect id="Rectangle-Copy-21" fill="#FFFFFF" fill-rule="evenodd" x="202" y="96" width="78" height="83" rx="5"></rect>
+                <rect id="Rectangle-Copy-28" fill="#FFFFFF" fill-rule="evenodd" x="578" y="96" width="78" height="83" rx="5"></rect>
+                <rect id="Rectangle-Copy-29" fill="#FFFFFF" fill-rule="evenodd" x="484" y="96" width="78" height="83" rx="5"></rect>
+                <rect id="Rectangle-Copy-22" fill="#FFFFFF" fill-rule="evenodd" x="296" y="96" width="78" height="83" rx="5"></rect>
+                <rect id="Rectangle-Copy-31" fill="#FFFFFF" fill-rule="evenodd" x="390" y="196" width="78" height="83" rx="5"></rect>
+                <rect id="Rectangle-Copy-33" fill="#FFFFFF" fill-rule="evenodd" x="484" y="196" width="78" height="83" rx="5"></rect>
+                <rect id="Rectangle-Copy-24" fill="#FFFFFF" fill-rule="evenodd" x="296" y="196" width="78" height="83" rx="5"></rect>
+                <path d="M241,179 L241,237.5" id="Line-3" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M270.5,208.75 L270.5,267.75" id="Line-3-Copy-5" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square" transform="translate(270.500000, 238.250000) rotate(-90.000000) translate(-270.500000, -238.250000) "></path>
+                <path d="M439.5,155.25 L439.5,321.75" id="Line-3-Copy-7" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square" transform="translate(439.500000, 238.250000) rotate(-90.000000) translate(-439.500000, -238.250000) "></path>
+                <path d="M586.5,209.25 L586.5,267.75" id="Line-3-Copy-6" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square" transform="translate(586.500000, 238.250000) rotate(-90.000000) translate(-586.500000, -238.250000) "></path>
+                <path d="M335,179 L335,238" id="Line-3-Copy" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M428,179 L428,238" id="Line-3-Copy-2" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M428,59 L428,118" id="Line-3-Copy-9" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M428,257 L428,310" id="Line-3-Copy-8" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M523,179 L523,238" id="Line-3-Copy-3" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square"></path>
+                <path d="M616,179 L616,237.5" id="Line-3-Copy-4" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -754,6 +754,16 @@ img.icon{
 }
 
 
+@media only screen and (max-width: 1400px) {
+	.page-overview .content-column-left{
+        display: grid;
+        grid-template-areas: inherit;
+        grid-template-columns: 1fr;
+        margin: 100px 0px;
+        grid-column-gap: 2%;
+    }
+
+}
 
 
 

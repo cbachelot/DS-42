@@ -41,6 +41,10 @@ a:visited {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .nav-effect a:link {
     color: $ds42_blue;
     text-decoration: none;
@@ -48,6 +52,10 @@ a:visited {
 
 .nav-effect a:visited {
     color: $ds42_blue;
+    text-decoration: none;
+}
+
+.nav-effect a:hover {
     text-decoration: none;
 }
 

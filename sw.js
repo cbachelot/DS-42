@@ -1,20 +1,5 @@
 const cacheName = `cacheName`;
 
-self.addEventListener('activate', function (event) {
-  event.waitUntil(
-      caches.keys().then(function (cacheNames) {
-
-          return Promise.all(
-              cacheNames.map(function (cacheName) {
-                  if (CACHE_NAME !== cacheName) {
-                      return caches.delete(cacheName);
-                  }
-              })
-          );
-      })
-  );
-});
-
 self.addEventListener('install', function(event) {
     event.waitUntil(
       caches.open(cacheName).then(function(cache) {

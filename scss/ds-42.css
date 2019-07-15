@@ -608,10 +608,6 @@ a, div.overview-section-cta, p, h4 {
   color: #001D2C;
 }
 
-a:hover, div.overview-section-cta, p, h4 {
-  text-decoration: none;
-}
-
 a .overview-section-cta:hover {
   border: solid #e4e4e4 1px;
   -webkit-transition: border .2s ease-in-out;
@@ -619,6 +615,10 @@ a .overview-section-cta:hover {
   -ms-transition: border .2s ease-in-out;
   -o-transition: border .2s ease-in-out;
   transition: border .2s ease-in-out;
+}
+
+.four-column-layout a:hover {
+  text-decoration: none;
 }
 
 /*Horizontal Scroll Indicator*/

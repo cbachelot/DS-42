@@ -61,6 +61,10 @@ a:hover {
   text-decoration: none;
 }
 
+.overview-section-cta a:hover {
+  text-decoration: none;
+}
+
 h1 {
   font-size: 44px;
   font-weight: 300;

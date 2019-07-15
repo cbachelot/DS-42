@@ -43,6 +43,16 @@ a:visited {
   text-decoration: none;
 }
 
+.nav-effect a:link {
+  color: #799DB6;
+  text-decoration: none;
+}
+
+.nav-effect a:visited {
+  color: #799DB6;
+  text-decoration: none;
+}
+
 h1 {
   font-size: 44px;
   font-weight: 300;

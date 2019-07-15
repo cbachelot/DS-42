@@ -41,7 +41,15 @@ a:visited {
     text-decoration: none;
 }
 
+.nav-effect a:link {
+    color: $ds42_blue;
+    text-decoration: none;
+}
 
+.nav-effect a:visited {
+    color: $ds42_blue;
+    text-decoration: none;
+}
 
 h1{
     font-size: 44px;

@@ -92,6 +92,11 @@ li {
   margin-bottom: 15px;
 }
 
+ol {
+  font-family: "Lato", Verdana, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
 /*Allied Typography*/
 .allied-h1 {
   font-size: 25px;

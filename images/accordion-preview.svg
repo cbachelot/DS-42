@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220px" height="103px" viewBox="0 0 220 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="37.4466359%" y1="100%" x2="37.4466359%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#AF00C7" offset="0%"></stop>
+            <stop stop-color="#AF00C7" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <rect id="Rectangle" fill="#AF00C7" x="0" y="0" width="71.1884923" height="103"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" x="187.338138" y="91.9659948" width="21.4587321" height="9.19659948"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="46.3236122" y="74.935255" width="16.3495102" height="6.47168112"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6.47168112" y="25.2054949" width="56.8826709" height="2.77357762"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6.47168112" y="29.2928724" width="45.6423826" height="2.77357762"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6.47168112" y="33.38025" width="51.0922193" height="2.77357762"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6.47168112" y="37.4676275" width="40.5331607" height="2.77357762"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6.47168112" y="41.5550051" width="49.7297602" height="2.77357762"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6.47168112" y="45.6423826" width="45.6423826" height="2.77357762"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6.47168112" y="49.7297602" width="51.0922193" height="2.77357762"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6.47168112" y="53.8171377" width="40.5331607" height="2.77357762"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6.47168112" y="57.9045153" width="49.7297602" height="2.77357762"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6.47168112" y="61.9918928" width="45.6423826" height="2.77357762"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6.47168112" y="66.0792704" width="40.5331607" height="2.77357762"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="6.47168112" y="70.1666479" width="49.7297602" height="2.77357762"></rect>
+            <rect id="Rectangle" fill="#850297" x="71.8697219" y="0" width="147.826821" height="103"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="82.7693953" y="25.2054949" width="126.027474" height="6.47168112"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" x="83.2693953" y="29.4522576" width="125.027474" height="11.2621326"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="82.7693953" y="44.961153" width="126.027474" height="6.47168112"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="82.7693953" y="55.1795969" width="126.027474" height="6.47168112"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="82.7693953" y="65.057426" width="126.027474" height="6.47168112"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="82.7693953" y="74.935255" width="126.027474" height="6.47168112"></rect>
+            <g id="arrow" transform="translate(200.622115, 27.249184)" fill="#850297">
+                <polygon id="Path-5-Copy" transform="translate(2.554611, 1.362459) scale(1, -1) translate(-2.554611, -1.362459) " points="0 0 2.55461097 2.72491837 5.10922193 0"></polygon>
+                <polygon id="Path-5-Copy" points="0 19.7556581 2.55461097 22.4805765 5.10922193 19.7556581"></polygon>
+                <polygon id="Path-5-Copy" points="0 29.974102 2.55461097 32.6990204 5.10922193 29.974102"></polygon>
+                <polygon id="Path-5-Copy" points="0 39.5113163 2.55461097 42.2362347 5.10922193 39.5113163"></polygon>
+                <polygon id="Path-5-Copy" points="0 49.7297602 2.55461097 52.4546785 5.10922193 49.7297602"></polygon>
+            </g>
+            <rect id="Rectangle" fill="url(#linearGradient-1)" x="2.04368877" y="55.1795969" width="66.0792704" height="18.393199"></rect>
+        </g>
+    </g>
+</svg>

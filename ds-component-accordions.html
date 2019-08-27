@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>DS - 42</title>
+
+    <!--DS42 sass-->
+    <link rel="stylesheet" href="scss/ds-42.css">
+
+    <!--Allied Style Sheet-->
+    <link rel="stylesheet" type="text/css" href="styles/alliedstyle.css" />
+    <!--Lato Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+        rel="stylesheet">
+    <!--Icon Font-->
+    <link rel="stylesheet" href="styles/icon-style.css">
+</head>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    $(function () {
+        $("#ds42-nav").load("nav.html");
+    });
+</script>
+
+</head>
+
+<body>
+
+
+
+    <div class="ds42-main-grid">
+        <!-- Sidebar Holder -->
+        <a class="toggle open" href="#ds42-nav"><img src="./images/menu.svg" alt="menu icon"/></a>
+
+<div id="ds42-nav">
+
+<!--NAV will display here-->
+
+</div>
+
+<!-- Page Content Holder -->
+<div class="prog-bar">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
+      </div>
+<div class="ds42-body">
+
+        <!-- Page Content Holder -->
+        <div class="ds42-body">
+            <div class="page-grid">
+
+                <div class="page-overview purple-gradient">
+                    <div class="content-column-left">
+                            <div>
+                                <h2>Accordions</h2>
+
+                                    <p>Accordions all the user to hide or reveal content when selected.</p> 
+                                    <p>
+                                    Accordions are typically used to when there is limited space to reveal a large amount of content or if the user only needs a few specific pieces of content within the page.
+                                    </p>
+                            </div>
+
+                            <div>
+                                    <img class="overview-image" src="./images/accordion.svg">
+                            </div>
+
+                    </div>
+                </div>
+
+                <div class="page-content">
+                                <div>
+                                <h2>Accordion Types</h2>
+                                <p>The most common accordion types are:</p>
+                                </div>
+
+                                <div class="content-column-two">
+                                    <div class="two-col-left">
+                                    <h3 class="align-top">Standard Accordion</h3>
+                                    <p>This pattern is used to expand and collapse large amounts of content. We typically use this pattern for filters.</p>
+                                    </div>
+                                    <div class="two-col-right">
+                                    <img src="./images/standard-accordions.svg" />
+                                    </div>
+
+                                    <div class="two-col-left"><h3>Read More Text Area</h3>
+                                    <p>This pattern allows us to present a body of text such as category SEO blocks, descriptions than can be lengthy in a more condensed way so that we don't push other content too far down the page. The user can click 'read more' to expand the accordion.' </p>
+                                    </div>
+                                    <div class="two-col-right">
+                                    <img src="./images/read-more.svg" />
+                                    </div>
+
+                                    <div class="two-col-left"><h3>Content Expanding Area</h3>
+                                    <p>This pattern allows us to show the user a brief snippet of content such as schedules or notes then allows the user to have the ability to expand the accordion to view more. </p>
+                                    </div>
+                                    <div class="two-col-right">
+                                    <img src="./images/Expand.svg" />
+                                    </div>
+
+                                  
+
+                                </div>
+                                <hr>
+                                <div>
+                                        <h2>Standard Accordion Anatomy</h2>
+
+                                        </div>
+
+                                        <div class="content-column-two">
+                                            <div class="two-col-left">
+
+                                            <p><b>1. Accordion Label</b> - 15px font size - Color: #2c2c2c <br>
+                                                <b>2. Accordion Content</b> – Must be vertically aligned with accordion label <br>
+                                                <b>3. Accordion Arrow</b> Must be point up when open and down when closed - Color: #2c2c2c<br>
+                                                <b>4. Cursor</b> – Entire accordion header should be clickable and show the clickable pointer cursor.<br>
+
+                                            </p>
+                                            </div>
+                                            <div class="two-col-right">
+                                                    <img src="./images/anatomy-accordion.svg" />
+                                                    </div>
+                                        </div>
+                               
+
+                                
+                <hr>
+                <div class="content-column-left">
+                        <div>
+
+                            <h3>Code</h3>
+                            <p>When applying accordions to the front end of an Allied product simply copy and paste the
+                                html found here. You can also view the CSS to see how it works.</p>
+
+
+                        </div>
+                        <div>
+                            <p class="codepen" data-height="325" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="ExYmQGN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Expand/Collapse Content">
+                                <span>See the Pen <a href="https://codepen.io/cbachelot/pen/ExYmQGN/">
+                                Expand/Collapse Content</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+                              <p class="codepen" data-height="325" data-theme-id="light" data-default-tab="html,result" data-user="cbachelot" data-slug-hash="rNBmJPe" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Show more/less gradient text box">
+                                <span>See the Pen <a href="https://codepen.io/cbachelot/pen/rNBmJPe/">
+                                Show more/less gradient text box</a> by Clark Bachelot (<a href="https://codepen.io/cbachelot">@cbachelot</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+                            </div>
+                    </div>
+                </div>
+
+             </div>
+
+         </div>
+</div>
+
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+
+</body>
+
+</html>

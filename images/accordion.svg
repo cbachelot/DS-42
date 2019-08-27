@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="856px" height="310px" viewBox="0 0 856 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="37.4466359%" y1="100%" x2="37.4466359%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#AF00C7" offset="0%"></stop>
+            <stop stop-color="#AF00C7" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <rect id="Rectangle" fill="#AF00C7" x="0" y="0" width="209" height="310"></rect>
+            <rect id="Rectangle" fill="#AF00C7" x="647" y="0" width="209" height="310"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" x="550" y="270" width="63" height="27"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="136" y="220" width="48" height="19"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="19" y="74" width="167" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="19" y="86" width="134" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="19" y="98" width="150" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="19" y="110" width="119" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="19" y="122" width="146" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="19" y="134" width="134" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="19" y="146" width="150" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="19" y="158" width="119" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="19" y="170" width="146" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="19" y="182" width="134" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="19" y="194" width="119" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="19" y="206" width="146" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#850297" x="211" y="0" width="434" height="310"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="243" y="74" width="370" height="19"></rect>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="244" y="86" width="368" height="34"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="243" y="132" width="370" height="19"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="243" y="162" width="370" height="19"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="243" y="191" width="370" height="19"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="243" y="220" width="370" height="19"></rect>
+            <g id="arrow" transform="translate(589.000000, 80.000000)" fill="#850297">
+                <polygon id="Path-5-Copy" transform="translate(7.500000, 4.000000) scale(1, -1) translate(-7.500000, -4.000000) " points="0 0 7.5 8 15 0"></polygon>
+                <polygon id="Path-5-Copy" points="0 58 7.5 66 15 58"></polygon>
+                <polygon id="Path-5-Copy" points="0 88 7.5 96 15 88"></polygon>
+                <polygon id="Path-5-Copy" points="0 116 7.5 124 15 116"></polygon>
+                <polygon id="Path-5-Copy" points="0 146 7.5 154 15 146"></polygon>
+            </g>
+            <rect id="Rectangle" fill="url(#linearGradient-1)" x="6" y="162" width="194" height="54"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="785" y="220" width="48" height="19"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="668" y="74" width="167" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="668" y="86" width="134" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="668" y="98" width="150" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="668" y="110" width="119" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="668" y="122" width="146" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="668" y="134" width="134" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="668" y="146" width="150" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="668" y="158" width="119" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="668" y="170" width="146" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="668" y="182" width="134" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="668" y="194" width="119" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="668" y="206" width="146" height="8.14285714"></rect>
+            <rect id="Rectangle" fill="url(#linearGradient-1)" x="655" y="162" width="194" height="54"></rect>
+        </g>
+    </g>
+</svg>

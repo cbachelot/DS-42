@@ -52,5 +52,14 @@ $(function(){
 <!-- BACK BUTTON -->
 <button class="ft-button-back"><span class="icon"></span>BACK TO ITEM ENTRY</button>
 
+<script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('/sw.js')
+             //.then(function() { console.log("Service Worker Registered"); });
+             .then(reg => {reg.update();});
+  }         
+  </script>
+  
 </body>
 </html>

@@ -19,6 +19,10 @@ p {
   font-weight: 300;
 }
 
+.nav-logo a img {
+  opacity: 0.9;
+}
+
 .standard-bold {
   font-weight: 600;
 }
@@ -125,7 +129,7 @@ ol {
 
 .ds42-main-grid {
   display: grid;
-  font-family: 'lato', verdana, arial, san-serif;
+  font-family: "lato", verdana, arial, san-serif;
   grid-template-columns: 300px 1fr;
   grid-template-areas: "nav body";
 }
@@ -366,7 +370,7 @@ nav a {
 
 .content-three-column-even img:hover {
   box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-  transition: box-shadow .3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .content-column-right {
@@ -608,18 +612,21 @@ span.black-icon-overwrite:before {
   font-weight: 300;
 }
 
-a, div.overview-section-cta, p, h4 {
+a,
+div.overview-section-cta,
+p,
+h4 {
   text-decoration: none;
   color: #001D2C;
 }
 
 a .overview-section-cta:hover {
   border: solid #e4e4e4 1px;
-  -webkit-transition: border .2s ease-in-out;
-  -moz-transition: border .2s ease-in-out;
-  -ms-transition: border .2s ease-in-out;
-  -o-transition: border .2s ease-in-out;
-  transition: border .2s ease-in-out;
+  -webkit-transition: border 0.2s ease-in-out;
+  -moz-transition: border 0.2s ease-in-out;
+  -ms-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
 }
 
 .four-column-layout a:hover {
@@ -691,25 +698,25 @@ a .overview-section-cta:hover {
   -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
-  -webkit-transition: all .3s;
+  -webkit-transition: all 0.3s;
   /* Safari */
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .icons-wrapper:hover > p {
   cursor: pointer;
   text-decoration: underline;
-  -webkit-transition: all .3s;
+  -webkit-transition: all 0.3s;
   /* Safari */
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .icon-container {
   border-radius: 2px;
   background-color: #f4f4f4;
   text-align: center;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   height: 77px;
   display: flex;
 }
@@ -743,7 +750,7 @@ img.icon {
 @media only screen and (max-width: 768px) {
   .ds42-main-grid {
     grid-template-columns: 1fr;
-    grid-template-areas: "nav"  "body";
+    grid-template-areas: "nav" "body";
   }
   /*Allied Typography*/
   .allied-h1 {
@@ -777,7 +784,7 @@ img.icon {
     bottom: 0;
     width: 310px;
     left: -340px;
-    transition: transform .3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
   }
   #ds-42-nav::-webkit-scrollbar {
     display: none;

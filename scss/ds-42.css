@@ -19,7 +19,7 @@ p {
   font-weight: 300;
 }
 
-.nav-logo a img {
+img.nav-logo {
   opacity: 0.9;
 }
 

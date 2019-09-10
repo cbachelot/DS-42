@@ -1,25 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>DS - 42</title>
-
+    <meta charset="UTF-8">
+    <title>DS-42 - Allied Electronics and Automation</title>
     <!--DS42 sass-->
     <link rel="stylesheet" href="scss/ds-42.css">
-
-    <!--Allied Style Sheet-->
-    <link rel="stylesheet" type="text/css" href="styles/alliedstyle.css" />
-    <!--Lato Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
-        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <link rel="manifest" href="./manifest.json">
+    
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <link rel="shortcut icon" href="./images/favicon.svg" />
+    <link rel="icon" type="image/favicon.svg" href="./images/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg">
+    <link rel="icon" href="./images/favicon.svg" />
+    
     <!--Icon Font-->
     <link rel="stylesheet" href="styles/icon-style.css">
-</head>
-
+    
+    <!-- reuse same icon for Safari -->
+    <link rel="apple-touch-icon" href="./images/app-images/images/icons/icon-192x192.png">
+    
+    <meta name="Description" content="DS 42 is a design system for Allied Electronics & Automation. It is in it's infancy but it is growing with support.">
+    
+    
+    <script>
+        $(function(){
+          $("#ds42-nav").load("nav.html");
+        });
+    </script>
+    
+    <meta name="theme-color" content="#001d2c"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    </head>
+    
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -71,7 +87,7 @@
                             </p>
                         </div>
                         <div>
-                            <img class="overview-image" src="./images/components-overview.svg">
+                            <img alt="Components Overview" class="overview-image" src="./images/components-overview.svg">
                         </div>
 
                     </div>
@@ -82,7 +98,7 @@
 
                         <a href="ds-component-buttons.html">
                             <div class="overview-section-cta">
-                                <img src="./images/buttons-preview.svg">
+                                <img alt="Buttons" src="./images/buttons-preview.svg">
                                 <h4>Buttons</h4>
                                 <p class="overview-section-desc">Buttons communicate the action that will occur when the
                                     user touches them.</p>
@@ -91,7 +107,7 @@
 
                         <a href="ds-component-formfields.html">
                             <div class="overview-section-cta">
-                                <img src="./images/forms-preview.svg">
+                                <img alt="Forms" src="./images/forms-preview.svg">
                                 <h4>Form Fields</h4>
                                 <p class="overview-section-desc">Form fields allow the user to input data into our UI.</p>
                             </div>
@@ -99,7 +115,7 @@
 
                         <a href="ds-component-data-tables.html">
                             <div class="overview-section-cta">
-                                <img src="./images/data-tables-preview.svg">
+                                <img alt="Tables" src="./images/data-tables-preview.svg">
                                 <h4>Data Tables</h4>
                                 <p class="overview-section-desc">Form fields allow the user to input data into our UI.</p>
                             </div>
@@ -107,7 +123,7 @@
                         
                         <a href="ds-component-accordions.html">
                             <div class="overview-section-cta">
-                                <img src="./images/accordion-preview.svg">
+                                <img alt="Accordian" src="./images/accordion-preview.svg">
                                 <h4>Accordions</h4>
                                 <p class="overview-section-desc">Accordions allow the user to expance and collapse large amount of content.</p>
                             </div>
@@ -133,6 +149,15 @@
               document.getElementById("myBar").style.width = scrolled + "%";
             }
             </script>
+
+<script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               //.then(function() { console.log("Service Worker Registered"); });
+               .then(reg => {reg.update();});
+    }         
+    </script>
 
 </body>
 

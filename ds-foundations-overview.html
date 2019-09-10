@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>DS - 42</title>
-
+    <meta charset="UTF-8">
+    <title>DS-42 - Allied Electronics and Automation</title>
     <!--DS42 sass-->
     <link rel="stylesheet" href="scss/ds-42.css">
-
-    <!--Allied Style Sheet-->
-    <link rel="stylesheet" type="text/css" href="styles/alliedstyle.css" />
-    <!--Lato Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
-        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <link rel="manifest" href="./manifest.json">
+    
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <link rel="shortcut icon" href="./images/favicon.svg" />
+    <link rel="icon" type="image/favicon.svg" href="./images/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg">
+    <link rel="icon" href="./images/favicon.svg" />
+    
     <!--Icon Font-->
     <link rel="stylesheet" href="styles/icon-style.css">
-</head>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<script>
-    $(function () {
-        $("#ds42-nav").load("nav.html");
-    });
-</script>
-
-</head>
-
-<body>
-
+    
+    <!-- reuse same icon for Safari -->
+    <link rel="apple-touch-icon" href="./images/app-images/images/icons/icon-192x192.png">
+    
+    <meta name="Description" content="DS 42 is a design system for Allied Electronics & Automation. It is in it's infancy but it is growing with support.">
+    
+    
+    <script>
+        $(function(){
+          $("#ds42-nav").load("nav.html");
+        });
+    </script>
+    
+    <meta name="theme-color" content="#001d2c"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    </head>
+    
 
 
     <div class="ds42-main-grid">
@@ -66,7 +69,7 @@
                             <p>The foundations make up the building blocks of our products. A good understanding of our foundations will help your design and strategize how your product is built by addressing it from both a broad and detailed perspective.</p>
                         </div>
                         <div>
-                            <img class="overview-image" src="./images/foundations-overview-banner.svg">
+                            <img alt="Foundations Overview" class="overview-image" src="./images/foundations-overview-banner.svg">
                         </div>
 
                     </div>
@@ -77,7 +80,7 @@
 
                         <a href="ds-foundations-colors.html">
                             <div class="overview-section-cta">
-                                <img src="./images/color-preview.svg">
+                                <img alt="Colors" src="./images/color-preview.svg">
                                 <h4>Colors</h4>
                                 <p class="overview-section-desc">Colors help us maintain good brand consistency while providing clear direct interfaces for our users.</p>
                             </div>
@@ -85,7 +88,7 @@
 
                         <a href="ds-foundations-typography.html">
                             <div class="overview-section-cta">
-                                <img src="./images/type-preview.svg">
+                                <img alt="Typography" src="./images/type-preview.svg">
                                 <h4>Typography</h4>
                                 <p class="overview-section-desc">Good typography is important for our brand, which cherishes craftsmanship and quality.</p>
                             </div>
@@ -109,6 +112,15 @@
               document.getElementById("myBar").style.width = scrolled + "%";
             }
             </script>
+
+<script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               //.then(function() { console.log("Service Worker Registered"); });
+               .then(reg => {reg.update();});
+    }         
+    </script>
 
 </body>
 

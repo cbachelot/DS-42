@@ -1,26 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <title>DS - 42 Buttons</title>
-
+    <meta charset="UTF-8">
+    <title>DS-42 - Allied Electronics and Automation</title>
     <!--DS42 sass-->
     <link rel="stylesheet" href="scss/ds-42.css">
-
-    <!--Allied Style Sheet-->
-    <link rel="stylesheet" type="text/css" href="styles/alliedstyle.css" />
-    <!--Lato Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
-        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <link rel="manifest" href="./manifest.json">
+    
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <link rel="shortcut icon" href="./images/favicon.svg" />
+    <link rel="icon" type="image/favicon.svg" href="./images/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg">
+    <link rel="icon" href="./images/favicon.svg" />
+    
     <!--Icon Font-->
     <link rel="stylesheet" href="styles/icon-style.css">
-
-</head>
-
+    
+    <!-- reuse same icon for Safari -->
+    <link rel="apple-touch-icon" href="./images/app-images/images/icons/icon-192x192.png">
+    
+    <meta name="Description" content="DS 42 is a design system for Allied Electronics & Automation. It is in it's infancy but it is growing with support.">
+    
+    
+    <script>
+        $(function(){
+          $("#ds42-nav").load("nav.html");
+        });
+    </script>
+    
+    <meta name="theme-color" content="#001d2c"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    </head>
+    
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -98,7 +113,7 @@
                             </div>
 
                             <div>
-                                <img src="./images/green-button-sample.svg" />
+                                <img alt="Green Button Sample" src="./images/green-button-sample.svg" />
                                 <p><b>Flat Button</b></p>
                                  <p>Min Height: 36px<br>
                                     Left padding: 16px<br>
@@ -108,7 +123,7 @@
                             </div>
 
                             <div>
-                                <img src="./images/red-button-sample.svg" />
+                                <img alt="Red Button Sample" src="./images/red-button-sample.svg" />
                                 <p><b>Raised Button</b></p>
                                  <p>Min Height: 36px<br>
                                     Left padding: 16px<br>
@@ -135,7 +150,7 @@
 
                             </div>
                             <div>
-                                <img src="./images/secondary-button-sample.svg" />
+                                <img alt="Secondary Button Sample" src="./images/secondary-button-sample.svg" />
                                 <p><b>Secondary Action Button</b></p>
                                  <p>Used primarily for alternative user actions.</p>
 
@@ -155,7 +170,7 @@
 
                             </div>
                             <div>
-                                <img src="./images/disabled-button.svg" />
+                                <img alt="Disabled Button Sample" src="./images/disabled-button.svg" />
                                 <p><b>Disabled Button</b></p>
                                 <p>Used primarily to indicate that additional information is needed.</p>
 
@@ -175,7 +190,7 @@
 
                             </div>
                             <div>
-                                <img src="./images/button-style-sample.svg" />
+                                <img alt="How to Style a Button" src="./images/button-style-sample.svg" />
                                 <p>Maintain a 2pd border radius on all Allie Electronics Buttons. Minimum 36pd hieght with
                                     16pd left and right margin and padding for every button. We use our brand font Verdana
                                     in ALL CAPS minimum size of 12pd.</p>
@@ -183,7 +198,7 @@
                             </div>
 
                             <div>
-                                <img src="./images/button-style-icon-sample.svg" />
+                                <img alt="Buttons with Icons" src="./images/button-style-icon-sample.svg" />
                                 <p><b>Adding an Icon</b><br>
                                     When adding an icon to a button maitain a 6px padding between the verbiage and the icon.
                                     Continue to maintain the min height and padding to the left and right.
@@ -262,6 +277,15 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 </script>
+
+<script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('/sw.js')
+               //.then(function() { console.log("Service Worker Registered"); });
+               .then(reg => {reg.update();});
+    }         
+    </script>
 
 </body>
 

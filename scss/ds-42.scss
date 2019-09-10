@@ -478,6 +478,10 @@ nav a {
   margin-top: 0px;
 }
 
+.bottom-margin-zero {
+    margin-bottom: 0px;
+}
+
 .color-data {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -649,6 +653,24 @@ a .overview-section-cta:hover {
   text-decoration: none;
 }
 
+/* repeating grid layout with no grid gaps yo  */
+
+.six-column-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) );
+    margin-bottom: 60px;
+}
+
+.checkbox-states {
+    display: inline-block;
+    text-align: center;
+    border: solid $allied_support_gray_l 1px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
 /*Horizontal Scroll Indicator*/
 /* Style the header: fixed position (always stay at the top) */
 .prog-bar {
@@ -687,6 +709,10 @@ a .overview-section-cta:hover {
 
 .remove-margin-bottom {
   margin-bottom: 0px;
+}
+
+.remove-margin-top {
+    margin-top: 0px;
 }
 
 /*Icon Page Styles*/

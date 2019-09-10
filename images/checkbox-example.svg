@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="386px" height="246px" viewBox="0 0 386 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="386" height="246"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-35.000000, -64.000000)">
+            <g id="Group-3" transform="translate(35.000000, 64.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)">
+                    <g transform="translate(0.000000, 21.000000)">
+                        <g id="table-background" transform="translate(0.000000, 28.000000)">
+                            <g id="table-rows" transform="translate(-0.000000, 0.000000)">
+                                <g id="Group-2" transform="translate(0.597720, 0.000000)">
+                                    <polygon id="Rectangle-7" fill="#F8F8F8" points="0 0.569506726 812.141004 0.569506726 812.141004 39.2959641 0 39.2959641"></polygon>
+                                    <path d="M0.607435306,39.2959641 L812.121244,39.2959641" id="Line" stroke="#E0E0E0" stroke-linecap="square"></path>
+                                    <path d="M0.607435306,0.569506726 L812.121244,0.569506726" id="Line" stroke="#E0E0E0" stroke-linecap="square"></path>
+                                </g>
+                                <g id="Group" transform="translate(0.000000, 77.000000)">
+                                    <polygon id="Rectangle-7" fill="#F8F8F8" points="0.536277645 1.02242152 812.680841 1.02242152 812.680841 40.8878924 0.536277645 40.8878924"></polygon>
+                                    <path d="M1.1431498,40.3183857 L812.663043,40.3183857" id="Line" stroke="#E0E0E0" stroke-linecap="square"></path>
+                                    <path d="M1.1431498,1.02242152 L812.663043,1.02242152" id="Line" stroke="#E0E0E0" stroke-linecap="square"></path>
+                                </g>
+                                <g id="Group-6" transform="translate(0.000000, 155.000000)">
+                                    <polygon id="Rectangle-7" fill="#F8F8F8" points="0.536277645 0.475336323 812.68337 0.475336323 812.68337 40.3408072 0.536277645 40.3408072"></polygon>
+                                    <path d="M1.1431498,1.04484305 L812.663043,1.04484305" id="Line" stroke="#E0E0E0" stroke-linecap="square"></path>
+                                    <path d="M1.1431498,40.044843 L812.663043,40.044843" id="Line" stroke="#E0E0E0" stroke-linecap="square"></path>
+                                </g>
+                                <g id="Group-2" transform="translate(0.597720, 155.000000)">
+                                    <polygon id="Rectangle-7" fill="#E4E4E4" points="0 0.569506726 812.141004 0.569506726 812.141004 39.2959641 0 39.2959641"></polygon>
+                                    <path d="M0.607435306,39.2959641 L812.121244,39.2959641" id="Line" stroke="#E0E0E0" stroke-linecap="square"></path>
+                                    <path d="M0.607435306,0.569506726 L812.121244,0.569506726" id="Line" stroke="#E0E0E0" stroke-linecap="square"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-15" transform="translate(24.000000, 0.000000)">
+                            <g id="Group-12">
+                                <g id="Group-11">
+                                    <g id="check-box-outline-blank">
+                                        <path d="M16,2 L16,16 L2,16 L2,2 L16,2 L16,2 Z M2,0 C0.9,0 0,0.9 0,2 L0,16 C0,17.1 0.9,18 2,18 L16,18 C17.1,18 18,17.1 18,16 L18,2 C18,0.9 17.1,0 16,0 L2,0 Z" id="Shape" fill="#8FA500"></path>
+                                        <path d="M4.5,9 L13.5292022,9" id="Line-3" stroke="#8FA500" stroke-width="2" stroke-linecap="square"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="check-box-outline-blank" transform="translate(24.000000, 39.000000)">
+                            <g fill="#000000" id="Shape">
+                                <path d="M16,2 L16,16 L2,16 L2,2 L16,2 L16,2 Z M16,0 L2,0 C0.9,0 0,0.9 0,2 L0,16 C0,17.1 0.9,18 2,18 L16,18 C17.1,18 18,17.1 18,16 L18,2 C18,0.9 17.1,0 16,0 L16,0 L16,0 Z"></path>
+                            </g>
+                        </g>
+                        <g id="check-box-outline-blank" transform="translate(24.000000, 116.000000)">
+                            <g fill="#000000" id="Shape">
+                                <path d="M16,2 L16,16 L2,16 L2,2 L16,2 L16,2 Z M16,0 L2,0 C0.9,0 0,0.9 0,2 L0,16 C0,17.1 0.9,18 2,18 L16,18 C17.1,18 18,17.1 18,16 L18,2 C18,0.9 17.1,0 16,0 L16,0 L16,0 Z"></path>
+                            </g>
+                        </g>
+                        <g id="check-box-outline-blank" transform="translate(24.000000, 77.000000)">
+                            <g fill="#000000" id="Shape">
+                                <path d="M16,2 L16,16 L2,16 L2,2 L16,2 L16,2 Z M16,0 L2,0 C0.9,0 0,0.9 0,2 L0,16 C0,17.1 0.9,18 2,18 L16,18 C17.1,18 18,17.1 18,16 L18,2 C18,0.9 17.1,0 16,0 L16,0 L16,0 Z"></path>
+                            </g>
+                        </g>
+                        <g id="check-box-outline" transform="translate(24.000000, 195.000000)">
+                            <g fill="#8FA500" id="Shape">
+                                <path d="M4.62777778,6.70555556 L3.30555556,8.02777778 L7.55555556,12.2777778 L17,2.83333333 L15.6777778,1.51111111 L7.55555556,9.63333333 L4.62777778,6.70555556 L4.62777778,6.70555556 Z M15.1111111,15.1111111 L1.88888889,15.1111111 L1.88888889,1.88888889 L11.3333333,1.88888889 L11.3333333,0 L1.88888889,0 C0.85,0 0,0.85 0,1.88888889 L0,15.1111111 C0,16.15 0.85,17 1.88888889,17 L15.1111111,17 C16.15,17 17,16.15 17,15.1111111 L17,7.55555556 L15.1111111,7.55555556 L15.1111111,15.1111111 L15.1111111,15.1111111 Z"></path>
+                            </g>
+                        </g>
+                        <g id="check-box-outline" transform="translate(24.000000, 156.000000)">
+                            <g fill="#8FA500" id="Shape">
+                                <path d="M4.62777778,6.70555556 L3.30555556,8.02777778 L7.55555556,12.2777778 L17,2.83333333 L15.6777778,1.51111111 L7.55555556,9.63333333 L4.62777778,6.70555556 L4.62777778,6.70555556 Z M15.1111111,15.1111111 L1.88888889,15.1111111 L1.88888889,1.88888889 L11.3333333,1.88888889 L11.3333333,0 L1.88888889,0 C0.85,0 0,0.85 0,1.88888889 L0,15.1111111 C0,16.15 0.85,17 1.88888889,17 L15.1111111,17 C16.15,17 17,16.15 17,15.1111111 L17,7.55555556 L15.1111111,7.55555556 L15.1111111,15.1111111 L15.1111111,15.1111111 Z"></path>
+                            </g>
+                        </g>
+                        <g id="Group-128" transform="translate(111.000000, 40.000000)" font-family="Verdana" font-size="12" font-weight="normal">
+                            <text id="New" fill="#191919">
+                                <tspan x="0" y="12">New</tspan>
+                            </text>
+                            <text id="New" fill="#191919">
+                                <tspan x="0" y="129">New</tspan>
+                            </text>
+                            <text id="New-Copy-9" fill="#191919">
+                                <tspan x="0" y="167">New</tspan>
+                            </text>
+                            <text id="New" fill="#191919">
+                                <tspan x="0" y="51">New</tspan>
+                            </text>
+                            <text id="New-Copy-8" fill="#191919">
+                                <tspan x="0" y="89">New</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-12" transform="translate(214.000000, 41.000000)" font-family="Verdana" font-size="12" font-weight="normal">
+                            <text id="Eleanor-Lopez" fill="#191919">
+                                <tspan x="0" y="90">Eleanor Lopez</tspan>
+                            </text>
+                            <text id="Max-Goodman" fill="#191919">
+                                <tspan x="0" y="131">Max Goodman</tspan>
+                            </text>
+                            <text id="Hallie-Klein" fill="#191919">
+                                <tspan x="0" y="168">Hallie Klein</tspan>
+                            </text>
+                            <text id="Arthur-Robbins" fill="#191919">
+                                <tspan x="0" y="12">Arthur Robbins</tspan>
+                            </text>
+                            <text id="Rick-Smith" fill="#191919">
+                                <tspan x="0" y="54">Rick Smith</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

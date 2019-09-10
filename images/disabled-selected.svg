@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>disabled-selected</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-432.000000, -419.000000)" fill="#E4E4E4">
+            <g id="disabled-selected" transform="translate(432.000000, 419.000000)">
+                <g id="check-box-outline">
+                    <path d="M4.62777778,6.70555556 L3.30555556,8.02777778 L7.55555556,12.2777778 L17,2.83333333 L15.6777778,1.51111111 L7.55555556,9.63333333 L4.62777778,6.70555556 L4.62777778,6.70555556 Z M15.1111111,15.1111111 L1.88888889,15.1111111 L1.88888889,1.88888889 L11.3333333,1.88888889 L11.3333333,0 L1.88888889,0 C0.85,0 0,0.85 0,1.88888889 L0,15.1111111 C0,16.15 0.85,17 1.88888889,17 L15.1111111,17 C16.15,17 17,16.15 17,15.1111111 L17,7.55555556 L15.1111111,7.55555556 L15.1111111,15.1111111 L15.1111111,15.1111111 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

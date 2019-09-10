@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="386px" height="199px" viewBox="0 0 386 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="27.1609043" cy="10" rx="10.106383" ry="10"></ellipse>
+        <filter x="-14.8%" y="-15.0%" width="139.6%" height="140.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-3" cx="27.1609043" cy="10" rx="10.106383" ry="10"></ellipse>
+        <filter x="-14.8%" y="-15.0%" width="139.6%" height="140.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="10" cy="10" r="10"></circle>
+        <filter x="-15.0%" y="-15.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-7" cx="10" cy="10" r="10"></circle>
+        <filter x="-15.0%" y="-15.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-753.000000, -404.000000)">
+            <g id="Group-10" transform="translate(753.000000, 404.000000)">
+                <rect id="Rectangle" fill="#F5F6F5" x="0" y="0" width="386" height="199"></rect>
+                <g id="Group-9" transform="translate(135.000000, 37.000000)">
+                    <text id="Option-1" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" fill="#191919">
+                        <tspan x="54" y="16">Option 1</tspan>
+                    </text>
+                    <text id="Option-2" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" fill="#191919">
+                        <tspan x="54" y="51">Option 2</tspan>
+                    </text>
+                    <text id="Option-3" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" fill="#191919">
+                        <tspan x="54" y="86">Option 3</tspan>
+                    </text>
+                    <text id="Option-4" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" fill="#191919">
+                        <tspan x="54" y="121">Option 4</tspan>
+                    </text>
+                    <g id="Group-8">
+                        <g id="Toggle-On" transform="translate(-0.000000, 0.000000)">
+                            <g>
+                                <rect id="Rectangle-5" stroke="#768900" fill="#8FA500" x="0.5" y="1.125" width="36.2221695" height="17.75" rx="8.875"></rect>
+                                <g id="Oval">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                    <use stroke="#768900" stroke-width="1" fill="#E4E4E4" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Toggle-On" transform="translate(-0.000000, 106.000000)">
+                            <g>
+                                <rect id="Rectangle-5" stroke="#768900" fill="#8FA500" x="0.5" y="1.125" width="36.2221695" height="17.75" rx="8.875"></rect>
+                                <g id="Oval">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                    <use stroke="#768900" stroke-width="1" fill="#E4E4E4" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Toggle-Off" transform="translate(-0.000000, 35.333333)">
+                            <rect id="Rectangle-5" stroke="#6B6B6B" fill="#979797" x="0.5" y="1.125" width="35.8303571" height="17.75" rx="8.875"></rect>
+                            <g id="Oval">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                <use stroke="#6B6B6B" stroke-width="1" fill="#E4E4E4" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            </g>
+                        </g>
+                        <g id="Toggle-Off" transform="translate(-0.000000, 70.666667)">
+                            <rect id="Rectangle-5" stroke="#6B6B6B" fill="#979797" x="0.5" y="1.125" width="35.8303571" height="17.75" rx="8.875"></rect>
+                            <g id="Oval">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                <use stroke="#6B6B6B" stroke-width="1" fill="#E4E4E4" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

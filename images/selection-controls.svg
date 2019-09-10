@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="856px" height="310px" viewBox="0 0 856 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5">
+            <rect id="Rectangle" fill="#DF2F1E" x="0" y="0" width="209" height="310"></rect>
+            <rect id="Rectangle" fill="#DF2F1E" x="647" y="0" width="209" height="310"></rect>
+            <rect id="Rectangle" fill="#8C140A" x="211" y="0" width="434" height="310"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="293" y="85" width="127" height="6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="293" y="119" width="127" height="6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="293" y="153" width="127" height="6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="293" y="187" width="127" height="6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="293" y="221" width="127" height="6"></rect>
+            <g id="Group-4" transform="translate(28.000000, 79.000000)">
+                <g id="radio-button-on">
+                    <g id="Radio-Button---Selected">
+                        <g id="Group-3">
+                            <circle id="Oval" stroke="#FFFFFF" stroke-width="2.5" cx="8" cy="8" r="8"></circle>
+                            <circle id="Oval-2" fill="#FFFFFF" cx="8" cy="8" r="4"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="radio-button-off" transform="translate(0.000000, 34.000000)" stroke="#FFFFFF" stroke-width="2.5">
+                    <circle id="Oval" cx="8" cy="8" r="8"></circle>
+                    <circle id="Oval" cx="8" cy="8" r="8"></circle>
+                </g>
+                <g id="radio-button-off" transform="translate(0.000000, 68.000000)" stroke="#FFFFFF" stroke-width="2.5">
+                    <circle id="Oval" cx="8" cy="8" r="8"></circle>
+                    <circle id="Oval" cx="8" cy="8" r="8"></circle>
+                </g>
+                <g id="radio-button-off" transform="translate(0.000000, 102.000000)" stroke="#FFFFFF" stroke-width="2.5">
+                    <circle id="Oval" cx="8" cy="8" r="8"></circle>
+                    <circle id="Oval" cx="8" cy="8" r="8"></circle>
+                </g>
+                <g id="radio-button-off" transform="translate(0.000000, 136.000000)" stroke="#FFFFFF" stroke-width="2.5">
+                    <circle id="Oval" cx="8" cy="8" r="8"></circle>
+                    <circle id="Oval" cx="8" cy="8" r="8"></circle>
+                </g>
+                <rect id="Rectangle" fill="#FFFFFF" x="27" y="5" width="127" height="6"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="27" y="39" width="127" height="6"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="27" y="73" width="127" height="6"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="27" y="107" width="127" height="6"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" x="27" y="141" width="127" height="6"></rect>
+            </g>
+            <rect id="Rectangle" fill="#FFFFFF" x="702" y="83" width="127" height="6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="702" y="118" width="127" height="6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="702" y="152" width="127" height="6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="702" y="186" width="127" height="6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="702" y="220" width="127" height="6"></rect>
+            <path d="M682.355556,119.311111 L681.111111,120.555556 L685.111111,124.555556 L694,115.666667 L692.755556,114.422222 L685.111111,122.066667 L682.355556,119.311111 L682.355556,119.311111 Z M692.222222,127.222222 L679.777778,127.222222 L679.777778,114.777778 L688.666667,114.777778 L688.666667,113 L679.777778,113 C678.8,113 678,113.8 678,114.777778 L678,127.222222 C678,128.2 678.8,129 679.777778,129 L692.222222,129 C693.2,129 694,128.2 694,127.222222 L694,120.111111 L692.222222,120.111111 L692.222222,127.222222 L692.222222,127.222222 Z" id="Shape" fill="#FFFFFF"></path>
+            <path d="M682.355556,152.311111 L681.111111,153.555556 L685.111111,157.555556 L694,148.666667 L692.755556,147.422222 L685.111111,155.066667 L682.355556,152.311111 L682.355556,152.311111 Z M692.222222,160.222222 L679.777778,160.222222 L679.777778,147.777778 L688.666667,147.777778 L688.666667,146 L679.777778,146 C678.8,146 678,146.8 678,147.777778 L678,160.222222 C678,161.2 678.8,162 679.777778,162 L692.222222,162 C693.2,162 694,161.2 694,160.222222 L694,153.111111 L692.222222,153.111111 L692.222222,160.222222 L692.222222,160.222222 Z" id="Shape" fill="#FFFFFF"></path>
+            <path d="M682.355556,187.311111 L681.111111,188.555556 L685.111111,192.555556 L694,183.666667 L692.755556,182.422222 L685.111111,190.066667 L682.355556,187.311111 L682.355556,187.311111 Z M692.222222,195.222222 L679.777778,195.222222 L679.777778,182.777778 L688.666667,182.777778 L688.666667,181 L679.777778,181 C678.8,181 678,181.8 678,182.777778 L678,195.222222 C678,196.2 678.8,197 679.777778,197 L692.222222,197 C693.2,197 694,196.2 694,195.222222 L694,188.111111 L692.222222,188.111111 L692.222222,195.222222 L692.222222,195.222222 Z" id="Shape" fill="#FFFFFF"></path>
+            <g id="check-box-outline-blank" transform="translate(678.000000, 78.000000)" fill="#FFFFFF">
+                <g id="Shape">
+                    <path d="M14.2222222,1.77777778 L14.2222222,14.2222222 L1.77777778,14.2222222 L1.77777778,1.77777778 L14.2222222,1.77777778 L14.2222222,1.77777778 Z M14.2222222,0 L1.77777778,0 C0.8,0 0,0.8 0,1.77777778 L0,14.2222222 C0,15.2 0.8,16 1.77777778,16 L14.2222222,16 C15.2,16 16,15.2 16,14.2222222 L16,1.77777778 C16,0.8 15.2,0 14.2222222,0 L14.2222222,0 L14.2222222,0 Z"></path>
+                </g>
+            </g>
+            <g id="check-box-outline-blank" transform="translate(678.000000, 215.000000)" fill="#FFFFFF">
+                <g id="Shape">
+                    <path d="M14.2222222,1.77777778 L14.2222222,14.2222222 L1.77777778,14.2222222 L1.77777778,1.77777778 L14.2222222,1.77777778 L14.2222222,1.77777778 Z M14.2222222,0 L1.77777778,0 C0.8,0 0,0.8 0,1.77777778 L0,14.2222222 C0,15.2 0.8,16 1.77777778,16 L14.2222222,16 C15.2,16 16,15.2 16,14.2222222 L16,1.77777778 C16,0.8 15.2,0 14.2222222,0 L14.2222222,0 L14.2222222,0 Z"></path>
+                </g>
+            </g>
+            <g id="Toggle-On" transform="translate(251.000000, 79.000000)" fill="#FFFFFF">
+                <g>
+                    <rect id="Rectangle-5" x="0" y="0.5625" width="33.3040464" height="16.875" rx="8.4375"></rect>
+                    <ellipse id="Oval" stroke="#8C140A" cx="24.3018617" cy="9" rx="9.04255319" ry="9"></ellipse>
+                </g>
+            </g>
+            <g id="Toggle-On" transform="translate(251.000000, 213.000000)" fill="#FFFFFF">
+                <g>
+                    <rect id="Rectangle-5" x="0" y="0.5625" width="33.3040464" height="16.875" rx="8.4375"></rect>
+                    <ellipse id="Oval" stroke="#8C140A" cx="24.3018617" cy="9" rx="9.04255319" ry="9"></ellipse>
+                </g>
+            </g>
+            <g id="Toggle-On" transform="translate(251.000000, 112.000000)" fill="#FFFFFF">
+                <g>
+                    <rect id="Rectangle-5" x="1" y="0.5625" width="33.3040464" height="16.875" rx="8.4375"></rect>
+                    <ellipse id="Oval" stroke="#8C140A" cx="9.04255319" cy="9" rx="9.04255319" ry="9"></ellipse>
+                </g>
+            </g>
+            <g id="Toggle-On" transform="translate(250.000000, 146.000000)" fill="#FFFFFF">
+                <g>
+                    <rect id="Rectangle-5" x="1" y="0.5625" width="33.3040464" height="16.875" rx="8.4375"></rect>
+                    <ellipse id="Oval" stroke="#8C140A" cx="9.04255319" cy="9" rx="9.04255319" ry="9"></ellipse>
+                </g>
+            </g>
+            <g id="Toggle-On" transform="translate(251.000000, 180.000000)" fill="#FFFFFF">
+                <g>
+                    <rect id="Rectangle-5" x="1" y="0.5625" width="33.3040464" height="16.875" rx="8.4375"></rect>
+                    <ellipse id="Oval" stroke="#8C140A" cx="9.04255319" cy="9" rx="9.04255319" ry="9"></ellipse>
+                </g>
+            </g>
+            <rect id="Rectangle" fill="#FFFFFF" x="479" y="85" width="127" height="6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="479" y="119" width="127" height="6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="479" y="153" width="127" height="6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="479" y="187" width="127" height="6"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="479" y="221" width="127" height="6"></rect>
+            <g id="Toggle-On" transform="translate(437.000000, 79.000000)" fill="#FFFFFF">
+                <g>
+                    <rect id="Rectangle-5" x="0" y="0.5625" width="33.3040464" height="16.875" rx="8.4375"></rect>
+                    <ellipse id="Oval" stroke="#8C140A" cx="24.3018617" cy="9" rx="9.04255319" ry="9"></ellipse>
+                </g>
+            </g>
+            <g id="Toggle-On" transform="translate(437.000000, 213.000000)" fill="#FFFFFF">
+                <g>
+                    <rect id="Rectangle-5" x="0" y="0.5625" width="33.3040464" height="16.875" rx="8.4375"></rect>
+                    <ellipse id="Oval" stroke="#8C140A" cx="24.3018617" cy="9" rx="9.04255319" ry="9"></ellipse>
+                </g>
+            </g>
+            <g id="Toggle-On" transform="translate(437.000000, 112.000000)" fill="#FFFFFF">
+                <g>
+                    <rect id="Rectangle-5" x="1" y="0.5625" width="33.3040464" height="16.875" rx="8.4375"></rect>
+                    <ellipse id="Oval" stroke="#8C140A" cx="9.04255319" cy="9" rx="9.04255319" ry="9"></ellipse>
+                </g>
+            </g>
+            <g id="Toggle-On" transform="translate(436.000000, 146.000000)" fill="#FFFFFF">
+                <g>
+                    <rect id="Rectangle-5" x="1" y="0.5625" width="33.3040464" height="16.875" rx="8.4375"></rect>
+                    <ellipse id="Oval" stroke="#8C140A" cx="9.04255319" cy="9" rx="9.04255319" ry="9"></ellipse>
+                </g>
+            </g>
+            <g id="Toggle-On" transform="translate(437.000000, 180.000000)" fill="#FFFFFF">
+                <g>
+                    <rect id="Rectangle-5" x="1" y="0.5625" width="33.3040464" height="16.875" rx="8.4375"></rect>
+                    <ellipse id="Oval" stroke="#8C140A" cx="9.04255319" cy="9" rx="9.04255319" ry="9"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

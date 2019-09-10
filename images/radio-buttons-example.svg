@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="386px" height="199px" viewBox="0 0 386 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-753.000000, -148.000000)">
+            <g id="Group-7" transform="translate(753.000000, 148.000000)">
+                <rect id="Rectangle" fill="#F5F6F5" x="0" y="0" width="386" height="199"></rect>
+                <g id="Group-4" transform="translate(133.000000, 56.000000)">
+                    <text id="Option-1" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" fill="#191919">
+                        <tspan x="31" y="15">Option 1</tspan>
+                    </text>
+                    <text id="Option-2" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" fill="#191919">
+                        <tspan x="31" y="48">Option 2</tspan>
+                    </text>
+                    <g id="radio-button-off" transform="translate(0.000000, 33.000000)" stroke="#696969" stroke-width="2.5">
+                        <circle id="Oval" cx="10" cy="10" r="8"></circle>
+                    </g>
+                    <text id="Option-3" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" fill="#191919">
+                        <tspan x="31" y="81">Option 3</tspan>
+                    </text>
+                    <g id="radio-button-off" transform="translate(0.000000, 66.000000)" stroke="#696969" stroke-width="2.5">
+                        <circle id="Oval" cx="10" cy="10" r="8"></circle>
+                    </g>
+                    <text id="Option-4" font-family="Lato-Regular, Lato" font-size="14" font-weight="normal" fill="#191919">
+                        <tspan x="31" y="114">Option 4</tspan>
+                    </text>
+                    <g id="radio-button-off" transform="translate(0.000000, 99.000000)" stroke="#696969" stroke-width="2.5">
+                        <circle id="Oval" cx="10" cy="10" r="8"></circle>
+                    </g>
+                    <g id="radio-button-on">
+                        <g id="Radio-Button---Selected" transform="translate(2.000000, 2.000000)">
+                            <g id="Group-3">
+                                <circle id="Oval" stroke="#696969" stroke-width="2.5" cx="8" cy="8" r="8"></circle>
+                                <circle id="Oval-2" fill="#008BAA" cx="8" cy="8" r="4"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <text id="Radio-Buttons-Title" font-family="Lato-Bold, Lato" font-size="14" font-weight="bold" fill="#191919">
+                    <tspan x="133" y="35">Radio Buttons Title</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

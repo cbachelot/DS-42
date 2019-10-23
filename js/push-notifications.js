@@ -7,7 +7,7 @@ function displayNotification() {
     navigator.serviceWorker.getRegistration().then(function(reg) {
       var options = {
         body: "Here is a notification body!",
-        icon: "../images/a-images/images/icons/icon-512x512.png",
+        icon: "../images/app-images/images/icons/icon-512x512.png",
         vibrate: [100, 50, 100],
         data: {
           dateOfArrival: Date.now(),

@@ -123,16 +123,14 @@ if('serviceWorker' in navigator) {
 </script>
 
 
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-analytics.js"></script>
+<script src=“https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js“></script>
+   <script src=“https://www.gstatic.com/firebasejs/7.2.1/firebase-messaging.js”></script>
+   <!-- For an optimal experience using Cloud Messaging, also add the Firebase SDK for Analytics. -->
+   <script src=“https://www.gstatic.com/firebasejs/7.2.1/firebase-analytics.js”></script>
 
 <script>
   // Your web app's Firebase configuration
-  var firebaseConfig = {
+  var config = {
     apiKey: "AIzaSyBpa4sQJKbevBawhnctu2SujvloVNoMXnM",
     authDomain: "design-system-42.firebaseapp.com",
     databaseURL: "https://design-system-42.firebaseio.com",
@@ -142,9 +140,25 @@ if('serviceWorker' in navigator) {
     appId: "1:859477216597:web:4e8511b01df3152e67b3dc",
     measurementId: "G-P4SJS1JEB7"
   };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+  
+  // 4. Get Firebase Configuration
+firebase.initializeApp(config);
+
+const messaging = firebase.messaging();
+
+messaging.usePublicVapidKey("xxxxxxx"); // 1. Generate a new key pair
+
+// Request Permission of Notifications
+messaging.requestPermission().then(() => {
+  console.log('Notification permission granted.');
+
+  // Get Token
+  messaging.getToken().then((token) => {
+    console.log(token)
+  })
+}).catch((err) => {
+  console.log('Unable to get permission to notify.', err);
+});
 </script>
 
 </body>

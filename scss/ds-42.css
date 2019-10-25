@@ -130,7 +130,7 @@ ol {
 .ds42-main-grid {
   display: -ms-grid;
   display: grid;
-  font-family: "lato", verdana, arial, san-serif;
+  font-family: 'lato', verdana, arial, san-serif;
   -ms-grid-columns: 300px 1fr;
       grid-template-columns: 300px 1fr;
       grid-template-areas: "nav body";
@@ -388,10 +388,10 @@ nav a {
 .content-three-column-even img:hover {
   -webkit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
-  transition: -webkit-box-shadow 0.3s ease-in-out;
-  transition: box-shadow 0.3s ease-in-out;
-  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -webkit-transition: -webkit-box-shadow .3s ease-in-out;
+  transition: -webkit-box-shadow .3s ease-in-out;
+  transition: box-shadow .3s ease-in-out;
+  transition: box-shadow .3s ease-in-out, -webkit-box-shadow .3s ease-in-out;
 }
 
 .content-column-right {
@@ -670,6 +670,9 @@ h4 {
 a .overview-section-cta:hover {
   border: solid #e4e4e4 1px;
   -webkit-transition: border 0.2s ease-in-out;
+  -moz-transition: border 0.2s ease-in-out;
+  -ms-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
   transition: border 0.2s ease-in-out;
 }
 
@@ -825,7 +828,7 @@ img.icon {
   .ds42-main-grid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        grid-template-areas: "nav" "body";
+        grid-template-areas: "nav"  "body";
   }
   /*Allied Typography*/
   .allied-h1 {
@@ -859,10 +862,10 @@ img.icon {
     bottom: 0;
     width: 310px;
     left: -340px;
-    -webkit-transition: -webkit-transform 0.3s ease-in-out;
-    transition: -webkit-transform 0.3s ease-in-out;
-    transition: transform 0.3s ease-in-out;
-    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
   }
   #ds-42-nav::-webkit-scrollbar {
     display: none;

@@ -123,55 +123,6 @@ if('serviceWorker' in navigator) {
 </script>
 
 
-<script src=“https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js“></script>
-   <script src=“https://www.gstatic.com/firebasejs/7.2.1/firebase-messaging.js”></script>
-   <!-- For an optimal experience using Cloud Messaging, also add the Firebase SDK for Analytics. -->
-   <script src=“https://www.gstatic.com/firebasejs/7.2.1/firebase-analytics.js”></script>
-
-<script>
-  // Your web app's Firebase configuration
-  var config = {
-    apiKey: "AIzaSyBpa4sQJKbevBawhnctu2SujvloVNoMXnM",
-    authDomain: "design-system-42.firebaseapp.com",
-    databaseURL: "https://design-system-42.firebaseio.com",
-    projectId: "design-system-42",
-    storageBucket: "design-system-42.appspot.com",
-    messagingSenderId: "859477216597",
-    appId: "1:859477216597:web:4e8511b01df3152e67b3dc",
-  };
-  
-  // 4. Get Firebase Configuration
-firebase.initializeApp(config);
-
-const messaging = firebase.messaging();
-
-messaging
-           .requestPermission()
-           .then(function () {
-               MsgElem.innerHTML = 'Notification permission granted.'
-               console.log('Notification permission granted.');
-               // get the token in the form of promise
-               return messaging.getToken()
-           })
-           .then(function(token) {
-               TokenElem.innerHTML = 'token is : ' + token
-           })
-           .catch(function (err) {
-               ErrElem.innerHTML =  ErrElem.innerHTML + '; ' + err
-               console.log('Unable to get permission to notify.', err);
-           });
-       messaging.onMessage(function(payload) {
-           console.log('Message received. ', payload);
-           NotisElem.innerHTML = NotisElem.innerHTML + JSON.stringify(payload);
-           //kenng - foreground notifications
-           const {title, ...options} = payload.notification;
-           navigator.serviceWorker.ready.then(registration => {
-               registration.showNotification(title, options);
-           });
-       
-</script>
-
-
 
 
 </body>
